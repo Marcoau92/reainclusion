@@ -7,12 +7,11 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Contact from '../Contact';
 
 class Principal extends Component{
     render(){
         return(
-                <div>
+                <Grid>
                     <Router>
                         <Switch>
                         <ButtonGroup
@@ -21,9 +20,7 @@ class Principal extends Component{
                             aria-label="vertical outlined primary button group"
                             
                             >
-                            <Button>
-                                <Route path='/contacto' exact components={Contact}/>
-                                    Inicio</Button>
+                            <Button>Inicio</Button>
                             <Button>Proyecto</Button>
                             <Button>Integrantes</Button>
                             <Button>Recursos</Button>
@@ -32,11 +29,7 @@ class Principal extends Component{
                         </ButtonGroup>
                         </Switch>
                     </Router>
-                
-                    <Grid container item style={{display: "flex", justifyContent: "center", alignItems: "center"}} md={10} xs={7}>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=6aphi7R-JNY'/>
-                    </Grid>
-                </div>
+                </Grid>
         );
     };
 
