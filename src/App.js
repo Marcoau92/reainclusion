@@ -26,14 +26,20 @@ function App() {
       </div>
       </header>
       <body className="App">
-        <Grid container className='fluid' spacing={-10} style={{}} md={5}>
+        <Grid container className='fluid' justify="center" style={{}} md={5} lg={5}>   
+              
+
+
+
+        </Grid>
+        <Grid container className='fluid' justify="center" style={{}} md={2} lg={2}>
           <Principal/>          
         </Grid>
-        <Grid container item style={{display: "flex", justifyContent: "center"}} md={5}>
-          <Resources md={12}/>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5}>
+          <Resources/>
         </Grid>
-        <Grid container item style={{display: "flex", justifyContent: "center"}} md={5}>
-          <Contact md={12}/>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5}>
+          <Contact/>
         </Grid>
       </body>
       <footer className="App-footer">

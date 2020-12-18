@@ -20,12 +20,12 @@ class Principal extends Component{
                             aria-label="vertical outlined primary button group"
                             
                             >
-                            <Button>Inicio</Button>
-                            <Button>Proyecto</Button>
-                            <Button>Integrantes</Button>
-                            <Button>Recursos</Button>
-                            <Button>Repositorio</Button>
-                            <Button>Contacto</Button>
+                            <Button variant="contained" color="default" >Inicio</Button>
+                            <Button variant="contained" color="default">Proyecto</Button>
+                            <Button variant="contained" color="default">Integrantes</Button>
+                            <Button variant="contained" color="default">Recursos</Button>
+                            <Button variant="contained" color="default">Repositorio</Button>
+                            <Button variant="contained" color="default">Contacto</Button>
                         </ButtonGroup>
                         </Switch>
                     </Router>

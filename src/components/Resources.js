@@ -11,8 +11,7 @@ class Resources extends Component{
         return(
             <div>
                 <Grid container item style={{ justifyContent: "center"} }>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=6aphi7R-JNY' width='100%' 
-                        height='100%'/>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=6aphi7R-JNY' />
                 </Grid>
                 <Grid container item style={{ justifyContent: "center"}}>
                     <Router>
