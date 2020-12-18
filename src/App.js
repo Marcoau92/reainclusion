@@ -2,8 +2,12 @@ import React from 'react';
 import encabezado from './components/encabezado.png';
 import './App.css';
 import Buscador from './components/Buscador';
-import Principal from './components/Principal';
+import Buttons from './components/Buttons';
 import Resources from './components/Resources';
+import Welcome from './components/Welcome';
+import Project from './components/Project';
+import Repository from './components/Repository';
+import Team from './components/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
@@ -15,6 +19,7 @@ import ReactPlayer from 'react-player';
 import Contact from './components/Contact'
 
 
+
 function App() {
   return (
     
@@ -22,23 +27,37 @@ function App() {
       <header>
       <div style={{background:grey[400]}}>
         <Buscador/>
-        <img src={encabezado} className='img-fluid' alt="logo" xs={12} sd={12} md={12}/>  
+        <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
       </div>
       </header>
       <body className="App">
-        <Grid container className='fluid' justify="center" style={{}} md={5} lg={5}>   
+        <Grid>
+          <Grid container justify="center" style={{}} md={5} lg={5}>   
               
 
 
 
+          </Grid>
+          <Grid container justify="center" style={{}} md={2} lg={2} xl={2}>
+            <Buttons/>          
+          </Grid>
+          <Grid container justify="center" md={5} lg={5} xl={5}>
+            <Welcome/>
+          </Grid>
         </Grid>
-        <Grid container className='fluid' justify="center" style={{}} md={2} lg={2}>
-          <Principal/>          
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+          <Project/>
         </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5}>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+          <Team/>
+        </Grid>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
           <Resources/>
         </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5}>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+          <Repository/>
+        </Grid>
+        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
           <Contact/>
         </Grid>
       </body>

@@ -10,10 +10,10 @@ class Resources extends Component{
     render(){
         return(
             <div>
-                <Grid container item style={{ justifyContent: "center"} }>
+                <Grid container style={{ justifyContent: "center"} }>
                         <ReactPlayer url='https://www.youtube.com/watch?v=6aphi7R-JNY' />
                 </Grid>
-                <Grid container item style={{ justifyContent: "center"}}>
+                <Grid container style={{ justifyContent: "center"}}>
                     <Router>
                         <Link to="/curriculum2020(1).docx" target="_blank" download>Recurso 1</Link>
                     </Router>

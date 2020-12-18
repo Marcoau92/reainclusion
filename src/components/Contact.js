@@ -1,6 +1,6 @@
 import React from 'react';
 import Buscador from './Buscador';
-import Principal from './Principal';
+import Buttons from './Buttons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Grid from '@material-ui/core/Grid';
@@ -13,7 +13,7 @@ function Contact() {
     <div className="App" id="contacto" justify="center" >
       <form>
         <Grid justify='flex-end' md={6}>
-          Name
+          Nombre
         </Grid>
         <Grid justify='flex-start' md={6}>
           <label>
