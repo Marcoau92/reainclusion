@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   title:{
-    color:'#00796B',
+    color:'#00b3c5',
     fontWeight: 'bold',
 
   },
@@ -26,7 +26,7 @@ const Team = (props) => {
   const classes = useStyles();
   return (
     <div >
-      <Typography className={classes.title} align='center' variant='h2'>Equipo</Typography>
+      <Typography className={classes.title} align='center' variant='h2'>Integrantes</Typography>
        <Grid className={classes.root} container justify='center' alignItems='center'>
         {team.map(member => (
           <Grid item justify="center" xs={12} sm={6}>

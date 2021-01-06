@@ -5,11 +5,26 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
+import { Typography} from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
-class Resources extends Component{
-    render(){
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    title:{
+      color:'#00b3c5',
+      fontWeight: 'bold',
+  
+    },
+  }));
+
+const Resources = (props) => {
+    const classes = useStyles();
+
         return(
             <div>
+                <Typography className={classes.title} align='center' variant='h2'>Recursos</Typography>
                 <Grid container style={{ justifyContent: "center"} }>
                         <ReactPlayer url='https://www.youtube.com/watch?v=6aphi7R-JNY' />
                 </Grid>
@@ -24,6 +39,6 @@ class Resources extends Component{
         );
     }
 
-}
+
 
 export default Resources;

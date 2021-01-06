@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { makeStyles } from '@material-ui/core/styles';
-import {Grid, Paper, Typography, Box} from '@material-ui/core';
+import { Typography} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
     },
     title:{
-      color:'#00796B',
+      color:'#00b3c5',
       fontWeight: 'bold',
   
     },
@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div>
+                <Typography className={classes.title} align='center' variant='h2'>Proyecto</Typography>
                 <Typography className={classes.memberName} align='center' variant='h1'>¿Cómo nació esta página web?</Typography>
 
                 <text>

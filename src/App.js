@@ -30,36 +30,32 @@ function App() {
         <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
       </div>
       </header>
-      <body className="App">
-        <Grid>
-          <Grid container justify="center" style={{}} md={5} lg={5}>   
-              
-
-
-
+      <body>
+        <div backgroundColor= '#000000'>
+          <Grid className="App" justify="center" md={3} spacing={5}>         
           </Grid>
-          <Grid container justify="center" style={{}} md={2} lg={2} xl={2}>
+          <Grid className="App" justify="center" md={2} spacing={5}>
             <Buttons/>          
           </Grid>
-          <Grid container justify="center" md={5} lg={5} xl={5}>
+          <Grid className="App" justify="center" >
             <Welcome/>
           </Grid>
-        </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-          <Project/>
-        </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-          <Team/>
-        </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-          <Resources/>
-        </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-          <Repository/>
-        </Grid>
-        <Grid container style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-          <Contact/>
-        </Grid>
+          <Grid item style={{justifyContent: "center"}} md={5} lg={5} xl={5}>
+            <Project/>
+          </Grid>
+          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+            <Team/>
+          </Grid>
+          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+            <Resources/>
+          </Grid>
+          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+            <Repository/>
+          </Grid>
+          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
+            <Contact/>
+          </Grid>
+        </div>
       </body>
       <footer className="App-footer">
         <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 

@@ -5,11 +5,34 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
+import { Typography} from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
-class Welcome extends Component{
-    render(){
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    title:{
+      color:'#00b3c5',
+      fontWeight: 'bold',
+  
+    },
+    memberName:{
+      fontWeight: 'bold',
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  }));
+  
+  const Welcome = (props) => {
+    const classes = useStyles();
         return(
             <div>
+                <Typography className={classes.title} align='center' variant='h2'>Inicio</Typography>
                 <Grid container style={{ justifyContent: "center"} }>
                         <ReactPlayer url='https://www.youtube.com/watch?v=YT_xTZjZQmE&feature=youtu.be' />
                 </Grid>
@@ -19,6 +42,5 @@ class Welcome extends Component{
         );
     }
 
-}
 
 export default Welcome;
