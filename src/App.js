@@ -21,6 +21,10 @@ import Contact from './components/Contact'
 
 
 function App() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+  }
   return (
     
     <div className="App"  >
@@ -32,10 +36,26 @@ function App() {
       </header>
       <body>
         <div backgroundColor= '#000000'>
-          <Grid className="App" justify="center" md={3} spacing={5}>         
-          </Grid>
-          <Grid className="App" justify="center" md={2} spacing={5}>
-            <Buttons/>          
+            <Grid>
+              <Router>
+                  <Switch>
+                  <ButtonGroup
+                      orientation="vertical"
+                      color="primary"
+                      aria-label="vertical outlined primary button group"
+                      
+                      >
+                      <Button variant="contained" color="default" onClick={() => this.handleClick()} >
+                        <a href={Welcome} > </a>Inicio
+                      </Button>
+                      <Button variant="contained" color="default">Proyecto</Button>
+                      <Button variant="contained" color="default">Integrantes</Button>
+                      <Button variant="contained" color="default">Recursos</Button>
+                      <Button variant="contained" color="default">Repositorio</Button>
+                      <Button variant="contained" color="default">Contacto</Button>
+                  </ButtonGroup>
+                  </Switch>
+              </Router>
           </Grid>
           <Grid className="App" justify="center" >
             <Welcome/>
