@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     title:{
       color:'#00b3c5',
       fontWeight: 'bold',
+      font: 'Garamond Ligth Condensed'
   
     },
   }));
@@ -23,6 +24,7 @@ const Resources = (props) => {
     const classes = useStyles();
 
         return(
+            
             <div>
                 <Typography className={classes.title} align='center' variant='h2'>Recursos</Typography>
                 <Grid container style={{ justifyContent: "center"} }>

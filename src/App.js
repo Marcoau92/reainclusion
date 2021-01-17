@@ -17,72 +17,317 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import Contact from './components/Contact'
+import { Component } from 'react';
 
 
 
-function App() {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log('The link was clicked.');
+class App extends Component {
+  
+  state = {
+    visible: true,
+    whichComponentToShow: "Welcome"
+
   }
-  return (
+
+  render(){
+    if (this.state.whichComponentToShow === "Welcome"){
+      return (
+      
     
-    <div className="App"  >
-      <header>
-      <div style={{background:grey[400]}}>
-        <Buscador/>
-        <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-      </div>
-      </header>
-      <body>
-        <div backgroundColor= '#000000'>
-            <Grid>
-              <Router>
-                  <Switch>
-                  <ButtonGroup
-                      orientation="vertical"
-                      color="primary"
-                      aria-label="vertical outlined primary button group"
-                      
-                      >
-                      <Button variant="contained" color="default" onClick={() => this.handleClick()} >
-                        <a href={Welcome} > </a>Inicio
-                      </Button>
-                      <Button variant="contained" color="default">Proyecto</Button>
-                      <Button variant="contained" color="default">Integrantes</Button>
-                      <Button variant="contained" color="default">Recursos</Button>
-                      <Button variant="contained" color="default">Repositorio</Button>
-                      <Button variant="contained" color="default">Contacto</Button>
-                  </ButtonGroup>
-                  </Switch>
-              </Router>
-          </Grid>
-          <Grid className="App" justify="center" >
-            <Welcome/>
-          </Grid>
-          <Grid item style={{justifyContent: "center"}} md={5} lg={5} xl={5}>
-            <Project/>
-          </Grid>
-          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-            <Team/>
-          </Grid>
-          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-            <Resources/>
-          </Grid>
-          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-            <Repository/>
-          </Grid>
-          <Grid item style={{display: "flex", justifyContent: "center"}} md={5} lg={5} xl={5}>
-            <Contact/>
-          </Grid>
-        </div>
-      </body>
-      <footer className="App-footer">
-        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"> Creative Commons Attribution 3.0 Unported License</a>.
-      </footer>
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
           </div>
-  );
+          </header>
+          <body>
+          
+            <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Welcome/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+      );
+    }else if(this.state.whichComponentToShow === "Project"){
+      return (
+      
+    
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
+          </div>
+          </header>
+          <body>
+          
+          <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Project/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+    );
+
+    }else if(this.state.whichComponentToShow === "Team"){
+      return (
+      
+    
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
+          </div>
+          </header>
+          <body>
+          
+          <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Team/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+    );
+
+    }else if(this.state.whichComponentToShow === "Resources"){
+      return (
+      
+    
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
+          </div>
+          </header>
+          <body>
+          
+          <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Resources/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+    );
+
+    }else if(this.state.whichComponentToShow === "Repository"){
+      return (
+      
+    
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
+          </div>
+          </header>
+          <body>
+          
+          <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Repository/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+    );
+
+    }else if(this.state.whichComponentToShow === "Contact"){
+      return (
+      
+    
+        <div className="App"  >
+          <header>
+          <div style={{background:grey[400]}}>
+            <Buscador/>
+            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
+          </div>
+          </header>
+          <body>
+          
+          <div backgroundColor= '#000000'>
+              <ButtonGroup
+                orientation="vertical"
+                color="primary"
+                aria-label="vertical outlined primary button group"
+              >
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Welcome"})
+                }} >Inicio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Project"})
+                }} >Proyecto</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Team"})
+                }} >Integrantes</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Resources"})
+                }} >Recursos</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Repository"})
+                }} >Repositorio</Button>
+                <Button onClick={()=>{
+                  this.setState({whichComponentToShow: "Contact"})
+                }} >Contacto</Button>
+              </ButtonGroup>
+              <Contact/>
+            </div>
+          </body>
+          <footer className="App-footer">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
+          </footer>
+              </div>
+            
+    );
+
+    }
+
+
+  }
+  
 }
 
 export default App;
