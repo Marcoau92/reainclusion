@@ -1,5 +1,5 @@
 import React from 'react';
-import encabezado from './components/encabezado.png';
+import encabezado from './components/img/encabezado_sin_logo.png';
 import './App.css';
 import Buscador from './components/Buscador';
 import Buttons from './components/Buttons';
@@ -10,7 +10,7 @@ import Repository from './components/Repository';
 import Team from './components/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import {grey,black} from '@material-ui/core/colors';
+import {grey} from '@material-ui/core/colors';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
@@ -19,7 +19,11 @@ import ReactPlayer from 'react-player';
 import Contact from './components/Contact'
 import { Component } from 'react';
 import { spacing } from '@material-ui/system';
-import Box from '@material-ui/core/Box';
+import logo from './components/img/encabezado.png';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import './components/myStyles.css'
 
 const theme ={
   spacing: 8,
@@ -40,69 +44,68 @@ class App extends Component {
       
     
         <Grid className="App"  >
-          <header>
-          <Grid style={{background:grey[400]}}>
-            <Buscador/>
-            <Grid xs={2} sm={2} md={2}>
-
-              </Grid>
-            <img src={encabezado} alt="logo" xs={8} sm={8} md={8}/> 
-            <Grid xs={2} sm={2} md={2}>
-
-            </Grid> 
-          </Grid>
-          </header>
-          <body>
-            <Grid container              
-              direction="row"
-              justify="flex-start"
-              alignItems="baseline">
-              <Grid xs={2} sm={2} md={2}>
-
-              </Grid>
-
-              <Grid backgroundColor= '#000000'md={2}  >
-                <Box m={-3}>
-                  <ButtonGroup 
-                    size="large"
-                    orientation="vertical"
-                    color="dark"
-                    aria-label="vertical contained primary button group"
-                    variant="text"
-                  >
-                    <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Welcome"})
-                    }} >Inicio</Button>
-                    <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Project"})
-                    }} >Proyecto</Button>
-                    <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Team"})
-                    }} >Integrantes</Button>
-                    <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Resources"})
-                    }} >Recursos</Button>
-                    <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Repository"})
-                    }} >Repositorio</Button>
-                    <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                      this.setState({whichComponentToShow: "Contact"})
-                    }} >Contacto</Button>
-                  </ButtonGroup>
-                </Box>
-                
-               
-              </Grid>
-              <Welcome md={8}/>
-
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
             </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={4} sm={4} md={4} lg={4}>
+
+                </Grid>
+              <Welcome xs={8} sm={8} md={8} lg={8}/>
+            </Grid> 
+          
             
-          </body>
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
+              
             
       );
     }else if(this.state.whichComponentToShow === "Project"){
@@ -110,48 +113,67 @@ class App extends Component {
       
     
         <Grid className="App"  >
-          <header>
-          <div style={{background:grey[400]}}>
-            <Buscador/>
-            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-          </div>
-          </header>
-          <body>
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
+            </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={4} sm={4} md={4} lg={4}>
+
+                </Grid>
+              <Project xs={8} sm={8} md={8} lg={8}/>
+            </Grid> 
           
-          <div backgroundColor= '#000000'>
-                <ButtonGroup 
-                  orientation="vertical"
-                  color="dark"
-                  aria-label="vertical contained primary button group"
-                  variant="text"
-                >
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Welcome"})
-                  }} >Inicio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Project"})
-                  }} >Proyecto</Button>
-                  <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Team"})
-                  }} >Integrantes</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Resources"})
-                  }} >Recursos</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Repository"})
-                  }} >Repositorio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Contact"})
-                  }} >Contacto</Button>
-                </ButtonGroup>
-              <Project/>
-            </div>
-          </body>
+            
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
             
     );
 
@@ -160,48 +182,67 @@ class App extends Component {
       
     
         <Grid className="App"  >
-          <header>
-          <div style={{background:grey[400]}}>
-            <Buscador/>
-            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-          </div>
-          </header>
-          <body>
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
+            </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={6} sm={6} md={6} lg={6}>
+
+                </Grid>
+              <Team xs={6} sm={6} md={6} lg={6}/>
+            </Grid> 
           
-          <div backgroundColor= '#000000'>
-                <ButtonGroup 
-                  orientation="vertical"
-                  color="dark"
-                  aria-label="vertical contained primary button group"
-                  variant="text"
-                >
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Welcome"})
-                  }} >Inicio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Project"})
-                  }} >Proyecto</Button>
-                  <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Team"})
-                  }} >Integrantes</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Resources"})
-                  }} >Recursos</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Repository"})
-                  }} >Repositorio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Contact"})
-                  }} >Contacto</Button>
-                </ButtonGroup>
-              <Team/>
-            </div>
-          </body>
+            
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
             
     );
 
@@ -210,98 +251,135 @@ class App extends Component {
       
     
         <Grid className="App"  >
-          <header>
-          <div style={{background:grey[400]}}>
-            <Buscador/>
-            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-          </div>
-          </header>
-          <body>
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
+            </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={4} sm={4} md={4} lg={4}>
+
+                </Grid>
+              <Resources xs={8} sm={8} md={8} lg={8}/>
+            </Grid> 
           
-          <div backgroundColor= '#000000'>
-                <ButtonGroup 
-                  orientation="vertical"
-                  color="dark"
-                  aria-label="vertical contained primary button group"
-                  variant="text"
-                >
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Welcome"})
-                  }} >Inicio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Project"})
-                  }} >Proyecto</Button>
-                  <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Team"})
-                  }} >Integrantes</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Resources"})
-                  }} >Recursos</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Repository"})
-                  }} >Repositorio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Contact"})
-                  }} >Contacto</Button>
-                </ButtonGroup>
-              <Resources/>
-            </div>
-          </body>
+            
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
             
     );
-
     }else if(this.state.whichComponentToShow === "Repository"){
       return (
       
     
         <Grid className="App"  >
-          <header>
-          <div style={{background:grey[400]}}>
-            <Buscador/>
-            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-          </div>
-          </header>
-          <body>
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
+            </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={4} sm={4} md={4} lg={4}>
+
+                </Grid>
+              <Repository xs={8} sm={8} md={8} lg={8}/>
+            </Grid> 
           
-          <div backgroundColor= '#000000'>
-                <ButtonGroup 
-                  orientation="vertical"
-                  color="dark"
-                  aria-label="vertical contained primary button group"
-                  variant="text"
-                >
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Welcome"})
-                  }} >Inicio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Project"})
-                  }} >Proyecto</Button>
-                  <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Team"})
-                  }} >Integrantes</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Resources"})
-                  }} >Recursos</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Repository"})
-                  }} >Repositorio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Contact"})
-                  }} >Contacto</Button>
-                </ButtonGroup>
-              <Repository/>
-            </div>
-          </body>
+            
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
             
     );
 
@@ -310,51 +388,69 @@ class App extends Component {
       
     
         <Grid className="App"  >
-          <header>
-          <div style={{background:grey[400]}}>
-            <Buscador/>
-            <img src={encabezado} alt="logo" xs={12} sd={12} md={12}/>  
-          </div>
-          </header>
-          <body>
+            <Grid item style={{background:grey[400]}}>
+              <Buscador xs={12} sm={12} md={12}/> 
+            </Grid>
+            <Grid style={{background:grey[400]}}>
+              <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
+            </Grid>
+
+            <Grid item container xs={12} sm={12} md={12} lg={12} 
+                justify="center"              
+                direction="row">
+              <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={logo} alt="logo" />
+                <List component="nav" aria-label="main mailbox folders">
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Welcome"})
+                                    }} >
+                                        <ListItemText secondary="Welcome" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Project"})
+                                    }} >
+                                        <ListItemText secondary="Proyecto" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Team"})
+                                    }} >
+                                        <ListItemText secondary="Integrantes" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Resources"})
+                                    }} >
+                                        <ListItemText secondary="Recursos" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Repository"})
+                                    }} >
+                                        <ListItemText secondary="Repositorio" />
+                    </ListItem>
+                    <ListItem button onClick={()=>{
+                                    this.setState({whichComponentToShow: "Contact"})
+                                    }} >
+                                        <ListItemText secondary="Contacto" />
+                    </ListItem>
+
+                  </List>
+                </div>
+                <Grid xs={4} sm={4} md={4} lg={4}>
+
+                </Grid>
+              <Contact xs={8} sm={8} md={8} lg={8}/>
+            </Grid> 
           
-          <div backgroundColor= '#000000'>
-                <ButtonGroup 
-                  orientation="vertical"
-                  color="dark"
-                  aria-label="vertical contained primary button group"
-                  variant="text"
-                >
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Welcome"})
-                  }} >Inicio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Project"})
-                  }} >Proyecto</Button>
-                  <Button  style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Team"})
-                  }} >Integrantes</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Resources"})
-                  }} >Recursos</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Repository"})
-                  }} >Repositorio</Button>
-                  <Button style={{backgroundColor:grey[300]}} onClick={()=>{
-                    this.setState({whichComponentToShow: "Contact"})
-                  }} >Contacto</Button>
-                </ButtonGroup>
-              <Contact/>
-            </div>
-          </body>
+            
+              
+
+            
           <footer className="App-footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
           </footer>
-              </Grid>
+        </Grid>
             
     );
-
     }
 
 

@@ -6,29 +6,60 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {grey} from '@material-ui/core/colors';
+import encabezado from './img/encabezado.png';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 
 class Buttons extends Component{
+    state = {
+        visible: true,
+        whichComponentToShow: "Welcome"
+    
+      }
     render(){
         return(
-                <Grid>
-                    <Router>
-                        <Switch>
-                        <ButtonGroup
-                            orientation="vertical"
-                            color="primary"
-                            aria-label="vertical outlined primary button group"
-                            
-                            >
-                            <Button variant="contained" color="default" >Inicio</Button>
-                            <Button variant="contained" color="default">Proyecto</Button>
-                            <Button variant="contained" color="default">Integrantes</Button>
-                            <Button variant="contained" color="default">Recursos</Button>
-                            <Button variant="contained" color="default">Repositorio</Button>
-                            <Button variant="contained" color="default">Contacto</Button>
-                        </ButtonGroup>
-                        </Switch>
-                    </Router>
-                </Grid>
+            <div style={{ backgroundColor:"#cfcfcf"}}>
+                <img src={encabezado} alt="logo" />
+            <List component="nav" aria-label="main mailbox folders">
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Welcome"})
+                                }} >
+                                    <ListItemText secondary="Welcome" />
+                </ListItem>
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Project"})
+                                }} >
+                                    <ListItemText secondary="Proyecto" />
+                </ListItem>
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Team"})
+                                }} >
+                                    <ListItemText secondary="Integrantes" />
+                </ListItem>
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Resources"})
+                                }} >
+                                    <ListItemText secondary="Recursos" />
+                </ListItem>
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Repository"})
+                                }} >
+                                    <ListItemText secondary="Repositorio" />
+                </ListItem>
+                <ListItem button onClick={()=>{
+                                this.setState({whichComponentToShow: "Contact"})
+                                }} >
+                                    <ListItemText secondary="Contacto" />
+                </ListItem>
+
+                </List>
+
+            </div>
+            
+                    
+            
         );
     };
 
