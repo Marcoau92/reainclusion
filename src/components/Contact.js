@@ -33,42 +33,42 @@ const Contact = (props) => {
     <div className="App" id="contacto" justify="center" >
       <Typography className={classes.title} align='center' variant='h2'>Contacto</Typography>
       <form>
-        <Grid justify='flex-end' md={6}>
+        <Grid justify='center' md={12}>
           Nombre
         </Grid>
-        <Grid justify='flex-start' md={6}>
+        <Grid justify='center' md={12}>
           <label>
-              <input type="text" name="name" />
+              <input type="center" name="name" />
             </label>
 
         </Grid>
-        <Grid justify='flex-end' md={6}>
+        <Grid justify='center' md={12}>
             Apellido:
         </Grid>
-        <Grid justify='flex-start' md={6}>
+        <Grid justify='center' md={12}>
           <label>
               <input type="text" name="lastname" />
           </label>
         </Grid>
-        <Grid justify='flex-end' md={6}>
+        <Grid justify='center' md={12}>
             e-mail:
 
         </Grid>
-        <Grid justify='flex-start' md={6}>
+        <Grid justify='center' md={12}>
           <label>
             <input type="text" name="email" />
           </label> 
 
         </Grid>
-        <Grid justify='flex-end' md={6}>
+        <Grid justify='center' md={12}>
             mensaje:
         </Grid>
-        <Grid justify='flex-start' md={6}>
+        <Grid justify='center' md={12}>
           <label>
             <input type="text" name="message" />
           </label>
         </Grid>
-        <Grid justify='center' md={6}>
+        <Grid justify='center' md={12}>
           <input type="submit" value="Enviar"/>
         </Grid>    
         
