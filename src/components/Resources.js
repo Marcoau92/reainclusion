@@ -5,8 +5,15 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
-import { Typography} from '@material-ui/core';
+import { GridList, Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import { IconButton } from '@material-ui/core';
+import est_sor from './img/estudiantes_sordos.png';
+import com_lgbt from './img/comunidad_lgbt.png';
+import tec_tea from './img/tecnicas_teatro.png';
+import com_soc from './img/compromiso_social.png';
+import dis_vis from './img/discapacidad_visual.png';
+import est_tea from './img/estudiantes_tea.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -24,38 +31,102 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-const Resources = (props) => {
+const Resources = (props) => {  
     const classes = useStyles();
-
         return(
             
-            <div>
-                <Typography className={classes.title} align='center' variant='h2'>Recursos</Typography>
-                <Typography className={classes.subtitle} align='center' variant='h1'>Clases de Inglés para estudiantes Sordos</Typography>
+            <Grid item container justify='center' alignItems='center'>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
 
-                <Grid container style={{ justifyContent: "center"} }>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=gbjXzE9AwMU&feature=youtu.be' />
                 </Grid>
-                <Grid container style={{ justifyContent: "center"}}>
-                    <Router>
-                        <Link to="/Recursos complementarios Felipe Martínez.docx" target="_blank" download>Recurso 1</Link>
-                    </Router>
+                <Grid xs={7} justify='flex-start' sm={7} md={7} lg={7}>
+                    <Typography className={classes.title} align='center' variant='h2'>Recursos</Typography>
                 </Grid>
-                <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
-                <text>
-                    Felipe Martínez Corona es licenciado en Educación y profesor de Comunicación en Lengua Ingles de la Universidad Austral de Chile (2011), tiene un Magister en Comunicación de la Universidad Austral de Chile (2019). Desde el año 2011 se desempeña como profesor adjunto en la Facultad de Filosofía y Humanidades de Universidad Austral de Chile, donde ha realizado clases para diversos cursos de pre y postgrado de la Universidad (Centro de Idiomas).
-                </text>
-                <text>
-                    Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
-                </text>
-                <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
-                <Grid container style={{ justifyContent: "center"}}>
-                    <Router>
-                        <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.docx" target="_blank" download>Recurso Sugerido 1</Link>
-                    </Router>
+                
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
+                </Grid>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    <img src={est_sor} alt="logo" style={{width: '80px', height: '80px'}} onClick={()=>{
+                        console.log("hola")
+                                    }}/>
+
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+                    <p className="lead text"  style={{fontWeight: 'bold' }}>Inclusión de estudiantes Sordos Felipe Martínez Corona </p>
+                </Grid>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
+                </Grid>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    <img src={com_lgbt} alt="logo" style={{width: '80px', height: '80px'}}/>
+
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+                    <p className="lead text" style={{fontWeight: 'bold' }}>Inclusión de estudiantes de la comunidad LGBT Ana Venegas Millapan </p>
+                </Grid>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
+                </Grid>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    <img src={tec_tea} alt="logo" style={{width: '80px', height: '80px'}}/>
+
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+                    <p className="lead text" style={{fontWeight: 'bold' }}>Técnicas teatrales en el aula de inglés Amalia Ortíz de Zárate</p>
+                </Grid>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
+                </Grid>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    <img src={com_soc} alt="logo" style={{width: '80px', height: '80px'}}/>
+
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+                    <p className="lead text" style={{ fontWeight: 'bold' }}>Enseñanza del inglés con compromiso social Yasna Yilorm Barrientos </p>
+                </Grid>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
                 </Grid>
 
-            </div>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    <img src={dis_vis} alt="logo" style={{width: '80px', height: '80px'}}/>
+
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+                    <p className="lead text" style={{fontWeight: 'bold' }}>Inclusión de estudiantes con discapacidad visual Priscila Ancheo Navarrete</p>
+                </Grid>
+                <Grid item container xs={5} sm={5} md={5} lg={5}>
+
+                </Grid>
+                <Grid item container xs={1} sm={1} md={1} lg={1}  >
+                    
+                    
+                    
+                    
+                    <img src={est_tea} alt="logo" style={{width: '80px', height: '80px'}}/>
+                    
+                    
+                </Grid>
+                <Grid item container xs={6} sm={6} md={6} lg={6} >
+
+                    <p className="lead text" style={{ fontWeight: 'bold' }}>Inclusión de estudiantes con TEA Paola Castro Fuentes & Camila Ojeda Pastene</p>
+                </Grid>               
+                    
+                    
+                       
+
+            </Grid>
 
         );
     }

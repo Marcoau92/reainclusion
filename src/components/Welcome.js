@@ -33,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div>
                 <Typography className={classes.title} align='center' variant='h2'>Inicio</Typography>
+                <Grid md={12}>
+                <p>Esto es una bienvenida</p>
+                </Grid>
                 <Grid container style={{ justifyContent: "center"} }>
                         <ReactPlayer url='https://www.youtube.com/watch?v=YT_xTZjZQmE&feature=youtu.be' />
                 </Grid>

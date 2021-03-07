@@ -1,6 +1,13 @@
 .posicion{
     position: absolute;
-    top:5%;
+    top:5.8%;
     left:14.5%;
+
+}
+
+.position_banner{
+    position: absolute;
+    top:5.8%;
+    left:13.5%;
 
 }

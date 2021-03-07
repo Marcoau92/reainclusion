@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import emailjs from 'emailjs-com';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,12 +28,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Contact = (props) => {
-  const classes = useStyles();
+export default function ContactUs() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_9vdseb8', 'template_ttbbvok', e.target, 'user_WrOsiT2QPUOvDxOJjmuVx')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
+
   return (
     <div className="App" id="contacto" justify="center" >
-      <Typography className={classes.title} align='center' variant='h2'>Contacto</Typography>
-      <form>
+      <Typography align='center' variant='h2'>Contacto</Typography>
+      <form onSubmit={sendEmail}>
         <Grid justify='center' md={12}>
           Nombre
         </Grid>
@@ -69,7 +83,7 @@ const Contact = (props) => {
           </label>
         </Grid>
         <Grid justify='center' md={12}>
-          <input type="submit" value="Enviar"/>
+          <input type="submit" className="btn btn-info" value="Enviar"/>
         </Grid>    
         
         
@@ -78,4 +92,3 @@ const Contact = (props) => {
   );
 }
 
-export default Contact;

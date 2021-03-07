@@ -33,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div>
                 <Typography className={classes.title} align='center' variant='h2'>Repositorio</Typography>
+                <Grid md={12}>
+                <p>Estos son archivos</p>
+                </Grid>
                 <Grid container style={{ justifyContent: "center"}}>
                     <Router>
                         <Link to="/Igor Pérez_Tesis Final.pdf" target="_blank" download>DEVELOPING CHILDREN’S SOCIO-AFFECTIVE AND COMMUNICATIVE SKILLS</Link>
