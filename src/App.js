@@ -27,6 +27,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import './components/myStyles.css'
 import Wspace from './components/Wspace';
 import AppBar from './components/AppBar';
+import Footer from './components/Footer';
+import Provider from './components/Application/provider';
+import Resources1 from './components/Resource1';
 
 
 class App extends Component {
@@ -44,8 +47,9 @@ class App extends Component {
       if (this.state.whichComponentToShow === "Welcome"){
         return (
           <Grid>
-            <AppBar/>
+            <AppBar {...this.state.whichComponentToShow} />
             <Welcome/>
+            <Footer/>
           </Grid>        
         );
       }
@@ -54,9 +58,47 @@ class App extends Component {
           <Grid>
             <AppBar/>
             <Project/>
+            <Footer/>
           </Grid>        
         );
       }
+      if (this.state.whichComponentToShow === "Team"){
+        return (
+          <Grid>
+            <AppBar {...this.state.whichComponentToShow} />
+            <Team/>
+            <Footer/>
+          </Grid>        
+        );
+      }
+      if (this.state.whichComponentToShow === "Resources"){
+        return (
+          <Grid>
+            <AppBar {...this.state.whichComponentToShow} />
+            <Resources1/>
+            <Footer/>
+          </Grid>        
+        );
+      }
+      if (this.state.whichComponentToShow === "Repository"){
+        return (
+          <Grid>
+            <AppBar {...this.state.whichComponentToShow} />
+            <Repository/>
+            <Footer/>
+          </Grid>        
+        );
+      }
+      if (this.state.whichComponentToShow === "Contact"){
+        return (
+          <Grid>
+            <AppBar {...this.state.whichComponentToShow} />
+            <Contact/>
+            <Footer/>
+          </Grid>        
+        );
+      }
+      
     }
     else{
       if (this.state.whichComponentToShow === "Welcome"){
@@ -128,11 +170,8 @@ class App extends Component {
               
                 
   
-              
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            
+            <Footer/>  
           </Grid>
                 
               
@@ -202,10 +241,7 @@ class App extends Component {
                 
   
               
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            <Footer/>
           </Grid>
               
       );
@@ -278,10 +314,7 @@ class App extends Component {
                 
   
               
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            <Footer/>
           </Grid>
               
       );
@@ -353,10 +386,7 @@ class App extends Component {
                 
   
               
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            <Footer/>
           </Grid>
               
       );
@@ -430,10 +460,7 @@ class App extends Component {
                 
   
               
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            <Footer/>
           </Grid>
               
       );
@@ -506,10 +533,7 @@ class App extends Component {
                 
   
               
-            <footer className="App-footer" style={{background:grey[400]}}>
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a 
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" font='Garamond Ligth Condensed'> Creative Commons Attribution 3.0 Unported License</a>.
-            </footer>
+            <Footer/>
           </Grid>
               
       );
