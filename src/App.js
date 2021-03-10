@@ -41,11 +41,22 @@ class App extends Component {
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     
     if (isMobile) {
-      return (
-        <Grid>
-          <AppBar/>
-        </Grid>        
-      );
+      if (this.state.whichComponentToShow === "Welcome"){
+        return (
+          <Grid>
+            <AppBar/>
+            <Welcome/>
+          </Grid>        
+        );
+      }
+      if (this.state.whichComponentToShow === "Project"){
+        return (
+          <Grid>
+            <AppBar/>
+            <Project/>
+          </Grid>        
+        );
+      }
     }
     else{
       if (this.state.whichComponentToShow === "Welcome"){
