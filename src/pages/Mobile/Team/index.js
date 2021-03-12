@@ -1,6 +1,6 @@
 import React from 'react'
 import Buscador from '../../../components/Buscador';
-import Team from '../../../components/Team';
+import Team from '../../../components/Teamm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
