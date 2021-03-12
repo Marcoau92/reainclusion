@@ -6,14 +6,53 @@ import Team from './pages/Team/index';
 import Resources from './pages/Resources/index';
 import Repository from './pages/Repository/index';
 import Contact from './pages/Contact/index';
+import Welcomem from './pages/Mobile/Welcome/index';
+import Projectm from './pages/Mobile/Project/index';
+import Teamm from './pages/Mobile/Team/index';
+import Resourcesm from './pages/Mobile/Resources/index';
+import Repositorym from './pages/Mobile/Repository/index';
+import Contactm from './pages/Mobile/Contact/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './components/myStyles.css'
 import Resources1 from './pages/Resource1';
+import Resources1m from './pages/Mobile/Resource1';
 
 
 export default function App() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    <Router>
+          <Switch>
+            <Route exact path={["/m","/mhome"]}>
+              <Welcomem />
+            </Route>
+            <Route exact path="/mproject">
+              <Projectm />
+            </Route>
+            <Route exact path="/mteam">
+              <Teamm />
+            </Route>
+            <Route exact path="/mresources">
+              <Resourcesm />
+            </Route>
+            <Route exact path="/mrepository">
+              <Repositorym />
+            </Route>
+            <Route exact path="/mcontact">
+              <Contactm />
+            </Route>
+            <Route exact path="/mresources/1">
+              <Resources1m />
+            </Route>
+          </Switch>
+    
+      </Router>
+        
+  }
+  
+  else{
     return (
       <Router>
           <Switch>
@@ -44,6 +83,7 @@ export default function App() {
     );
 
   }
+}
   
 
 

@@ -1,13 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import Grid from '@material-ui/core/Grid';
-import ReactPlayer from 'react-player';
-import { GridList, Typography} from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { IconButton } from '@material-ui/core';
 import est_sor from './img/estudiantes_sordos.png';
 import com_lgbt from './img/comunidad_lgbt.png';
 import tec_tea from './img/tecnicas_teatro.png';
@@ -16,7 +12,6 @@ import dis_vis from './img/discapacidad_visual.png';
 import est_tea from './img/estudiantes_tea.png';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
