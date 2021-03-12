@@ -14,38 +14,6 @@ import Resources1 from './pages/Resource1';
 
 
 export default function App() {
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    
-  if (isMobile) {
-    <Router>
-          <Switch>
-            <Route exact path={["/m","/mhome"]}>
-              <Welcome />
-            </Route>
-            <Route exact path="/mproject">
-              <Project />
-            </Route>
-            <Route exact path="/mteam">
-              <Team />
-            </Route>
-            <Route exact path="/mresources">
-              <Resources />
-            </Route>
-            <Route exact path="/mrepository">
-              <Repository />
-            </Route>
-            <Route exact path="/mcontact">
-              <Contact />
-            </Route>
-            <Route exact path="/mresources/1">
-              <Resources1 />
-            </Route>
-          </Switch>
-    
-      </Router>
-
-  }
-  else{
     return (
       <Router>
           <Switch>
@@ -77,5 +45,5 @@ export default function App() {
 
   }
   
-}
+
 

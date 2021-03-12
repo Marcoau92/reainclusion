@@ -87,37 +87,37 @@ export default function AppBarr(){
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link to='/mhome' className="link">
+        <Link to='/home' className="link">
         <StyledMenuItem>
           <ListItemText primary="Inicio" />
         </StyledMenuItem>
         </Link>
 
-        <Link to='/mproject' className="link">
+        <Link to='/project' className="link">
         <StyledMenuItem>
           <ListItemText primary="Proyecto" />
         </StyledMenuItem>
         </Link>
 
-        <Link to='/mteam' className="link">
+        <Link to='/team' className="link">
         <StyledMenuItem>
           <ListItemText primary="Equipo" />
         </StyledMenuItem>
         </Link>
 
-        <Link to='/mresources' className="link">
+        <Link to='/resources' className="link">
         <StyledMenuItem>
           <ListItemText primary="Recursos" />
         </StyledMenuItem>
         </Link>
 
-        <Link to='/mrepository' className="link">
+        <Link to='/repository' className="link">
         <StyledMenuItem>
           <ListItemText primary="Repositorio" />
         </StyledMenuItem>
         </Link>
 
-        <Link to='/mcontact' className="link">
+        <Link to='/contact' className="link">
         <StyledMenuItem>
           <ListItemText primary="Contacto" />
         </StyledMenuItem>
