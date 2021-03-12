@@ -12,26 +12,13 @@ import Wspace from '../../components/Wspace';
 import Footer from '../../components/Footer';
 import AppBar from '../../components/AppBar';
 
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
 
 class App extends Component {
   
     
   
     render(){
-      if (isMobile) {
-        <Grid>
-          <Grid item style={{background:grey[400]}}>
-            <Buscador xs={12} sm={12} md={12}/>
-          </Grid>
-          <AppBar/>
-          <Welcome/>
-          <Footer/>
-
-        </Grid>
-      }
-      
-      else{
         return (
             <Grid className="App" >
                 <Grid item style={{background:grey[400]}}>
@@ -63,8 +50,6 @@ class App extends Component {
     }
   }
   
-    
-}
 export default App;
 
 

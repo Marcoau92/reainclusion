@@ -49,11 +49,46 @@ const Resources1 = (props) => {
                 <text md={4} lg={4} class="pservices text-justify">
                     Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
                 </text>
+                <Wspace/>
                 <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                 <Grid container style={{ justifyContent: "center"}}>
-                    <Router>
-                        <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.docx" target="_blank" download>Recurso Sugerido 1</Link>
-                    </Router>
+                El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	American Sign Language (ASL): 
+                <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Diccionario: 
+                <a rel="pagina principal" href="http://asluniversity.com/dictionary.htm " md={6} xs={6} >http://asluniversity.com/dictionary.htm </a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Videos: 
+                <a rel="pagina principal" href="https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s" md={6} xs={6} >https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s</a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Lectura para Sordos (en español
+                <a rel="pagina principal" href="https://cultura-sorda.org/lectura-sencilla/" md={6} xs={6} >https://cultura-sorda.org/lectura-sencilla/</a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Verbos in ASL: 
+                <a rel="pagina principal" href="https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s" md={6} xs={6} >https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s</a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Imágenes de Google: 
+                <a rel="pagina principal" href="https://www.google.com/imghp?hl=en" md={6} xs={6} >https://www.google.com/imghp?hl=en</a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Recursos visuals gratuitos (puzzles, crossword, etc): 
+                <a rel="pagina principal" href="https://busyteacher.org/" md={6} xs={6} >https://busyteacher.org/</a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Pictoramas: 
+                <a rel="pagina principal" href="http://aulaabierta.arasaac.org/ " md={6} xs={6} >http://aulaabierta.arasaac.org/ </a> 
+                </Grid>
+                <Grid container style={{ justifyContent: "center"}}>
+                •	Imágenes y evaluaciones interactivas: 
+                <a rel="pagina principal" href="https://quizlet.com/" md={6} xs={6} >https://quizlet.com/</a> 
                 </Grid>
 
             </div>

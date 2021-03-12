@@ -23,6 +23,7 @@ import Resources1m from './pages/Mobile/Resource1';
 export default function App() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if (isMobile) {
+    return(
     <Router>
           <Switch>
             <Route exact path={["/m","/mhome"]}>
@@ -49,6 +50,7 @@ export default function App() {
           </Switch>
     
       </Router>
+    );
         
   }
   

@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
                 <Grid md={12}>
                 </Grid>
                 <Grid container style={{ justifyContent: "center"}}>
+                •	 
                     <Router>
                         <Link to="/Igor Pérez_Tesis Final.pdf" target="_blank" download>DEVELOPING CHILDREN’S SOCIO-AFFECTIVE AND COMMUNICATIVE SKILLS</Link>
                     </Router>
