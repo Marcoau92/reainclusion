@@ -2,12 +2,47 @@
     position: absolute;
     top:5.8%;
     left:14.5%;
+    background-attachment: fixed;
 
 }
 
 .position_banner{
+    background-attachment: fixed;
     position: absolute;
     top:5.8%;
     left:13.5%;
 
 }
+
+.position_component{
+    background-attachment: fixed;
+    position: absolute;
+    top:31%;
+    left: 38%;
+
+}
+
+.position_component_team{
+    background-attachment: fixed;
+    position: absolute;
+    top:31%;
+    left: 30%;
+
+}
+
+.position_component_project{
+    background-attachment: fixed;
+    position: absolute;
+    top:31%;
+    left: 30%;
+
+}
+
+
+.link {
+    color: #FFF;
+    font-size: 20px;
+  }
+  .link:hover {
+     color: #000
+  }

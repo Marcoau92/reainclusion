@@ -1,550 +1,81 @@
 import React from 'react';
-import encabezado from './components/img/encabezado_sin_logo3.png';
 import './App.css';
-import Buscador from './components/Buscador';
-import Buttons from './components/Buttons';
-import Resources from './components/Resources';
-import Resource1 from './components/Resource1';
-import Welcome from './components/Welcome';
-import Project from './components/Project';
-import Repository from './components/Repository';
-import Team from './components/Team';
+import Welcome from './pages/Welcome/index';
+import Project from './pages/Project/index';
+import Team from './pages/Team/index';
+import Resources from './pages/Resources/index';
+import Repository from './pages/Repository/index';
+import Contact from './pages/Contact/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import {grey} from '@material-ui/core/colors';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Grid from '@material-ui/core/Grid';
-import ReactPlayer from 'react-player';
-import Contact from './components/Contact'
-import { Component } from 'react';
-import { spacing } from '@material-ui/system';
-import logo from './components/img/encabezado.png';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import './components/myStyles.css'
-import Wspace from './components/Wspace';
-import AppBar from './components/AppBar';
-import Footer from './components/Footer';
-import Provider from './components/Application/provider';
-import Resources1 from './components/Resource1';
+import Resources1 from './pages/Resource1';
 
 
-class App extends Component {
-  state = {
-    visible: true,
-    whichComponentToShow: "Welcome"
+export default function App() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    
+  if (isMobile) {
+    <Router>
+          <Switch>
+            <Route exact path={["/m","/mhome"]}>
+              <Welcome />
+            </Route>
+            <Route exact path="/mproject">
+              <Project />
+            </Route>
+            <Route exact path="/mteam">
+              <Team />
+            </Route>
+            <Route exact path="/mresources">
+              <Resources />
+            </Route>
+            <Route exact path="/mrepository">
+              <Repository />
+            </Route>
+            <Route exact path="/mcontact">
+              <Contact />
+            </Route>
+            <Route exact path="/mresources/1">
+              <Resources1 />
+            </Route>
+          </Switch>
+    
+      </Router>
 
   }
-  
-
-  render(){
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  else{
+    return (
+      <Router>
+          <Switch>
+            <Route exact path={["/","/home"]}>
+              <Welcome />
+            </Route>
+            <Route exact path="/project">
+              <Project />
+            </Route>
+            <Route exact path="/team">
+              <Team />
+            </Route>
+            <Route exact path="/resources">
+              <Resources />
+            </Route>
+            <Route exact path="/repository">
+              <Repository />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+            <Route exact path="/resources/1">
+              <Resources1 />
+            </Route>
+          </Switch>
     
-    if (isMobile) {
-      if (this.state.whichComponentToShow === "Welcome"){
-        return (
-          <Grid>
-            <AppBar {...this.state.whichComponentToShow} />
-            <Welcome/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      if (this.state.whichComponentToShow === "Project"){
-        return (
-          <Grid>
-            <AppBar/>
-            <Project/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      if (this.state.whichComponentToShow === "Team"){
-        return (
-          <Grid>
-            <AppBar {...this.state.whichComponentToShow} />
-            <Team/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      if (this.state.whichComponentToShow === "Resources"){
-        return (
-          <Grid>
-            <AppBar {...this.state.whichComponentToShow} />
-            <Resources1/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      if (this.state.whichComponentToShow === "Repository"){
-        return (
-          <Grid>
-            <AppBar {...this.state.whichComponentToShow} />
-            <Repository/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      if (this.state.whichComponentToShow === "Contact"){
-        return (
-          <Grid>
-            <AppBar {...this.state.whichComponentToShow} />
-            <Contact/>
-            <Footer/>
-          </Grid>        
-        );
-      }
-      
-    }
-    else{
-      if (this.state.whichComponentToShow === "Welcome"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-              
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                  <Grid xs={2} sm={2} md={2} lg={2}>
-  
-                  </Grid>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Welcome xs={10} sm={10} md={10} lg={10}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-            
-            <Footer/>  
-          </Grid>
-                
-              
-        );
-      }else if(this.state.whichComponentToShow === "Project"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                <Wspace/> 
-                <Wspace/>
-                <Wspace/>            
-                <Project xs={8} sm={8} md={8} lg={8}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-              
-            <Footer/>
-          </Grid>
-              
-      );
-  
-      }else if(this.state.whichComponentToShow === "Team"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                  <Grid xs={4} sm={4} md={4} lg={4}>
-  
-                  </Grid>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Team xs={8} sm={8} md={8} lg={8}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-              
-            <Footer/>
-          </Grid>
-              
-      );
-  
-      }else if(this.state.whichComponentToShow === "Resources"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                 <Grid  xs={4} sm={4} md={4} lg={4}>
-                   </Grid> 
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Resource1 xs={8} sm={8} md={8} lg={8}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-              
-            <Footer/>
-          </Grid>
-              
-      );
-      }else if(this.state.whichComponentToShow === "Repository"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                  <Grid xs={2} sm={2} md={2} lg={2}>
-  
-                  </Grid>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Repository xs={10} sm={10} md={10} lg={10}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-              
-            <Footer/>
-          </Grid>
-              
-      );
-  
-      }else if(this.state.whichComponentToShow === "Contact"){
-        return (
-        
-      
-          <Grid className="App"  >
-              <Grid item style={{background:grey[400]}}>
-                <Buscador xs={12} sm={12} md={12}/> 
-              </Grid>
-              <Grid className="position_banner" style={{background:grey[400]}}>
-                <img src={encabezado} alt="logo" xs={12} sm={12} md={12}/>
-              </Grid>
-  
-              <Grid item container xs={12} sm={12} md={12} lg={12} 
-                  justify="center"              
-                  direction="row">
-                <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                  <img src={logo} alt="logo" />
-                  <List component="nav" aria-label="main mailbox folders">
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Welcome"})
-                                      }} >
-                                          <ListItemText secondary="Welcome" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Project"})
-                                      }} >
-                                          <ListItemText secondary="Proyecto" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Team"})
-                                      }} >
-                                          <ListItemText secondary="Integrantes" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Resources"})
-                                      }} >
-                                          <ListItemText secondary="Recursos" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Repository"})
-                                      }} >
-                                          <ListItemText secondary="Repositorio" />
-                      </ListItem>
-                      <ListItem button onClick={()=>{
-                                      this.setState({whichComponentToShow: "Contact"})
-                                      }} >
-                                          <ListItemText secondary="Contacto" />
-                      </ListItem>
-  
-                    </List>
-                  </div>
-                  <Grid xs={2} sm={2} md={2} lg={2}>
-  
-                  </Grid>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Contact xs={8} sm={8} md={8} lg={8}/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-                <Wspace/>
-              </Grid> 
-            
-              
-                
-  
-              
-            <Footer/>
-          </Grid>
-              
-      );
-
-    }
-    
-    }
-
+      </Router>
+    );
 
   }
   
 }
 
-export default App;

@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
   title:{
     color:'#00b3c5',
     fontWeight: 'bold',
+    textAlign: 'center',
 
   },
   memberName:{
@@ -19,21 +20,18 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    backgroundcolor: '#a4f9ef7F',
   },
 }));
 
 const Team = (props) => {
   const classes = useStyles();
   return (
-    <div >
-      <Grid item container xs={6} sm={6} md={6} lg={6} >
-
-      </Grid>
-      <Grid item container xs={6} sm={6} md={6} lg={6}>
+    <div className="position_component_team">
         <Typography className={classes.title} align='center' variant='h2'>Integrantes</Typography>
-        <Grid className={classes.root} item container justify='center' alignItems='center' xs={10} sm={10} md={10} lg={10}>
+        <Grid className={classes.root} item container justify='center' alignItems='center'>
           {team.map(member => (
-            <Grid item justify="center" xs={12} sm={6} md={6} lg={6}>
+            <Grid item justify="center"  sm={6} md={6} lg={6}>
             <Paper className={classes.paper} elevation={0}>
               <img alt={member.name} src={member.picture} justify="center" width='150px' height='150px'/>
               <Typography className={classes.memberName}>{member.name}</Typography>
@@ -49,7 +47,6 @@ const Team = (props) => {
           </Grid>
           ))}
         </Grid>
-      </Grid>
       
     </div>
   )

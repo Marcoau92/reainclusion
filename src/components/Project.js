@@ -15,8 +15,10 @@ const useStyles = makeStyles((theme) => ({
   
     },
     memberName:{
+      color:'#00b3c5',
       fontWeight: 'bold',
       fontSize: '20px',
+      textAlign: 'center',
     },
     paper: {
       padding: theme.spacing(2),
@@ -28,18 +30,16 @@ const useStyles = makeStyles((theme) => ({
   const Project = (props) => {
     const classes = useStyles();
         return(
-            <Grid item container>
-              <Grid item container xs={4} sm={4} md={4} lg={4}>
-
-              </Grid>
+            <Grid item container className="position_component_project">
+              
               <Grid item container xs={8} sm={8} md={8} lg={8}>
 
                 <Grid xs={12} sm={12} md={12} lg={12}>
                   <Typography className={classes.title} align='center' variant='h2'>Proyecto</Typography>
                 </Grid>
-                <Typography className={classes.memberName} align='center' variant='h1'>¿Cómo nació esta página web?</Typography>
+                <Typography className={classes.memberName} align='center' position="center" variant='h1'>¿Cómo nació esta página web?</Typography>
 
-                <p>
+                <p class="pservices text-justify">
                     Esta plataforma nace al alero del proyecto Recursos Educativos Abiertos (REA): Una oportunidad de innovación y democratización del conocimiento sobre prácticas inclusivas en el aula de inglés y se creó a partir de la necesidad de contar con un espacio de acceso libre y gratuito donde profesores de inglés en formación y en ejercicio puedan compartir experiencias que les ayudan a hacer de sus aulas espacios más inclusivos y respetuosos de la diversidad. Esta iniciativa está siendo financiado por la Vicerrectoría de Investigación, Desarrollo y Creación Artística (VIDCA) de la Universidad Austral de Chile (UACh), a través de fondos otorgados a los Proyectos de Instalación VIDCA 2020.
                 </p>
                 <Typography className={classes.memberName} align='center' variant='h1'>¿Qué ideas sustentan la creación de esta plataforma?</Typography>

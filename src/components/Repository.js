@@ -31,10 +31,9 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div>
+            <div >
                 <Typography className={classes.title} align='center' variant='h2'>Repositorio</Typography>
                 <Grid md={12}>
-                <p>Estos son archivos</p>
                 </Grid>
                 <Grid container style={{ justifyContent: "center"}}>
                     <Router>
