@@ -24,6 +24,7 @@ class App extends Component {
                 </Grid>
                 <AppBar/>
                 <Repository/>
+                <Wspace/>
                 <Footer/>
 
             </Grid>
