@@ -26,25 +26,25 @@ export default function App() {
     return(
     <Router>
           <Switch>
-            <Route exact path={["/m","/mhome"]}>
+            <Route exact path={["/","/home"]}>
               <Welcomem />
             </Route>
-            <Route exact path="/mproject">
+            <Route exact path="/project">
               <Projectm />
             </Route>
-            <Route exact path="/mteam">
+            <Route exact path="/team">
               <Teamm />
             </Route>
-            <Route exact path="/mresources">
+            <Route exact path="/resources">
               <Resourcesm />
             </Route>
-            <Route exact path="/mrepository">
+            <Route exact path="/repository">
               <Repositorym />
             </Route>
-            <Route exact path="/mcontact">
+            <Route exact path="/contact">
               <Contactm />
             </Route>
-            <Route exact path="/mresources/1">
+            <Route exact path="/resources/1">
               <Resources1m />
             </Route>
           </Switch>

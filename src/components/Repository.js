@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Wspace from './Wspace';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -32,9 +33,10 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div >
-                <Typography className={classes.title} align='center' variant='h2'>Repositorio</Typography>
+                <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
                 <Grid md={12}>
                 </Grid>
+                <Wspace/>
                 <Grid container style={{ justifyContent: "center"}}>
                 •	 
                     <Router>

@@ -4,21 +4,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from 'react-router-dom';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import est_sor from './img/estudiantes_sordos.png';
-import com_lgbt from './img/comunidad_lgbt.png';
-import tec_tea from './img/tecnicas_teatro.png';
-import com_soc from './img/compromiso_social.png';
-import dis_vis from './img/discapacidad_visual.png';
-import est_tea from './img/estudiantes_tea.png';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
+import Grid from '@material-ui/core/Grid';
+import recursos from './recursos'
+import Wspace from './Wspace';
 
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      maxWidth: 400,
     },
     title:{
       color:'#00b3c5',
@@ -30,136 +23,40 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold',
         fontSize: '20px'
     },
+    memberName: {
+        fontStyle: 'italic'
+
+    }
   }));
 
 const Resources = (props) => {  
     const classes = useStyles();
         return(
-            <div>
-                <Card className={classes.root}>
-                <Typography className={classes.title} align='center' variant='h2'>Recursos</Typography>
-                <Link to='/mresources/1'>
-                    <CardActionArea>
-                    <CardMedia
-                        component="img"
-                        alt="Contemplative Reptile"
-                        height="400"
-                        image={est_sor}
-                        title="Contemplative Reptile"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                        Inclusión de estudiantes Sordos
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Felipe Martínez Corona
-                        </Typography>
-                    </CardContent>
-                    </CardActionArea>
-                </Link>
+            <div >
+                <Grid md={6} lg={6}>
+                <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
+
+                </Grid>
+
+                <Wspace/>
+                
+                <Grid className={classes.root} container justify='center' alignItems='center' md={6} lg={6}>
+                {recursos.map(member => (
+                    <Grid item justify="center"  sm={6} md={6} lg={6}>
+                        <Link to={member.url} >
+                            <Card className={classes.paper} elevation={0}>
+                                <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
+                                <Typography className={classes.subtitle}>{member.theme}</Typography>
+                                <Typography className={classes.memberName}>{member.name}</Typography>
+                            </Card>
+                        </Link>
+                    
+                </Grid>
+                ))}
+                </Grid>
 
 
-                <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="400"
-                    image={com_lgbt}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                    Inclusión de estudiantes de la comunidad LGBT
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        Ana Venegas Millapan
-                    </Typography>
-                </CardContent>
-                </CardActionArea>
-
-
-
-                <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="400"
-                    image={tec_tea}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                    Técnicas teatrales en el aula de inglés
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    Amalia Ortíz de Zárate
-                    </Typography>
-                </CardContent>
-                </CardActionArea>
-
-
-
-
-                <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="400"
-                    image={com_soc}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                    Enseñanza del inglés con compromiso social
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    Yasna Yilorm Barrientos
-                    </Typography>
-                </CardContent>
-                </CardActionArea>
-
-
-
-                <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="400"
-                    image={dis_vis}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                    Inclusión de estudiantes con discapacidad visual
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    Priscila Ancheo Navarrete
-                    </Typography>
-                </CardContent>
-                </CardActionArea>
-
-
-
-
-
-                <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="400"
-                    image={est_tea}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                    Inclusión de estudiantes con TEA
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    Paola Castro Fuentes & Camila Ojeda Pastene
-                    </Typography>
-                </CardContent>
-                </CardActionArea>
-            </Card>
+                
 
             </div>
            

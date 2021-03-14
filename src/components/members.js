@@ -63,7 +63,7 @@ const team = [
 
     },
     {
-        picture: foto7,
+        picture: foto6,
         name: 'Mónica Catrilaf',
         studies: [
             {
@@ -74,7 +74,7 @@ const team = [
 
     },
     {
-        picture: foto6,
+        picture: foto7,
         name: 'Claudia Arriagada',
         studies: [
             {
