@@ -4,12 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from 'react-router-dom';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import est_sor from './img/estudiantes_sordos.png';
-import com_lgbt from './img/comunidad_lgbt.png';
-import tec_tea from './img/tecnicas_teatro.png';
-import com_soc from './img/compromiso_social.png';
-import dis_vis from './img/discapacidad_visual.png';
-import est_tea from './img/estudiantes_tea.png';
 import Card from '@material-ui/core/Card';
 import Paper from '@material-ui/core/Paper';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -55,11 +49,11 @@ const Resources = (props) => {
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
-                            <Card className={classes.paper} elevation={0}>
+                            <Paper className={classes.paper} elevation={0}>
                                 <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
                                 <Typography className={classes.memberName}>{member.name}</Typography>
-                            </Card>
+                            </Paper>
                         </Link>
                     
                 </Grid>

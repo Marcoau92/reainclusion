@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import recursos from './recursos'
 import Wspace from './Wspace';
@@ -44,14 +45,14 @@ const Resources = (props) => {
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
-                            <Card className={classes.paper} elevation={0}>
+                            <Paper className={classes.paper} elevation={0}>
                                 <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
                                 <Typography className={classes.memberName}>{member.name}</Typography>
-                            </Card>
+                            </Paper>
                         </Link>
                     
-                </Grid>
+                    </Grid>
                 ))}
                 </Grid>
 
