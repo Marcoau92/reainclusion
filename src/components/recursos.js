@@ -18,34 +18,29 @@ const recursos = [
         picture: com_lgbt,
         theme: 'Inclusión de estudiantes de la comunidad LGBT',
         name: 'Ana Venegas Millapan',
-        url: ''
 
     },
     {
         picture: tec_tea,
         theme: 'Técnicas teatrales en el aula de inglés',
         name: 'Amalia Ortíz de Zárate',
-        url:'' 
     },
     {
         picture: com_soc,
         theme: 'Enseñanza del inglés con compromiso social',
         name: 'Yasna Yilorm Barrientos',
-        url: ''
 
 },
     {
         picture: dis_vis,
         theme: 'Inclusión de estudiantes con discapacidad visual',
         name: 'Priscila Ancheo Navarrete',
-        url: ''
 
     },
     {
         picture: est_tea,
         theme: 'Inclusión de estudiantes con TEA',
         name: 'Paola Castro Fuentes & Camila Ojeda Pastene',
-        url: ''
     },
     
 

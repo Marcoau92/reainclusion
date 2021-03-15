@@ -40,7 +40,7 @@ const Resources = (props) => {
 
                 <Wspace/>
                 
-                <Grid className={classes.root} container justify='center' alignItems='center' md={6} lg={6}>
+                <Grid className={classes.root} item container justify='center' alignItems='center' md={6} lg={6}>
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >

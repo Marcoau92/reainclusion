@@ -59,6 +59,14 @@ const Resources1 = (props) => {
                         Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
                     </text>
                     <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"}}>
+                        <Router>
+                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista</Link>
+                        </Router>
+                    </Grid>
+                    <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
                     <Grid container class="pservices text-justify" >

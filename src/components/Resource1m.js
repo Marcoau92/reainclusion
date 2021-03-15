@@ -54,7 +54,7 @@ const Resources1 = (props) => {
                 <Grid container style={{ justifyContent: "center"}}>
                 El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
                 </Grid>
-                <Grid container style={{ justifyContent: "center"}}>
+                <Grid container style={{ justifyContent: "flex-start"}}>
                 •	American Sign Language (ASL): 
                 <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
                 </Grid>

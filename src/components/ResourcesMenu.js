@@ -56,7 +56,7 @@ const Resources = (props) => {
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
                             <Card className={classes.paper} elevation={0}>
-                                <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
+                                <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
                                 <Typography className={classes.memberName}>{member.name}</Typography>
                             </Card>
