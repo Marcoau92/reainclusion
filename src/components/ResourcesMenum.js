@@ -27,7 +27,13 @@ const useStyles = makeStyles((theme) => ({
     memberName: {
         fontStyle: 'italic'
 
-    }
+    },
+    paper: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+        backgroundcolor: '#a4f9ef7F',
+      },
   }));
 
 const Resources = (props) => {  
@@ -45,11 +51,11 @@ const Resources = (props) => {
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
-                            <Paper className={classes.paper} elevation={0}>
+                            <Card className={classes.paper} elevation={0}>
                                 <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
                                 <Typography className={classes.memberName}>{member.name}</Typography>
-                            </Paper>
+                            </Card>
                         </Link>
                     
                     </Grid>
