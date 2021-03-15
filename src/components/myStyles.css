@@ -46,3 +46,7 @@
   .link:hover {
      color: #000
   }
+
+.footer {
+    height: calc(100% - 60px);
+}

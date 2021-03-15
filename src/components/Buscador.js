@@ -11,7 +11,7 @@ class Buscador extends Component{
             <Grid container className="row-reverse" justify='flex-end'> 
               <a rel="pagina principal" href="http://uach.cl" md={6} xs={6} >www.uach.cl</a>  
               <div className="form-group col-md-2" sd={2} xs={2}>
-                  <input type="text" className="form-control form-control-xs" placeholder="Buscar"/>
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar..."/>
               </div>
             </Grid>
           </Router>

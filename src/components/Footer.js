@@ -9,7 +9,7 @@ import logo from './img/encabezado_no_fondo.png';
 class Footer extends Component{
 	render(){
 		return(
-			<Grid>
+			<Grid className="footer">
                 <footer className="App-footer" style={{background:grey[400]}}>
                     <img src={logo} md={12} lg={12}/>
                     <div>

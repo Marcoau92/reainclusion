@@ -5,12 +5,7 @@ import { Link } from 'react-router-dom';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import Paper from '@material-ui/core/Paper';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
-import { CardGroup } from 'react-bootstrap';
 import recursos from './recursos'
 import Wspace from './Wspace';
 
@@ -31,7 +26,13 @@ const useStyles = makeStyles((theme) => ({
     memberName: {
         fontStyle: 'italic'
 
-    }
+    },
+    paper: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+        backgroundcolor: '#a4f9ef7F',
+      }
   }));
 
 const Resources = (props) => {  
@@ -49,11 +50,11 @@ const Resources = (props) => {
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
-                            <Paper className={classes.paper} elevation={0}>
+                            <Card className={classes.paper} elevation={0}>
                                 <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
                                 <Typography className={classes.memberName}>{member.name}</Typography>
-                            </Paper>
+                            </Card>
                         </Link>
                     
                 </Grid>
