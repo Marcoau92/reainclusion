@@ -28,7 +28,6 @@ class App extends Component {
                     </Grid>
                   <Wspace/>
                   <Wspace/>
-                  <Wspace/>
                   <Contact />
                   <Wspace/>
                   <Wspace/>

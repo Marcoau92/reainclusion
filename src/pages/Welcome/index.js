@@ -29,7 +29,7 @@ class App extends Component {
                     <Grid xs={2} sm={2} md={2} lg={2}>
     
                     </Grid>
-                  <Wspace/>
+                  
                   <Wspace/>
                   <Wspace/>
                   <Welcome xs={10} sm={10} md={10} lg={10}/>

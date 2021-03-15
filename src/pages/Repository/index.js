@@ -27,7 +27,6 @@ class App extends Component {
                     </Grid>
                   <Wspace/>
                   <Wspace/>
-                  <Wspace/>
                   <Repository/>
                   <Wspace/>
                   <Wspace/>
@@ -35,7 +34,7 @@ class App extends Component {
                   <Wspace/>
                   <Wspace/>
                   <Wspace/>
-                  <Wspace/>
+               
               
                 
                   
