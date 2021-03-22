@@ -1,25 +1,74 @@
-import React, {Component} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import {grey} from '@material-ui/core/colors';
 import encabezado from './img/encabezado_sin_logo3.png';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import logo from './img/encabezado.png';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Button from '@material-ui/core/Button';
 
-class Buttons extends Component{
-    render(){
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    menuButton: {
+      marginRight: theme.spacing(0),
+      marginLeft: 'auto',
+
+    },
+    toolbar: {
+      minHeight: 128,
+      alignItems: 'flex-end',
+      paddingTop: theme.spacing(1),
+      paddingBottom: theme.spacing(2),
+    },
+    title: {
+      flexGrow: 1,
+      alignSelf: 'flex-end',
+    },
+    searchIcon: {
+      padding: theme.spacing(0, 2),
+      height: '100%',
+      position: 'absolute',
+      pointerEvents: 'none',
+      display: 'flex-end',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  }));
+  
+
+export default function Buttons(){
+
+        const classes = useStyles();
         return(
             <div>
                 <Grid className="position_banner" style={{background:grey[400]}}>
                   <img src={encabezado} alt="encabezado" xs={12} sm={12} md={12}/>
+
                 </Grid>
+               <div className="position_menu" style={{width:'1086px', background:grey[400], color:'white'}}>
+                <AppBar className="ml-auto" position="static" style={{background:grey[400]}}>
+                  <Toolbar>
+                    <Grid className={classes.menuButton}>
+                      <Link to='/Team' className="link">
+                        <Button style={{color:'white'}} className={classes.menuButton}>
+                        Equipo</Button></Link>
+                      <Link to='/Contact' className="link" >
+                        <Button style={{color:'white'}} className={classes.menuButton}>
+                        Contacto</Button></Link>
+
+                    </Grid>
+                    
+                  </Toolbar>
+                </AppBar>
+               </div>
+              
+
                 <Grid item container xs={12} sm={12} md={12} lg={12} 
                     justify="center"              
                     direction="row">
@@ -31,10 +80,8 @@ class Buttons extends Component{
                                 <ul style={{listStyleType: 'none'}}>
                                     <li><Link to='/' className="link">Bienvenida</Link></li>
                                     <li><Link to='/project' className="link">Proyecto</Link></li>
-                                    <li><Link to='/Team' className="link">Equipo</Link></li>
                                     <li><Link to='/Resources' className="link">Recursos</Link></li>
                                     <li><Link to='/Repository' className="link">Repositorio</Link></li>
-                                    <li><Link to='/Contact' className="link">Contacto</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,8 +90,7 @@ class Buttons extends Component{
                 
             </div>
         );
-    };
+    }
 
-}
 
-export default Buttons;
+

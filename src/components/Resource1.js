@@ -31,11 +31,23 @@ const Resources1 = (props) => {
         return(
             
             <div className="position_component_team">
-                <Grid lg={6}>
+                <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Clases de Inglés para estudiantes Sordos</Typography>
                     <Wspace2/>
+                    <Grid >
+                    <text  class="pservices text-justify">
+                    En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
+Este es un extracto de la entrevista. Puedes descargar
+<Router>
+                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                        </Router> la transcripción de la entrevista completa.
+
+                        
+                    </text>
+                    <Wspace2/>
+                    </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
                             <ReactPlayer url='https://www.youtube.com/watch?v=gbjXzE9AwMU&feature=youtu.be' />
                     </Grid>
@@ -58,6 +70,10 @@ const Resources1 = (props) => {
                     <text md={4} lg={4} class="pservices text-justify">
                         Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
                     </text>
+                    <Grid>
+                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
+                    </Grid>
+                     
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>

@@ -1,6 +1,4 @@
 import React from 'react';
-import Buscador from './Buscador';
-import Buttons from './Buttons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Grid from '@material-ui/core/Grid';
@@ -44,8 +42,22 @@ export default function ContactUs() {
 
   const classes = useStyles();
   return (
-    <div className="App" id="contacto" justify="center" >
+    <div className="position_component_team" id="contacto" justify="center" >
+      <Grid md={6} lg={6}>
       <Typography className={classes.title} align='center' variant='h3' >Contacto</Typography>
+
+      </Grid>
+      <Grid md={6} lg={6}>
+      <p class="pservices text-justify">
+      ¡Muchas gracias por visitarnos!
+      Si tienes alguna duda, sugerencia o quieres contactarte con alguno de nuestros colaboradores, déjanos un mensaje y te responderemos prontamente.
+
+
+      </p>
+
+      </Grid>
+
+      <Grid md={6} lg={6}>
       <form onSubmit={sendEmail}>
         <Grid justify='center' md={12}>
           Nombre
@@ -87,7 +99,10 @@ export default function ContactUs() {
         </Grid>    
         
         
-      </form>  
+      </form> 
+      </Grid>    
+      
+       
     </div>
   );
 }

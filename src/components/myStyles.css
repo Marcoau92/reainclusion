@@ -13,7 +13,12 @@
     left:13.5%;
 
 }
-
+.position_menu{
+    background-attachment: fixed;
+    position: absolute;
+    top:18.8%;
+    left:13.5%;
+}
 .position_component{
     background-attachment: fixed;
     position: absolute;
@@ -25,7 +30,7 @@
 .position_component_team{
     background-attachment: fixed;
     position: absolute;
-    top:22%;
+    top:30%;
     left: 34%;
 
 }

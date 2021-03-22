@@ -32,12 +32,21 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div >
+            <div className="position_component_team" justify="center">
+                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
-                <Grid md={12}>
                 </Grid>
                 <Wspace/>
-                <Grid container style={{ justifyContent: "center"}}>
+                <Grid md={6} lg={6} justify="center">
+                <text  class="pservices text-justify">
+                A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
+Gran parte de estos documentos corresponden a tesis de pregrado de profesores egresados de la carrera Pedagogía en Comunicación en Lengua Inglesa de la UACh.
+Si quieres colaborar con tu propia investigación o propuesta, no dudes en contactarnos. También puedes hacernos llegar estudios o artículos de otros autores, siempre que sean de uso libre y gratuito.
+
+                    </text>
+                </Grid>
+                <Wspace/>
+                <Grid container style={{ justifyContent: "center"}} md={6} lg={6} >
                     <Router>
                         <Link to="/Igor Pérez_Tesis Final.pdf" target="_blank" download>•	 DEVELOPING CHILDREN’S SOCIO-AFFECTIVE AND COMMUNICATIVE SKILLS</Link>
                     </Router>
