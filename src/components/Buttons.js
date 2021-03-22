@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {grey} from '@material-ui/core/colors';
 import encabezado from './img/encabezado_sin_logo3.png';
 import logo from './img/encabezado.png';
@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
     },
     menuButton: {
+      marginTop: theme.spacing(0),
       marginRight: theme.spacing(0),
       marginLeft: 'auto',
 
@@ -47,19 +48,15 @@ export default function Buttons(){
         const classes = useStyles();
         return(
             <div>
-                <Grid className="position_banner" style={{background:grey[400]}}>
-                  <img src={encabezado} alt="encabezado" xs={12} sm={12} md={12}/>
-
-                </Grid>
-               <div className="position_menu" style={{width:'1086px', background:grey[400], color:'white'}}>
-                <AppBar className="ml-auto" position="static" style={{background:grey[400]}}>
-                  <Toolbar>
+                <div className="position_menu" style={{width:'1086px',height:'30px', background:grey[400], color:'white'}}>
+                <AppBar className={classes.menuButton} position="static" style={{background:grey[400],height:'40px'}}>
+                  <Toolbar className={classes.menuButton}>
                     <Grid className={classes.menuButton}>
                       <Link to='/Team' className="link">
-                        <Button style={{color:'white'}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'20px',}} className={classes.menuButton}>
                         Equipo</Button></Link>
                       <Link to='/Contact' className="link" >
-                        <Button style={{color:'white'}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
                         Contacto</Button></Link>
 
                     </Grid>
@@ -67,6 +64,13 @@ export default function Buttons(){
                   </Toolbar>
                 </AppBar>
                </div>
+                <Grid className="position_banner" style={{background:grey[400]}}>
+                  <img src={encabezado} alt="encabezado" xs={12} sm={12} md={12}/>
+
+                </Grid>
+
+
+               
               
 
                 <Grid item container xs={12} sm={12} md={12} lg={12} 

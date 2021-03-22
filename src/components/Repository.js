@@ -38,12 +38,12 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
                 <Wspace/>
                 <Grid md={6} lg={6} justify="center">
-                <text  class="pservices text-justify">
+                <p  class="pservices text-justify">
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
 Gran parte de estos documentos corresponden a tesis de pregrado de profesores egresados de la carrera Pedagogía en Comunicación en Lengua Inglesa de la UACh.
 Si quieres colaborar con tu propia investigación o propuesta, no dudes en contactarnos. También puedes hacernos llegar estudios o artículos de otros autores, siempre que sean de uso libre y gratuito.
 
-                    </text>
+                    </p>
                 </Grid>
                 <Wspace/>
                 <Grid container style={{ justifyContent: "center"}} md={6} lg={6} >

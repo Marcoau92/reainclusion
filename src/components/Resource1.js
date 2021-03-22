@@ -37,7 +37,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Clases de Inglés para estudiantes Sordos</Typography>
                     <Wspace2/>
                     <Grid >
-                    <text  class="pservices text-justify">
+                    <p  class="pservices text-justify">
                     En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
 Este es un extracto de la entrevista. Puedes descargar
 <Router>
@@ -45,7 +45,7 @@ Este es un extracto de la entrevista. Puedes descargar
                         </Router> la transcripción de la entrevista completa.
 
                         
-                    </text>
+                    </p>
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
@@ -62,14 +62,14 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
                     <Grid >
                     <Wspace2/>
-                    <text  class="pservices text-justify">
+                    <p  class="pservices text-justify">
                         Felipe Martínez Corona es licenciado en Educación y profesor de Comunicación en Lengua Ingles de la Universidad Austral de Chile (2011), tiene un Magister en Comunicación de la Universidad Austral de Chile (2019). Desde el año 2011 se desempeña como profesor adjunto en la Facultad de Filosofía y Humanidades de Universidad Austral de Chile, donde ha realizado clases para diversos cursos de pre y postgrado de la Universidad (Centro de Idiomas).
-                    </text>
+                    </p>
                     </Grid>
                     
-                    <text md={4} lg={4} class="pservices text-justify">
+                    <p md={4} lg={4} class="pservices text-justify">
                         Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
-                    </text>
+                    </p>
                     <Grid>
                     <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
                     </Grid>
