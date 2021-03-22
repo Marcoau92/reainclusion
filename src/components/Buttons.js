@@ -48,7 +48,7 @@ export default function Buttons(){
         const classes = useStyles();
         return(
             <div>
-                <div className="position_menu" style={{width:'1086px',height:'30px', background:grey[400], color:'white'}}>
+                <div className="position_menu" style={{width:'1086px',height:'40px', background:grey[400], color:'white'}}>
                 <AppBar className={classes.menuButton} position="static" style={{background:grey[400],height:'40px'}}>
                   <Toolbar className={classes.menuButton}>
                     <Grid className={classes.menuButton}>
