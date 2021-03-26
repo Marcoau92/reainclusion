@@ -73,15 +73,25 @@ const useStyles = makeStyles((theme) => ({
                   <Typography className={classes.memberName} align='center' variant='h1'>Referencias</Typography>
                   <Wspace2/>
                   <p class="pservices text-justify">
-                  MINEDUC. (s.f.). Programa Inglés Abre Puertas (PIAP). 
+                  MINEDUC. (s.f.). Programa Inglés Abre Puertas (PIAP)
+                  </p>
+                  <p class="pservices text-justify">
                   MINEDUC. (2015). Ley 20.845.
+                  </p>
+                  <p class="pservices text-justify">
                   Open Knowledge Foundation. (s.f.). Open Definition. Recuperado desde http://opendefinition.org/guide/ 
+                  </p>
+                  <p class="pservices text-justify">
                   UN. (2015). Transforming our world: The 2030 agenda for sustainable development. 
+                  </p>
+                  <p class="pservices text-justify">
                   UNESCO. (2012). Declaración de París de 2012 sobre los REA. París.
+                  </p>
+                  <p class="pservices text-justify">
                   UNESCO. (2015). Guía básica de recursos educativos abiertos (REA). París.
+                  </p>
+                  <p class="pservices text-justify">
                   UNESCO. (2016). Tecnologías digitales al servicio de la calidad educativa: Una propuesta de cambio centrada en el aprendizaje para todos. Santiago.
-
-
                   </p>
 
                 </Grid>

@@ -14,9 +14,10 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
+      color:"transparent",
     },
     menuButton: {
-      marginTop: theme.spacing(0),
+      marginTop: theme.spacing(-1),
       marginRight: theme.spacing(0),
       marginLeft: 'auto',
 
@@ -31,15 +32,6 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
       alignSelf: 'flex-end',
     },
-    searchIcon: {
-      padding: theme.spacing(0, 2),
-      height: '100%',
-      position: 'absolute',
-      pointerEvents: 'none',
-      display: 'flex-end',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
   }));
   
 
@@ -48,24 +40,20 @@ export default function Buttons(){
         const classes = useStyles();
         return(
             <div>
-                <div className="position_menu" style={{width:'1086px',height:'40px', background:grey[400], color:'white'}}>
-                <AppBar className={classes.menuButton} position="static" style={{background:grey[400],height:'40px'}}>
+                <Grid className="position_banner" style={{background:grey[400]}}>
+                  <img src={encabezado} height='129px' alt="encabezado" xs={12} sm={12} md={12}/>
+                  <AppBar position="static" style={{background:grey[400],height:'35px'}}>
                   <Toolbar className={classes.menuButton}>
-                    <Grid className={classes.menuButton}>
                       <Link to='/Team' className="link">
-                        <Button style={{color:'white', height:'20px',}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'10px'}} className={classes.menuButton}>
                         Equipo</Button></Link>
                       <Link to='/Contact' className="link" >
                         <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
                         Contacto</Button></Link>
 
-                    </Grid>
                     
                   </Toolbar>
                 </AppBar>
-               </div>
-                <Grid className="position_banner" style={{background:grey[400]}}>
-                  <img src={encabezado} alt="encabezado" xs={12} sm={12} md={12}/>
 
                 </Grid>
 
