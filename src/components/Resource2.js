@@ -34,14 +34,13 @@ const Resources1 = (props) => {
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes de la comunidad LGBTQ+</Typography>
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
-Este es un extracto de la entrevista. Puedes descargar
+                    En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar 
 <Router>
-                            <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
                         
@@ -49,7 +48,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=gbjXzE9AwMU&feature=youtu.be' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=VkzS0rR4nyY' />
                     </Grid>
 
                 </Grid>
@@ -59,16 +58,16 @@ Este es un extracto de la entrevista. Puedes descargar
 
                 </Grid>
                 <Grid  md={6} lg={6}>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Ana Venegas</Typography>
                     <Grid >
                     <Wspace2/>
                     <p  class="pservices text-justify">
-                        Felipe Martínez Corona es licenciado en Educación y profesor de Comunicación en Lengua Ingles de la Universidad Austral de Chile (2011), tiene un Magister en Comunicación de la Universidad Austral de Chile (2019). Desde el año 2011 se desempeña como profesor adjunto en la Facultad de Filosofía y Humanidades de Universidad Austral de Chile, donde ha realizado clases para diversos cursos de pre y postgrado de la Universidad (Centro de Idiomas).
+                    Ana Venegas, es licenciada en Educación y Profesora de Comunicación en Lengua Inglesa de la Universidad Austral de Chile (2016). Actualmente está cursando el Programa de Magister en Inclusión e Interculturalidad en la Universidad San Sebastián (2019). Desde el año 2017 se desempeña como Profesora de inglés como lengua extranjera para diferentes carreras de la Universidad Austral de Chile (Centro de Idiomas). 
                     </p>
                     </Grid>
                     
                     <p md={4} lg={4} class="pservices text-justify">
-                        Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
+                    Se ha desempeñado como tutora NEE en la Universidad Austral en dos ocasiones, donde trabajó adaptando metodologías basadas en los diferentes estilos de aprendizaje, orientadas a la adquisición del inglés como lengua extranjera en la Unidad de Apoyo al Aprendizaje para estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2012 – 2016). Estuvo encargada de guiar, revisar y editar la tesis de estudiantes con necesidades especiales en la Unidad de Apoyo al Aprendizaje de Estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2016 – 2017).
                     </p>
                     <Grid>
                     <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
@@ -79,13 +78,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"}}>
                         <Router>
-                            <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
-                        </Router>
-                        <Router>
-                            <Link to="/recursos_felipe_martines/Interacción, poder y participación estudiantil en el aula de inglés.pdf" target="_blank" download>• Interacción, poder y participación estudiantil en el aula de inglés</Link>
-                        </Router>
-                        <Router>
-                            <Link to="/recursos_felipe_martines/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies.pdf" target="_blank" download>•	Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies</Link>
+                            <Link to="/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Ana Venegas</Link>
                         </Router>
                     </Grid>
                     <Wspace/>

@@ -16,19 +16,22 @@ const recursos = [
     },
     {
         picture: com_lgbt,
-        theme: 'Inclusión de estudiantes de la comunidad LGBT',
+        theme: 'Inclusión de estudiantes de la comunidad LGBTQ+',
         name: 'Ana Venegas Millapan',
+        url: '/resources/2'
 
     },
     {
         picture: tec_tea,
         theme: 'Técnicas teatrales en el aula de inglés',
         name: 'Amalia Ortíz de Zárate',
+        url: '/resources/3'
     },
     {
         picture: com_soc,
         theme: 'Enseñanza del inglés con compromiso social',
         name: 'Yasna Yilorm Barrientos',
+        url: '/resources/4'
 
 },
     {

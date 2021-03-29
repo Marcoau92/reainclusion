@@ -41,7 +41,7 @@ const Resources1 = (props) => {
                     En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
 Este es un extracto de la entrevista. Puedes descargar
 <Router>
-                            <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
                         
@@ -49,7 +49,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=gbjXzE9AwMU&feature=youtu.be' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=UYS7E4mwDK0' />
                     </Grid>
 
                 </Grid>
@@ -59,16 +59,16 @@ Este es un extracto de la entrevista. Puedes descargar
 
                 </Grid>
                 <Grid  md={6} lg={6}>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Amalia Ortiz de Zárate Fernández</Typography>
                     <Grid >
                     <Wspace2/>
                     <p  class="pservices text-justify">
-                        Felipe Martínez Corona es licenciado en Educación y profesor de Comunicación en Lengua Ingles de la Universidad Austral de Chile (2011), tiene un Magister en Comunicación de la Universidad Austral de Chile (2019). Desde el año 2011 se desempeña como profesor adjunto en la Facultad de Filosofía y Humanidades de Universidad Austral de Chile, donde ha realizado clases para diversos cursos de pre y postgrado de la Universidad (Centro de Idiomas).
+                    Amalia Ortiz de Zárate Fernández, es licenciada en Educación (1996) y Profesora de Comunicación en Lengua Inglesa (1999) de la Universidad Católica de Valparaíso. Es Doctora en Estudios de Género, Traducción y Teatro por la Universidad de Sevilla (2008). Ha trabajado como docente en la Isla Robinson Crusoe (1998-1999), como profesora instructora (2007-2008) y profesora auxiliar (2009-2014) en la Universidad Austral de Chile. Desde el 2014 a la fecha, se desempeña como docente asociada al Instituto de Lingüística y Literatura de la Universidad Austral de Chile.      
                     </p>
                     </Grid>
                     
                     <p md={4} lg={4} class="pservices text-justify">
-                        Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
+                    Ha realizado estudios superiores de perfeccionamiento y entrenamiento en Teatro y Literatura (1999 - 2003) e Interpretación Actoral y Dramaturgia (2000 - 2003). Ha dirigido diversos proyectos relacionados con el uso de técnicas dramáticas en la enseñanza del inglés como lengua extranjera, entre los que destacan el Proyecto “Spanglish Theatre en tu Colegio”, el cual se ha podido realizar en cuatro ocasiones a través del Concurso Anual de Proyectos Dirección de Extensión UACh. 
                     </p>
                     <Grid>
                     <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
@@ -79,13 +79,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"}}>
                         <Router>
-                            <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
-                        </Router>
-                        <Router>
-                            <Link to="/recursos_felipe_martines/Interacción, poder y participación estudiantil en el aula de inglés.pdf" target="_blank" download>• Interacción, poder y participación estudiantil en el aula de inglés</Link>
-                        </Router>
-                        <Router>
-                            <Link to="/recursos_felipe_martines/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies.pdf" target="_blank" download>•	Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies</Link>
+                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista</Link>
                         </Router>
                     </Grid>
                     <Wspace/>

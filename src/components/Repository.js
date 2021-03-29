@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
                 <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
                 </Grid>
                 <Wspace/>
-                <Grid md={6} lg={6} justify="center">
+                <Grid md={6} lg={6} justify="flex-start">
                 <p  class="pservices text-justify">
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
 Gran parte de estos documentos corresponden a tesis de pregrado de profesores egresados de la carrera Pedagogía en Comunicación en Lengua Inglesa de la UACh.

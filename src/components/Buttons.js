@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
 import {grey} from '@material-ui/core/colors';
-import encabezado from './img/encabezado_sin_logo3.png';
+import encabezado from './img/encabezado_sin_logo33.png';
 import logo from './img/encabezado.png';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -41,8 +41,8 @@ export default function Buttons(){
         return(
             <div>
                 <Grid className="position_banner" style={{background:grey[400]}}>
-                  <img src={encabezado} height='129px' alt="encabezado" xs={12} sm={12} md={12}/>
-                  <AppBar position="static" style={{background:grey[400],height:'35px'}}>
+                  <img src={encabezado} alt="encabezado" height='105px' xs={12} sm={12} md={12}/>
+                  <AppBar position="static" style={{background:grey[400],height:'30px'}}>
                   <Toolbar className={classes.menuButton}>
                       <Link to='/Team' className="link">
                         <Button style={{color:'white', height:'10px'}} className={classes.menuButton}>

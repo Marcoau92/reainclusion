@@ -17,6 +17,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './components/myStyles.css'
 import Resources1 from './pages/Resource1';
+import Resources2 from './pages/Resource2';
+import Resources3 from './pages/Resource3';
+import Resources4 from './pages/Resource4';
 import Resources1m from './pages/Mobile/Resource1';
 
 
@@ -78,6 +81,15 @@ export default function App() {
             </Route>
             <Route exact path="/resources/1">
               <Resources1 />
+            </Route>
+            <Route exact path="/resources/2">
+              <Resources2 />
+            </Route>
+            <Route exact path="/resources/3">
+              <Resources3 />
+            </Route>
+            <Route exact path="/resources/4">
+              <Resources4 />
             </Route>
           </Switch>
     

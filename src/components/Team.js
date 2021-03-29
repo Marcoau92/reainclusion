@@ -30,7 +30,7 @@ const Team = (props) => {
   return (
     <div className="position_component_team">
         <Grid md={6} lg={6}>
-          <Typography className={classes.title} align='center' variant='h3'>Integrantes</Typography>
+          <Typography className={classes.title} align='center' variant='h3'>Equipo</Typography>
         </Grid>
         
         <Wspace/>
