@@ -11,6 +11,7 @@ import youtube from './img/youtube_logo.png';
 import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
+import encuesta from './img/encuesta.png';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -39,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   const Welcome = (props) => {
     const classes = useStyles();
         return(
-            <div className="position_component_team" justify="center">
+            <div className="position_component_team" >
               <Grid md={6} lg={6}>
                 <Typography className={classes.title} align='center' variant='h3'>Inicio</Typography>
                 <Wspace2/>
@@ -95,9 +96,15 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
                 </Grid>
               <Wspace2/>
               </Grid>
-              <Grid>
-                
+              <Wspace2/>
+              
+              <Grid  md={6} lg={6}>
+              
+                <a rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link"><img src={encuesta} width='500px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/></a>
+            
               </Grid>
+               
+              
 
               
               
