@@ -11,6 +11,7 @@ import youtube from './img/youtube_logo.png';
 import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
+import encuesta from './img/encuesta.png';
 
 
 const useStyles = makeStyles((theme) => ({
