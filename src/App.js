@@ -23,7 +23,11 @@ import Resources4 from './pages/Resource4';
 import Resources5 from './pages/Resource5';
 import Resources6 from './pages/Resource6';
 import Resources1m from './pages/Mobile/Resource1';
-
+import Resources2m from './pages/Mobile/Resource2';
+import Resources3m from './pages/Mobile/Resource3';
+import Resources4m from './pages/Mobile/Resource4';
+import Resources5m from './pages/Mobile/Resource5';
+import Resources6m from './pages/Mobile/Resource6';
 
 export default function App() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -51,6 +55,21 @@ export default function App() {
             </Route>
             <Route exact path="/resources/1">
               <Resources1m />
+            </Route>
+            <Route exact path="/resources/2">
+              <Resources2m />
+            </Route>
+            <Route exact path="/resources/3">
+              <Resources3m />
+            </Route>
+            <Route exact path="/resources/4">
+              <Resources4m />
+            </Route>
+            <Route exact path="/resources/5">
+              <Resources5m />
+            </Route>
+            <Route exact path="/resources/6">
+              <Resources6m />
             </Route>
           </Switch>
     

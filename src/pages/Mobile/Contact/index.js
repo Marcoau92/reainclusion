@@ -1,7 +1,6 @@
 import React from 'react'
 import Buscador from '../../../components/Buscador';
-import Contact from '../../../components/Contact';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from '../../../components/Contactm';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';
