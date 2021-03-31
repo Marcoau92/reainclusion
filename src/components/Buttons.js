@@ -42,7 +42,7 @@ export default function Buttons(){
             <div>
                 <Grid className="position_banner" style={{background:grey[400]}}>
                   <img src={encabezado} alt="encabezado" height='105px' xs={12} sm={12} md={12}/>
-                  <AppBar position="static" style={{background:grey[400],height:'30px'}}>
+                  <AppBar position="static" style={{background:grey[400],height:'30px',width:'884px'}}>
                   <Toolbar className={classes.menuButton}>
                       <Link to='/Team' className="link">
                         <Button style={{color:'white', height:'10px'}} className={classes.menuButton}>

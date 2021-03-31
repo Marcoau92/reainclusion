@@ -34,14 +34,14 @@ const Resources1 = (props) => {
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de enseñanza del inglés con compromiso social</Typography>
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
                     En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
 Este es un extracto de la entrevista. Puedes descargar
 <Router>
-                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                            <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
                         
@@ -70,59 +70,35 @@ Este es un extracto de la entrevista. Puedes descargar
                     <p md={4} lg={4} class="pservices text-justify">
                     La Dra. Yilorm es miembro del grupo RICELT y sus líneas de investigación se enfocan en el desarrollo de estrategias innovadoras, divertidas y multisensoriales que susciten un ambiente positivo en el aula de inglés como lengua extranjera, promuevan un aprendizaje exitoso y potencien el desarrollo de la personalidad de los estudiantes. Su investigación se basa principalmente en escuelas públicas con niños y niñas en contextos sociales vulnerables y con profesores de inglés que lidian con incidentes críticos en sus contextos educativos. Ha escrito diversos artículos sobre la enseñanza del inglés en Chile y es autora del libro ‘Let’s go for English in 100 Fun Ways’, publicado por el Ministerio de Educación Superior en Cuba (2015). 
                     </p>
-                    <Grid>
-                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
-                    </Grid>
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"}}>
                         <Router>
-                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista</Link>
+                            <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
                         </Router>
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
                     <Grid container class="pservices text-justify" >
-                    El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
-                    </Grid>
+                    Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje del inglés con compromiso social.</Grid>
                     <Grid container >
-                    •	American Sign Language (ASL): 
+                    •	Página web profesora Yasna Yilorm.  
                     <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
                     </Grid>
                     <Grid container >
-                    •	Diccionario: 
-                    <a rel="pagina principal" href="http://asluniversity.com/dictionary.htm " md={6} xs={6} >http://asluniversity.com/dictionary.htm </a> 
+                    •	Multisensory EFL classrooms 
+                    <a rel="pagina principal" href="https://www.facebook.com/Multisensory-EFL-Classroooms-1398480293605042/  " md={6} xs={6} >https://www.facebook.com/Multisensory-EFL-Classroooms-1398480293605042/  </a> 
                     </Grid>
                     <Grid container >
-                    •	Videos: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s" md={6} xs={6} >https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s</a> 
+                    •	Videos de actividades sugeridas por la profesora Yasna Yilorm. 
+                    <a rel="pagina principal" href="https://www.youtube.com/channel/UC8C7FKFyojKvrDg2Ym4YxTw/videos " md={6} xs={6} >https://www.youtube.com/channel/UC8C7FKFyojKvrDg2Ym4YxTw/videos </a> 
                     </Grid>
                     <Grid container >
-                    •	Lectura para Sordos (en español
-                    <a rel="pagina principal" href="https://cultura-sorda.org/lectura-sencilla/" md={6} xs={6} >https://cultura-sorda.org/lectura-sencilla/</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Verbos in ASL: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s" md={6} xs={6} >https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Imágenes de Google: 
-                    <a rel="pagina principal" href="https://www.google.com/imghp?hl=en" md={6} xs={6} >https://www.google.com/imghp?hl=en</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Recursos visuals gratuitos (puzzles, crossword, etc): 
-                    <a rel="pagina principal" href="https://busyteacher.org/" md={6} xs={6} >https://busyteacher.org/</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Pictoramas: 
-                    <a rel="pagina principal" href="http://aulaabierta.arasaac.org/ " md={6} xs={6} >http://aulaabierta.arasaac.org/ </a> 
-                    </Grid>
-                    <Grid container >
-                    •	Imágenes y evaluaciones interactivas: 
-                    <a rel="pagina principal" href="https://quizlet.com/" md={6} xs={6} >https://quizlet.com/</a> 
+                    •	Bibliografía sugerida por la profesora Yasna Yilorm. 
+                    <a rel="pagina principal" href="https://yasnayilorm.wixsite.com/multisensoryefl/bibliografia " md={6} xs={6} >https://yasnayilorm.wixsite.com/multisensoryefl/bibliografia </a> 
                     </Grid>
 
                 </Grid>

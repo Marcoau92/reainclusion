@@ -34,11 +34,11 @@ const Resources1 = (props) => {
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Tecnicas teatrales para estudiantes de inglés</Typography>
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
+                    En el siguiente video la profesora Amalia Ortiz de Zárate Fernández te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
 Este es un extracto de la entrevista. Puedes descargar
 <Router>
                             <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
@@ -70,9 +70,6 @@ Este es un extracto de la entrevista. Puedes descargar
                     <p md={4} lg={4} class="pservices text-justify">
                     Ha realizado estudios superiores de perfeccionamiento y entrenamiento en Teatro y Literatura (1999 - 2003) e Interpretación Actoral y Dramaturgia (2000 - 2003). Ha dirigido diversos proyectos relacionados con el uso de técnicas dramáticas en la enseñanza del inglés como lengua extranjera, entre los que destacan el Proyecto “Spanglish Theatre en tu Colegio”, el cual se ha podido realizar en cuatro ocasiones a través del Concurso Anual de Proyectos Dirección de Extensión UACh. 
                     </p>
-                    <Grid>
-                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
-                    </Grid>
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>

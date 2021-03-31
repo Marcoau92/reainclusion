@@ -70,22 +70,24 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
 
               </Grid>
               <Wspace2/>
-              <Grid className={classes.banners} md={6} lg={6} style={{background:'#00b3c5', borderRadius:'10px'}}>
-              <p  class="pservices text-justify">
+              <Grid justify='center' className={classes.banners} md={6} lg={6} style={{background:'#00b3c5', borderRadius:'10px'}}>
+                <Grid md={11} lg={11} justifyContent='center'>
+                <p  class="pservices text-justify">
                 Si te gustaría aportar a que esta comunidad de aprendizaje siga creciendo, escríbenos <Link to='/Contact' >aquí</Link> y nos pondremos en contacto contigo para que puedas colaborar con tu experiencia o recursos
                     </p>
+
+                </Grid>
+              
 
 
               </Grid>
               <Wspace2/>
-              <Grid className={classes.banners} md={6} lg={6} style={{background:'#00b3c5', borderRadius:'10px'}}>
+              <Grid className={classes.banners} md={6} lg={6} ml={4} mr={4} justifyContent='center' style={{background:'#00b3c5', borderRadius:'10px'}}>
                 <Grid  md={12}>
                 <img src={importante} alt="encabezado" width='80px' xs={12} sm={12} md={12}/>
                 </Grid>
-                <Grid item container  md={2}>
-
-                </Grid>
-                <Grid  md={10}>
+               
+                <Grid justify='center' ml={8} mr={8} >
                 <p  class="pservices text-justify">
                 Todo el material disponible en esta página es de uso libre y gratuito. Puedes compartir este material siempre y cuando cites la página y a nuestros colaboradores, no lo uses con fines comerciales y lo compartas bajo estas mismas condiciones. Haz click <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> aquí</a>. para conocer más sobre nuestra licencia Creative Commons. 
                     </p>

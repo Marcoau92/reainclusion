@@ -40,7 +40,7 @@ const Resources1 = (props) => {
                     <p  class="pservices text-justify">
                     En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar 
 <Router>
-                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                            <Link to="/recursos_ana_venegas/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
                         
@@ -69,61 +69,49 @@ const Resources1 = (props) => {
                     <p md={4} lg={4} class="pservices text-justify">
                     Se ha desempeñado como tutora NEE en la Universidad Austral en dos ocasiones, donde trabajó adaptando metodologías basadas en los diferentes estilos de aprendizaje, orientadas a la adquisición del inglés como lengua extranjera en la Unidad de Apoyo al Aprendizaje para estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2012 – 2016). Estuvo encargada de guiar, revisar y editar la tesis de estudiantes con necesidades especiales en la Unidad de Apoyo al Aprendizaje de Estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2016 – 2017).
                     </p>
-                    <Grid>
-                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
-                    </Grid>
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"}}>
                         <Router>
-                            <Link to="/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Ana Venegas</Link>
+                            <Link to="/recursos_ana_venegas/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Ana Venegas</Link>
                         </Router>
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
                     <Grid container class="pservices text-justify" >
-                    El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
+                    Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje de estudiantes pertenecientes a la comunidad LGBTQ+ en su aula de inglés.
                     </Grid>
                     <Grid container >
-                    •	American Sign Language (ASL): 
-                    <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
+                    •	About LGBTQ communities:  
+                    <a rel="pagina principal" href="https://vawnet.org/sc/who-are-lgbtq-communities " md={6} xs={6} >https://vawnet.org/sc/who-are-lgbtq-communities </a>
                     </Grid>
                     <Grid container >
-                    •	Diccionario: 
-                    <a rel="pagina principal" href="http://asluniversity.com/dictionary.htm " md={6} xs={6} >http://asluniversity.com/dictionary.htm </a> 
+                    •	Things you can do to support your LGBTQ students: 
+                    <a rel="pagina principal" href="https://www.wgu.edu/heyteach/article/5-things-you-can-do-support-your-lgbtq-students1809.html " md={6} xs={6} >https://www.wgu.edu/heyteach/article/5-things-you-can-do-support-your-lgbtq-students1809.html </a>
                     </Grid>
                     <Grid container >
-                    •	Videos: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s" md={6} xs={6} >https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s</a> 
+                    •	Teachers as LGBTQ Allies:  
+                    <a rel="pagina principal" href="https://www.accreditedschoolsonline.org/education-teaching-degree/lgbtq-youth/ " md={6} xs={6} >https://www.accreditedschoolsonline.org/education-teaching-degree/lgbtq-youth/ </a>
                     </Grid>
                     <Grid container >
-                    •	Lectura para Sordos (en español
-                    <a rel="pagina principal" href="https://cultura-sorda.org/lectura-sencilla/" md={6} xs={6} >https://cultura-sorda.org/lectura-sencilla/</a> 
+                    •	Sexual orientation? Gender identity? What’s the difference?:  
+                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=C63Xn--i13o&ab_channel=PlanInternational " md={6} xs={6} >https://www.youtube.com/watch?v=C63Xn--i13o&ab_channel=PlanInternational </a>
                     </Grid>
                     <Grid container >
-                    •	Verbos in ASL: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s" md={6} xs={6} >https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s</a> 
+                    •	Raised without gender: 
+                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=4sPj8HhbwHs " md={6} xs={6} >https://www.youtube.com/watch?v=4sPj8HhbwHs </a>
                     </Grid>
                     <Grid container >
-                    •	Imágenes de Google: 
-                    <a rel="pagina principal" href="https://www.google.com/imghp?hl=en" md={6} xs={6} >https://www.google.com/imghp?hl=en</a> 
+                    •	Muxes: 
+                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=iiek6JxYJLs " md={6} xs={6} >https://www.youtube.com/watch?v=iiek6JxYJLs </a>
                     </Grid>
                     <Grid container >
-                    •	Recursos visuals gratuitos (puzzles, crossword, etc): 
-                    <a rel="pagina principal" href="https://busyteacher.org/" md={6} xs={6} >https://busyteacher.org/</a> 
+                    •	Documental ‘Niños rosados y niñas azules’:  
+                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=WfBuMoSJsTo " md={6} xs={6} >https://www.youtube.com/watch?v=WfBuMoSJsTo </a>
                     </Grid>
-                    <Grid container >
-                    •	Pictoramas: 
-                    <a rel="pagina principal" href="http://aulaabierta.arasaac.org/ " md={6} xs={6} >http://aulaabierta.arasaac.org/ </a> 
-                    </Grid>
-                    <Grid container >
-                    •	Imágenes y evaluaciones interactivas: 
-                    <a rel="pagina principal" href="https://quizlet.com/" md={6} xs={6} >https://quizlet.com/</a> 
-                    </Grid>
-
                 </Grid>
                 
 

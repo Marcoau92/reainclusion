@@ -38,12 +38,14 @@ const recursos = [
         picture: dis_vis,
         theme: 'Inclusión de estudiantes con discapacidad visual',
         name: 'Priscila Ancheo Navarrete',
+        url: '/resources/5'
 
     },
     {
         picture: est_tea,
         theme: 'Inclusión de estudiantes con TEA',
         name: 'Paola Castro Fuentes & Camila Ojeda Pastene',
+        url: '/resources/6'
     },
     
 
