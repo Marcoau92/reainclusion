@@ -82,43 +82,24 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
                     <Grid container class="pservices text-justify" >
-                    El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
+                        <p>
+                        La profesora Amalia Ortiz de Zárate recomienda los siguientes recursos descargables para apoyar el proceso de enseñanza-aprendizaje de estudiantes a través de técnicas dramáticas en el aula de inglés.
+                        </p>
+                        <p>
+                        Estos recursos fueron creados en el marco del Proyecto Spanglish Theatre en tu Colegio IV (2018), cuyas responsables son Dra. Amalia Ortiz de Zárate y Prof. Nicol Guarda. Los actores en los videos son: Nicol Guarda, Ricardo Sáez, Carolina Fuentes, Camilo Medina.
+                        </p>
                     </Grid>
                     <Grid container >
-                    •	American Sign Language (ASL): 
-                    <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
+                    •	Dossier de actividades Spanglish Theatre IV: 
+                        <Router>
+                            <Link to="/recursos_amalia_ortiz/Dossier de actividades Spanglish Theatre IV.pdf" target="_blank" download>Dossier de actividades Spanglish Theatre IV</Link>
+                        </Router>
                     </Grid>
                     <Grid container >
-                    •	Diccionario: 
-                    <a rel="pagina principal" href="http://asluniversity.com/dictionary.htm " md={6} xs={6} >http://asluniversity.com/dictionary.htm </a> 
-                    </Grid>
-                    <Grid container >
-                    •	Videos: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s" md={6} xs={6} >https://www.youtube.com/watch?v=DaMjr4AfYA0&t=1s</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Lectura para Sordos (en español
-                    <a rel="pagina principal" href="https://cultura-sorda.org/lectura-sencilla/" md={6} xs={6} >https://cultura-sorda.org/lectura-sencilla/</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Verbos in ASL: 
-                    <a rel="pagina principal" href="https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s" md={6} xs={6} >https://www.youtube.com/watch?v=thdb-I-H9kE&t=30s</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Imágenes de Google: 
-                    <a rel="pagina principal" href="https://www.google.com/imghp?hl=en" md={6} xs={6} >https://www.google.com/imghp?hl=en</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Recursos visuals gratuitos (puzzles, crossword, etc): 
-                    <a rel="pagina principal" href="https://busyteacher.org/" md={6} xs={6} >https://busyteacher.org/</a> 
-                    </Grid>
-                    <Grid container >
-                    •	Pictoramas: 
-                    <a rel="pagina principal" href="http://aulaabierta.arasaac.org/ " md={6} xs={6} >http://aulaabierta.arasaac.org/ </a> 
-                    </Grid>
-                    <Grid container >
-                    •	Imágenes y evaluaciones interactivas: 
-                    <a rel="pagina principal" href="https://quizlet.com/" md={6} xs={6} >https://quizlet.com/</a> 
+                    •	2018 FLASHCARDS: 
+                        <Router>
+                            <Link to="/recursos_amalia_ortiz/2018 FLASHCARDS.7z" target="_blank" download>2018 FLASHCARDS</Link>
+                        </Router>
                     </Grid>
 
                 </Grid>
