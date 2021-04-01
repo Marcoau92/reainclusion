@@ -48,7 +48,7 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=UYS7E4mwDK0' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=MIsnVwrDB6Y' />
                     </Grid>
 
                 </Grid>
