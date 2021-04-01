@@ -73,7 +73,7 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"}}>
+                    <Grid container >
                         <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
                         </Router>
