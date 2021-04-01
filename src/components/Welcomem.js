@@ -11,7 +11,7 @@ import youtube from './img/youtube_logo.png';
 import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
-import encuesta from './img/encuesta.png';
+import google_forms from './img/google_forms.png';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -98,11 +98,17 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               </Grid>
               <Wspace2/>
               
-              <Grid  md={6} lg={6}>
-              
-                <a rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link"><img src={encuesta} width='500px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/></a>
-            
-              </Grid>
+              <a rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
+                  <Grid className={classes.text} xs={6} sm={6} md={6} lg={6}>
+                  <img src={google_forms} width='50px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                    <p className={classes.memberName} >
+                    Encuesta de satisfacción
+                    </p>
+                    <p class="pservices text-justify" >
+Por favor, responda las siguientes preguntas en relación a su satisfacción con los recursos educativos abiertos (REA) ofrecidos en la plataforma inclusiveclassroom.uach.cl. Sus respuestas son muy importantes para mejorar nuestra plataforma y ofrecer recursos que sean de utilidad para hacer sus clases de inglés más inclusivas. Esta encuesta le tomará aproximadamente 5 minutos.
+                    </p>
+                  </Grid>
+                </a>
 
               
               

@@ -38,10 +38,9 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video la profesora Amalia Ortiz de Zárate Fernández te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
-Este es un extracto de la entrevista. Puedes descargar
+                    En el siguiente video la profesora Amalia Ortiz de Zárate te cuenta sobre sus estrategias para hacer clases de inglés utilizando técnicas dramáticas. Este es un extracto de la entrevista. Puedes descargar 
 <Router>
-                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download> aquí</Link>
+                            <Link to="/recursos_amalia_ortiz/Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
                         
@@ -74,9 +73,9 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"}}>
+                    <Grid container>
                         <Router>
-                            <Link to="/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista</Link>
+                            <Link to="/recursos_amalia_ortiz/Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate</Link>
                         </Router>
                     </Grid>
                     <Wspace/>

@@ -77,7 +77,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"}}>
+                    <Grid container >
                         <Router>
                             <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
                         </Router>

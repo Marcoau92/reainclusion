@@ -38,8 +38,7 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
-Este es un extracto de la entrevista. Puedes descargar
+                    En el siguiente video la profesora Amalia Ortiz de Zárate te cuenta sobre sus estrategias para hacer clases de inglés utilizando técnicas dramáticas. Este es un extracto de la entrevista. Puedes descargar 
 <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.

@@ -38,7 +38,7 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar 
+                    En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar  
 <Router>
                             <Link to="/recursos_ana_venegas/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
