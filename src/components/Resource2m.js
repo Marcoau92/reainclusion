@@ -34,7 +34,7 @@ const Resources1 = (props) => {
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes de la comunidad LGBTQ+</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Inclusión de estudiantes de la comunidad LGBTQ+</Typography>
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">

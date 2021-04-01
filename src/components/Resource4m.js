@@ -34,12 +34,12 @@ const Resources1 = (props) => {
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de enseñanza del inglés con compromiso social</Typography>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
                     <Wspace2/>
                     <Grid >
                     <p  class="pservices text-justify">
-                    En el siguiente video la profesora Amalia Ortiz de Zárate te cuenta sobre sus estrategias para hacer clases de inglés utilizando técnicas dramáticas. Este es un extracto de la entrevista. Puedes descargar 
-<Router>
+                    En el siguiente video la profesora Yasna Yilorm te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes en contextos de vulnerabilidad social. Este es un extracto de la entrevista. Puedes descargar
+                    <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download> aquí</Link>
                         </Router> la transcripción de la entrevista completa.
 
@@ -73,7 +73,7 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"}}>
+                    <Grid container >
                         <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
                         </Router>

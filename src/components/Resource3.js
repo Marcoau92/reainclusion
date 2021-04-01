@@ -101,6 +101,38 @@ const Resources1 = (props) => {
                             <Link to="/recursos_amalia_ortiz/2018 FLASHCARDS.7z" target="_blank" download>2018 FLASHCARDS</Link>
                         </Router>
                     </Grid>
+                    <Grid container >
+                    •	THE CHILD EN: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	THE CHILD SP: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/o41k8d063utgsah/THE%20CHILD%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/o41k8d063utgsah/THE%20CHILD%20SP.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	DREAM EN: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/cavqyocktwlz0sf/DREAM%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/cavqyocktwlz0sf/DREAM%20EN.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	DREAM SP: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/d3lp4udzfaroitk/DREAM%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/d3lp4udzfaroitk/DREAM%20SP.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	MESSAGE EN: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/ak7aetwrvi04xqr/MESSAGE%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/ak7aetwrvi04xqr/MESSAGE%20EN.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	MESSAGE SP: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0rjm9zmkimz0seq/MESSAGE%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/0rjm9zmkimz0seq/MESSAGE%20SP.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	VIRTUAL EN: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0uyo9rdde7wnaih/VIRTUAL%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/0uyo9rdde7wnaih/VIRTUAL%20EN.MTS?dl=0</a> 
+                    </Grid>
+                    <Grid container >
+                    •	VIRTUAL SP: 
+                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/7tuh7bgxxr8d5gl/VIRTUAL%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/7tuh7bgxxr8d5gl/VIRTUAL%20SP.MTS?dl=0</a> 
+                    </Grid>
 
                 </Grid>
                 
