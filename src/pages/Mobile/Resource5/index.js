@@ -7,10 +7,8 @@ import {grey} from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';
 import { Component } from 'react';
 import '../../../components/myStyles.css'
-import Wspace from '../../../components/Wspace';
 import Footer from '../../../components/Footer';
 import AppBar from '../../../components/AppBar';
-import Resources from '../../../components/ResourcesMenu';
 
 
 class App extends Component {

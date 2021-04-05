@@ -14,7 +14,7 @@ import Repositorym from './pages/Mobile/Repository/index';
 import Contactm from './pages/Mobile/Contact/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './components/myStyles.css'
 import Resources1 from './pages/Resource1';
 import Resources2 from './pages/Resource2';

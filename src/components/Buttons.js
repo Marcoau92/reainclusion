@@ -10,6 +10,8 @@ import logo from './img/encabezado.png';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -32,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
       alignSelf: 'flex-end',
     },
+    separator:{
+      color:'white'
+    }
   }));
   
 
@@ -42,14 +47,16 @@ export default function Buttons(){
             <div>
                 <Grid className="position_banner" style={{background:grey[400]}}>
                   <img src={encabezado} alt="encabezado" height='105px' xs={12} sm={12} md={12}/>
-                  <AppBar position="static" style={{background:grey[400],height:'30px',width:'884px'}}>
+                  <AppBar position="static" style={{background:grey[400],height:'35px',width:'884px'}}>
                   <Toolbar className={classes.menuButton}>
+                    <Breadcrumbs className={classes.separator} separator='|'>
                       <Link to='/Team' className="link">
-                        <Button style={{color:'white', height:'10px'}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
                         Equipo</Button></Link>
                       <Link to='/Contact' className="link" >
                         <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
                         Contacto</Button></Link>
+                    </Breadcrumbs>
 
                     
                   </Toolbar>
@@ -63,17 +70,30 @@ export default function Buttons(){
 
                 <Grid item container xs={12} sm={12} md={12} lg={12} 
                     justify="center"              
-                    direction="row">
+                    direction="row"
+                    width="170px">
                   
                   <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
-                    <img src={logo} alt="logo" />
-                        <div style={{display: 'flex'}}>
+                    <img src={logo} alt="logo"/>
+                        <div style={{display: 'flex'}} >
                             <div className='navBar'>
                                 <ul style={{listStyleType: 'none'}}>
+                                  <ButtonGroup className={classes.separator}
+                                  orientation="vertical"
+                                  color="white"
+                                  variant="text" 
+                                  size="small"
+                                  color="white">
                                     <li><Link to='/' className="link">Bienvenida</Link></li>
                                     <li><Link to='/project' className="link">Proyecto</Link></li>
                                     <li><Link to='/Resources' className="link">Recursos</Link></li>
                                     <li><Link to='/Repository' className="link">Repositorio</Link></li>
+
+                                  </ButtonGroup>
+                                    
+                                    
+                                    
+                                    
                                 </ul>
                             </div>
                         </div>

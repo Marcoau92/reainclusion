@@ -10,7 +10,6 @@ import { Component } from 'react';
 import '../../components/myStyles.css'
 import Wspace from '../../components/Wspace';
 import Footer from '../../components/Footer';
-import AppBar from '../../components/AppBar';
 
 
 
