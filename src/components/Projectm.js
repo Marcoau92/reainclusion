@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         return(
             <Grid item container>
               
-              <Grid item container xs={8} sm={8} md={8} lg={8}>
+              <Grid item container >
 
                 <Grid xs={12} sm={12} md={12} lg={12}>
                   <Typography className={classes.title} align='center' variant='h2'>Proyecto</Typography>

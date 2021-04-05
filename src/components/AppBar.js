@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import {lightGreen} from '@material-ui/core/colors';
 import { withStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -15,17 +14,17 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: lightGreen[400],
+    backgroundColor: '#00b3c5',
   },
   menuButton: {
     marginRight: theme.spacing(2),
-    backgroundColor: lightGreen[400],
+    backgroundColor: '#00b3c5',
   },
 }));
 const StyledMenu = withStyles({
   paper: {
     border: '1px solid #d3d4d5',
-    backgroundColor: lightGreen[400],
+    backgroundColor: '#00b3c5',
   },
 })((props) => (
   <Menu
@@ -46,7 +45,7 @@ const StyledMenu = withStyles({
 const StyledMenuItem = withStyles((theme) => ({
   root: {
     '&:focus': {
-      backgroundColor: lightGreen[400],
+      backgroundColor: '#00b3c5',
       '& .MuiListItemIcon-root, & .MuiListItemText-primary': {
         color: theme.palette.common.white,
       },
@@ -70,7 +69,7 @@ export default function AppBarr(){
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{ backgroundColor: lightGreen[400] }}>
+      <AppBar position="static" style={{ backgroundColor: '#00b3c5' }}>
         <Toolbar variant="dense">
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={handleClick}>
             <MenuIcon />

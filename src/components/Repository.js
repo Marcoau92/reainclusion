@@ -58,9 +58,6 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                         <Link to="/repository/Drama Techniques as an effective way to teach English to visually impaired students (Castillo & Siebert, 2013).pdf" target="_blank" download>•	 Drama Techniques as an effective way to teach English to visually impaired students (Castillo & Siebert, 2013)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Igor Pérez_Tesis Final.pdf" target="_blank" download>•	 DEVELOPING CHILDREN’S SOCIO-AFFECTIVE AND COMMUNICATIVE SKILLS</Link>
-                    </Router>
-                    <Router>
                         <Link to="/repository/Including children with Asperger Syndrome in an English class...(Navarro, 2011).pdf" target="_blank" download>•	 Including children with Asperger Syndrome in an English class...(Navarro, 2011)</Link>
                     </Router>
                     <Router>

@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div justify="center">
               <Grid md={6} lg={6}>
-                <Typography className={classes.title} align='center' variant='h3'>Inicio</Typography>
+                <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
                 <p  class="pservices text-justify">
                 Te damos la bienvenida a este espacio de colaboración y aprendizaje sobre prácticas inclusivas en el aula de inglés como lengua extranjera. Recorre nuestra página, déjanos tus preguntas o sugerencias, aprendamos juntos y acompañémonos en este proceso constante de transformación que es la inclusión en educación.
@@ -56,7 +56,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
                       
               </Grid>
               <Wspace2/>
-              <Grid className={classes.banners} md={6} lg={6} style={{background:'#00b3c5', borderRadius:'10px'}}>
+              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}}>
               <p  class="pservices text-justify">
              Puedes mantenerte en contacto con nosotros a través de las siguientes plataformas: 
                     </p>

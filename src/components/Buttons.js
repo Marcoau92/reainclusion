@@ -50,6 +50,7 @@ export default function Buttons(){
                   <AppBar position="static" style={{background:grey[400],height:'35px',width:'884px'}}>
                   <Toolbar className={classes.menuButton}>
                     <Breadcrumbs className={classes.separator} separator='|'>
+                    <a className="link" rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">Encuesta</a>
                       <Link to='/Team' className="link">
                         <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
                         Equipo</Button></Link>
