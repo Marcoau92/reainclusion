@@ -119,7 +119,7 @@ export default function AppBarr(){
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">
-            Aula Inclusiva UACh
+            Aula de inglés Inclusiva               UACh
           </Typography>
         </Toolbar>
       </AppBar>

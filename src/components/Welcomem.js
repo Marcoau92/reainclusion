@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div justify="center">
-              <Grid md={6} lg={6}>
+              <Grid>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
                 <p  class="pservices text-justify">

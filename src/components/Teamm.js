@@ -28,7 +28,7 @@ const Team = (props) => {
   const classes = useStyles();
   return (
     <div>
-        <Typography className={classes.title} align='center' variant='h2'>Equipo</Typography>
+        <Typography className={classes.title} align='center' variant='h2'>Equipo1</Typography>
         <Grid className={classes.root} item container justify='center' alignItems='center'>
           {team.map(member => (
             <Grid item justify="center"  sm={6} md={6} lg={6}>
