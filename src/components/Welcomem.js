@@ -120,7 +120,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
 Por favor, responda las siguientes preguntas en relación a su satisfacción con los recursos educativos abiertos (REA) ofrecidos en la plataforma inclusiveclassroom.uach.cl. Sus respuestas son muy importantes para mejorar nuestra plataforma y ofrecer recursos que sean de utilidad para hacer sus clases de inglés más inclusivas. Esta encuesta le tomará aproximadamente 5 minutos.
                     </p>
                   </Grid>
-              
+                  </a>
               
             </div>
 
