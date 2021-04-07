@@ -124,9 +124,12 @@ export default function AppBarr(){
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">
-            Aula de inglés Inclusiva       UACh
+            Aula de inglés Inclusiva
           </Typography>
-          <img src={logo} className={classes.menuImage} width='130px' md={12} lg={12}/>
+          <Typography className={classes.menuImage} variant="h6" color="inherit">
+            UACh
+          </Typography>
+          <img src={logo} className={classes.menuImage} width='80px' md={12} lg={12}/>
 
         </Toolbar>
       </AppBar>
