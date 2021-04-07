@@ -47,15 +47,17 @@ export default function Buttons(){
             <div>
                 <Grid className="position_banner" style={{background:grey[400]}}>
                   <img src={encabezado} alt="encabezado" height='105px' xs={12} sm={12} md={12}/>
-                  <AppBar position="static" style={{background:grey[400],height:'35px',width:'884px'}}>
+                  <AppBar position="static" style={{background:grey[400],height:'40px',width:'884px'}}>
                   <Toolbar className={classes.menuButton}>
                     <Breadcrumbs className={classes.separator} separator='|'>
-                    <a className="link" rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">Encuesta</a>
+                      <Button style={{color:'white', height:'25px'}} className={classes.menuButton} href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
+                      Encuesta
+                      </Button>
                       <Link to='/Team' className="link">
-                        <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                         Equipo</Button></Link>
                       <Link to='/Contact' className="link" >
-                        <Button style={{color:'white', height:'20px'}} className={classes.menuButton}>
+                        <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                         Contacto</Button></Link>
                     </Breadcrumbs>
 
@@ -83,8 +85,7 @@ export default function Buttons(){
                                   orientation="vertical"
                                   color="white"
                                   variant="text" 
-                                  size="small"
-                                  color="white">
+                                  size="small">
                                     <li><Link to='/' className="link">Bienvenida</Link></li>
                                     <li><Link to='/project' className="link">Proyecto</Link></li>
                                     <li><Link to='/Resources' className="link">Recursos</Link></li>

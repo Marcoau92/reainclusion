@@ -10,6 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
 import ListItemText from '@material-ui/core/ListItemText';
 import { Link } from 'react-router-dom';
+import logo from './img/encabezado_no_fondo.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -119,8 +120,10 @@ export default function AppBarr(){
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">
-            Aula de inglés Inclusiva               UACh
+            Aula de inglés Inclusiva       UACh
           </Typography>
+          <img src={logo} md={12} lg={12}/>
+
         </Toolbar>
       </AppBar>
     </div>

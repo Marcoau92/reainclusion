@@ -5,10 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 class Buscador extends Component{
-  constructor(props) {
-    super(props);
-    
-     }
+  
 
      myFunction = (e)  => {
         var palabra = document.getElementById('myInput').value;
@@ -63,16 +60,7 @@ class Buscador extends Component{
           if (palabra2 === "compromiso social"){
             window.location.replace('/resources/4');
           }
-
-
-
-
-
         }
-        
-      
-       
-      
     }
 
     render(){

@@ -52,10 +52,10 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                         <Link to="/repository/Break dancers in the EFL classroom...(Salinas, 2014).pdf" target="_blank" download>•	 Break dancers in the EFL classroom...(Salinas, 2014)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Developing SENAME children's socio-Affective and Communicative Skills (Igor & Pérez, 2020).pdf" target="_blank" download>•	 Developing SENAME children's socio-Affective and Communicative Skills (Igor & Pérez, 2020)</Link>
+                        <Link to="/repository/Developing SENAME children's socio-Affective and Communicative Skills (Igor & Pérez, 2020).pdf" target="_blank" download>•	 Developing SENAME children's socio-Affective and Communicative Skills <br></br> (Igor & Pérez, 2020)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Drama Techniques as an effective way to teach English to visually impaired students (Castillo & Siebert, 2013).pdf" target="_blank" download>•	 Drama Techniques as an effective way to teach English to visually impaired students (Castillo & Siebert, 2013)</Link>
+                        <Link to="/repository/Drama Techniques as an effective way to teach English to visually impaired students (Castillo & Siebert, 2013).pdf" target="_blank" download>•	 Drama Techniques as an effective way to teach English to visually impaired<br></br> students (Castillo & Siebert, 2013)</Link>
                     </Router>
                     <Router>
                         <Link to="/repository/Including children with Asperger Syndrome in an English class...(Navarro, 2011).pdf" target="_blank" download>•	 Including children with Asperger Syndrome in an English class...(Navarro, 2011)</Link>
@@ -64,16 +64,16 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                         <Link to="/repository/Introducing EFL through NFE in social risk context (Berkhoff & Gahona, 2014).pdf" target="_blank" download>•	 Introducing EFL through NFE in social risk context (Berkhoff & Gahona, 2014)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Principle-based language activities to promote a peaceful coexistence...(Arias & Rivera, 2020).pdf" target="_blank" download>•	 Principle-based language activities to promote a peaceful coexistence...(Arias & Rivera, 2020)</Link>
+                        <Link to="/repository/Principle-based language activities to promote a peaceful coexistence...(Arias & Rivera, 2020).pdf" target="_blank" download>•	 Principle-based language activities to promote a peaceful coexistence...<br></br>(Arias & Rivera, 2020)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Safe and Inclusive Schools-Teacher's strategies to handle peer-to-peer violence (Soto, 2016).pdf" target="_blank" download>•	 Safe and Inclusive Schools-Teacher's strategies to handle peer-to-peer violence (Soto, 2016)</Link>
+                        <Link to="/repository/Safe and Inclusive Schools-Teacher's strategies to handle peer-to-peer violence (Soto, 2016).pdf" target="_blank" download>•	 Safe and Inclusive Schools-Teacher's strategies to handle peer-to-peer violence<br></br> (Soto, 2016)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Social risk students-Creating a favourable classroom environment through drama (Acosta & Cuitiño, 2013).pdf" target="_blank" download>•	 Social risk students-Creating a favourable classroom environment through drama (Acosta & Cuitiño, 2013)</Link>
+                        <Link to="/repository/Social risk students-Creating a favourable classroom environment through drama (Acosta & Cuitiño, 2013).pdf" target="_blank" download>•	 Social risk students-Creating a favourable classroom environment through<br></br> drama (Acosta & Cuitiño, 2013)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011).pdf" target="_blank" download>•	 Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011)</Link>
+                        <Link to="/repository/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011).pdf" target="_blank" download>•	 Teachers' motivation in the EFL classroom through the implementation of<br></br> non-traditional methodologies (Luengo & Martínez, 2011)</Link>
                     </Router>
                     <Router>
                         <Link to="/repository/Teaching English in the hospital classroom (Moena & Turra, 2013) .pdf" target="_blank" download>•	 Teaching English in the hospital classroom (Moena & Turra, 2013) </Link>
