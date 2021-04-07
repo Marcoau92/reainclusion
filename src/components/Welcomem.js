@@ -107,12 +107,12 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               <Wspace2/>
               
 
-              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} md={6} lg={6}>
+              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} >
                 <br></br>
               </Grid>
                 <a rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
-                  <Grid className={classes.text} xs={6} sm={6} md={6} lg={6}>
-                  <img src={google_forms} width='50px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <Grid className={classes.text} >
+                  <img src={google_forms} width='50px' alt="encabezado" />
                     <p className={classes.memberName} >
                     Encuesta de satisfacción
                     </p>
