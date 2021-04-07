@@ -69,8 +69,8 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
              Puedes mantenerte en contacto con nosotros a través de las siguientes plataformas: 
                     </p>
                     <a rel="license" href="https://www.youtube.com/channel/UC7CX6_dY5GPd0tG7bDOU3fA/featured"><img src={youtube} alt="encabezado" width='80px' xs={12} sm={12} md={12}/></a>
+                    <a rel="license" href="https://www.instagram.com/inclusive_classroom_uach/"><img src={instagram} alt="encabezado" width='80px' xs={12} sm={12} md={12}/></a>
                     
-                    <img src={instagram} alt="encabezado" width='80px' xs={12} sm={12} md={12}/>
                     <Link to='/contact'>
                     <img src={correo} alt="encabezado" width='80px' xs={12} sm={12} md={12}/>
                     </Link>
