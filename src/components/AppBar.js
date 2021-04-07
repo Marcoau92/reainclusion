@@ -21,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
     backgroundColor: '#00b3c5',
   },
+  menuImage: {
+    marginLeft: 'auto',
+
+  },
 }));
 const StyledMenu = withStyles({
   paper: {
@@ -122,7 +126,7 @@ export default function AppBarr(){
           <Typography variant="h6" color="inherit">
             Aula de inglés Inclusiva       UACh
           </Typography>
-          <img src={logo} md={12} lg={12}/>
+          <img src={logo} className={classes.menuImage} width='80%' md={12} lg={12}/>
 
         </Toolbar>
       </AppBar>

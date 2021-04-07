@@ -33,9 +33,8 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <Grid item container className="position_component_team">
-              
               <Grid xs={8} sm={8} md={8} lg={8}>
-
+                <br></br>
                 <Grid justify="flex-start" xs={12} sm={12} md={6} lg={6}>
                   <Typography className={classes.title} align='center' variant='h3'>Proyecto</Typography>
                 </Grid>
