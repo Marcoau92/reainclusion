@@ -38,7 +38,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Inclusión de estudiantes de la comunidad LGBTQ+</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify">
                     En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar  
@@ -63,7 +63,7 @@ const Resources1 = (props) => {
                 <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Ana Venegas</Typography>
                     <Grid >
-                    <Wspace2/>
+                    <br></br>
                     <p  class="pservices text-justify">
                     Ana Venegas, es licenciada en Educación y Profesora de Comunicación en Lengua Inglesa de la Universidad Austral de Chile (2016). Actualmente está cursando el Programa de Magister en Inclusión e Interculturalidad en la Universidad San Sebastián (2019). Desde el año 2017 se desempeña como Profesora de inglés como lengua extranjera para diferentes carreras de la Universidad Austral de Chile (Centro de Idiomas). 
                     </p>
@@ -75,7 +75,7 @@ const Resources1 = (props) => {
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container >
                         <Router>
                             <Link to="/recursos_ana_venegas/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Ana Venegas</Link>
@@ -83,7 +83,7 @@ const Resources1 = (props) => {
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container class="pservices text-justify" >
                     Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje de estudiantes pertenecientes a la comunidad LGBTQ+ en su aula de inglés.
                     </Grid>

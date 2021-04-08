@@ -7,7 +7,6 @@ class Wspace extends Component{
 			<Grid container>      	
 				<br></br>
 				<br></br>
-				<br></br>
         	</Grid>
 			);
 	}

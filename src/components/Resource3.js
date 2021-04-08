@@ -38,7 +38,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Técnicas teatrales para estudiantes de inglés</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify">
                     En el siguiente video la profesora Amalia Ortiz de Zárate te cuenta sobre sus estrategias para hacer clases de inglés utilizando técnicas dramáticas. Este es un extracto de la entrevista. Puedes descargar 
@@ -57,13 +57,10 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid container item md={6} lg={6}>
-
-                </Grid>
                 <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Amalia Ortiz de Zárate Fernández</Typography>
                     <Grid >
-                    <Wspace2/>
+                    <br></br>
                     <p  class="pservices text-justify">
                     Amalia Ortiz de Zárate Fernández, es licenciada en Educación (1996) y Profesora de Comunicación en Lengua Inglesa (1999) de la Universidad Católica de Valparaíso. Es Doctora en Estudios de Género, Traducción y Teatro por la Universidad de Sevilla (2008). Ha trabajado como docente en la Isla Robinson Crusoe (1998-1999), como profesora instructora (2007-2008) y profesora auxiliar (2009-2014) en la Universidad Austral de Chile. Desde el 2014 a la fecha, se desempeña como docente asociada al Instituto de Lingüística y Literatura de la Universidad Austral de Chile.      
                     </p>
@@ -75,7 +72,7 @@ const Resources1 = (props) => {
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container>
                         <Router>
                             <Link to="/recursos_amalia_ortiz/Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate</Link>
@@ -83,7 +80,7 @@ const Resources1 = (props) => {
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container class="pservices text-justify" >
                         <p>
                         La profesora Amalia Ortiz de Zárate recomienda los siguientes recursos descargables para apoyar el proceso de enseñanza-aprendizaje de estudiantes a través de técnicas dramáticas en el aula de inglés.

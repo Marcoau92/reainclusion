@@ -38,7 +38,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify">
                     En el siguiente video la profesora Yasna Yilorm te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes en contextos de vulnerabilidad social. Este es un extracto de la entrevista. Puedes descargar
@@ -63,7 +63,7 @@ const Resources1 = (props) => {
                 <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Yasna Yilorm Barrientos</Typography>
                     <Grid >
-                    <Wspace2/>
+                    <br></br>
                     <p  class="pservices text-justify">
                     Yasna Yilorm Barrientos es Profesora de Inglés (1995), Master en Educación, TESOL concentration, de Shenandoah University, USA, y Doctora en Ciencias Pedagógicas de la Universidad de Matanzas, Cuba.  Ha enseñado a estudiantes de diferentes edades y contextos culturales tanto en Chile como en Estados Unidos. Actualmente se desempeña como profesora de didáctica de la lengua inglesa y coordinadora y supervisora de las prácticas profesionales de profesores en formación de la carrera Pedagogía en Comunicación en Lengua Inglesa de la Universidad Austral de Chile.    
                     </p>
@@ -75,7 +75,7 @@ const Resources1 = (props) => {
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container >
                         <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
@@ -83,7 +83,7 @@ const Resources1 = (props) => {
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
-                    <Wspace2/>
+                    <br></br>
                     <Grid container class="pservices text-justify" >
                     Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje del inglés con compromiso social.</Grid>
                     <Grid container >

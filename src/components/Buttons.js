@@ -76,7 +76,7 @@ export default function Buttons(){
                     direction="row"
                     width="170px">
                   
-                  <div className="posicion" style={{ backgroundColor:"#cfcfcf"}}>
+                  <div className="posicion" style={{ backgroundColor: 'rgba(207,207,207, 0.8)'}}>
                     <img src={logo} alt="logo"/>
                         <div style={{display: 'flex'}} >
                             <div className='navBar'>

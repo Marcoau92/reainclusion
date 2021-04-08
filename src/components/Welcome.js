@@ -46,6 +46,12 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div className="position_component_team" >
               <br></br>
+              <br></br>
+              <br></br>
+              <Wspace2/>
+              <Wspace2/>
+              <Wspace2/>
+              <Wspace2/>
               <Grid md={6} lg={6}>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>

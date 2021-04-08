@@ -12,6 +12,7 @@ import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
 import google_forms from './img/google_forms.png';
+import banner_welcome from './img/banner_welcome.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -42,6 +43,8 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div justify="center">
               <Grid>
+                <img src={banner_welcome} width='50px' alt="banner" />
+                <Wspace2/>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
                 <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>

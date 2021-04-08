@@ -1,7 +1,7 @@
 import React from 'react'
 import Buscador from '../../components/Buscador';
 import Welcome from '../../components/Welcome';
-import Buttons from '../../components/Buttons';
+import Buttons from '../../components/Buttonsw';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
@@ -32,6 +32,9 @@ class App extends Component {
                   <Wspace/>
                   <Wspace/>
                   <Welcome xs={10} sm={10} md={10} lg={10}/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
                   <Wspace/>
                   <Wspace/>
                   <Wspace/>
