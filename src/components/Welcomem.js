@@ -114,7 +114,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
                 <a rel="license" href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
                   <Grid className={classes.text} >
                   <img src={google_forms} width='50px' alt="encabezado" />
-                    <p className={classes.memberName} >
+                    <p className={classes.memberName} style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >
                     Encuesta de satisfacción
                     </p>
                     <p class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >
