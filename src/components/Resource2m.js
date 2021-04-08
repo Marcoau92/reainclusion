@@ -6,7 +6,6 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace'
 import Wspace2 from './Wspace2'
 
 const useStyles = makeStyles((theme) => ({
@@ -70,7 +69,7 @@ const Resources1 = (props) => {
                     Se ha desempeñado como tutora NEE en la Universidad Austral en dos ocasiones, donde trabajó adaptando metodologías basadas en los diferentes estilos de aprendizaje, orientadas a la adquisición del inglés como lengua extranjera en la Unidad de Apoyo al Aprendizaje para estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2012 – 2016). Estuvo encargada de guiar, revisar y editar la tesis de estudiantes con necesidades especiales en la Unidad de Apoyo al Aprendizaje de Estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2016 – 2017).
                     </p>
                      
-                    <Wspace/>
+                    <Wspace2/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <br></br>
                     <Grid container style={{ justifyContent: "center",marginLeft: '0.8rem',marginRight: '0.8rem'}}>

@@ -44,7 +44,10 @@ const useStyles = makeStyles((theme) => ({
             <div justify="center">
               <Grid>
                 <br></br>
-                <img src={banner_welcome} alt="banner" />
+                <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
+                <img src={banner_welcome} width='100%' alt="banner"/>
+                </Grid>
+                
                 <Wspace2/>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
