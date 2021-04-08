@@ -75,13 +75,13 @@ Este es un extracto de la entrevista. Puedes descargar
                         Ha colaborado en proyectos de investigación internos de la Universidad Austral como “Inglés, actuando el lenguaje” (2009) e “Inglés, atuando el lenguaje II” (2011) y Proyectos de Extensión Internos (UACh) como Spanglish theatre en tu colegio (2012), también dirigió la iniciativa English Conversation Club del Centro de Idiomas de la Universidad Austral de Chile (2015-2018).
                     </p>
                     <Grid>
-                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
+                    <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
                     </Grid>
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container justifyContent='flex-start'>
+                    <Grid container justifyContent='flex-start' style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                         <Router>
                             <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
                         </Router>
