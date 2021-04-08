@@ -121,6 +121,18 @@ export default function AppBarr(){
           <ListItemText primary="Contacto" />
         </StyledMenuItem>
         </Link>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link" className="link">
+        <StyledMenuItem>
+          <ListItemText primary="Encuesta" />
+        </StyledMenuItem>
+        </a>
+
+        <Link to='/News' className="link">
+        <StyledMenuItem>
+          <ListItemText primary="Noticias" />
+        </StyledMenuItem>
+        </Link>
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">

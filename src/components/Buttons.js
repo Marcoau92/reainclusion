@@ -90,6 +90,7 @@ export default function Buttons(){
                                     <li><Link to='/project' className="link">Proyecto</Link></li>
                                     <li><Link to='/Resources' className="link">Recursos</Link></li>
                                     <li><Link to='/Repository' className="link">Repositorio</Link></li>
+                                    <li><Link to='/News' className="link">Noticias</Link></li>
 
                                   </ButtonGroup>
                                     
