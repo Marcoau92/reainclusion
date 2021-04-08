@@ -86,12 +86,12 @@ Este es un extracto de la entrevista. Puedes descargar
                             <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
                         </Router>
                         </Grid>
-                        <Grid container justifyContent='flex-start'>
+                        <Grid container justifyContent='flex-start' style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                         <Router>
                             <Link to="/recursos_felipe_martines/Interacción, poder y participación estudiantil en el aula de inglés.pdf" target="_blank" download>• Interacción, poder y participación estudiantil en el aula de inglés</Link>
                         </Router>
                         </Grid>
-                        <Grid container justifyContent='flex-start'>
+                        <Grid container justifyContent='flex-start' style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                         <Router>
                             <Link to="/recursos_felipe_martines/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies.pdf" target="_blank" download>•	Teachers' motivation in the EFL classroom through the implementation of <br></br>non-traditional methodologies</Link>
                         </Router>

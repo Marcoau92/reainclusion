@@ -37,7 +37,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Técnicas teatrales para estudiantes de inglés</Typography>
                     <Wspace2/>
                     <Grid >
-                    <p  class="pservices text-justify">
+                    <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     En el siguiente video la profesora Amalia Ortiz de Zárate te cuenta sobre sus estrategias para hacer clases de inglés utilizando técnicas dramáticas. Este es un extracto de la entrevista. Puedes descargar 
 <Router>
                             <Link to="/recursos_amalia_ortiz/Transcripción Entrevista Completa Profesora Amalia Ortiz de Zárate.pdf" target="_blank" download> aquí</Link>
@@ -57,16 +57,16 @@ const Resources1 = (props) => {
                 <Grid container item md={6} lg={6}>
 
                 </Grid>
-                <Grid  md={6} lg={6}>
+                <Grid  md={6} lg={6} style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Amalia Ortiz de Zárate Fernández</Typography>
                     <Grid >
                     <Wspace2/>
-                    <p  class="pservices text-justify">
+                    <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Amalia Ortiz de Zárate Fernández, es licenciada en Educación (1996) y Profesora de Comunicación en Lengua Inglesa (1999) de la Universidad Católica de Valparaíso. Es Doctora en Estudios de Género, Traducción y Teatro por la Universidad de Sevilla (2008). Ha trabajado como docente en la Isla Robinson Crusoe (1998-1999), como profesora instructora (2007-2008) y profesora auxiliar (2009-2014) en la Universidad Austral de Chile. Desde el 2014 a la fecha, se desempeña como docente asociada al Instituto de Lingüística y Literatura de la Universidad Austral de Chile.      
                     </p>
                     </Grid>
                     
-                    <p md={4} lg={4} class="pservices text-justify">
+                    <p md={4} lg={4} class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Ha realizado estudios superiores de perfeccionamiento y entrenamiento en Teatro y Literatura (1999 - 2003) e Interpretación Actoral y Dramaturgia (2000 - 2003). Ha dirigido diversos proyectos relacionados con el uso de técnicas dramáticas en la enseñanza del inglés como lengua extranjera, entre los que destacan el Proyecto “Spanglish Theatre en tu Colegio”, el cual se ha podido realizar en cuatro ocasiones a través del Concurso Anual de Proyectos Dirección de Extensión UACh. 
                     </p>
                      
@@ -81,7 +81,7 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
-                    <Grid container class="pservices text-justify" >
+                    <Grid container class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >
                         <p>
                         La profesora Amalia Ortiz de Zárate recomienda los siguientes recursos descargables para apoyar el proceso de enseñanza-aprendizaje de estudiantes a través de técnicas dramáticas en el aula de inglés.
                         </p>
@@ -89,23 +89,23 @@ const Resources1 = (props) => {
                         Estos recursos fueron creados en el marco del Proyecto Spanglish Theatre en tu Colegio IV (2018), cuyas responsables son Dra. Amalia Ortiz de Zárate y Prof. Nicol Guarda. Los actores en los videos son: Nicol Guarda, Ricardo Sáez, Carolina Fuentes, Camilo Medina.
                         </p>
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	Dossier de actividades Spanglish Theatre IV: 
                         <Router>
                             <Link to="/recursos_amalia_ortiz/Dossier de actividades Spanglish Theatre IV.pdf" target="_blank" download>Dossier de actividades Spanglish Theatre IV</Link>
                         </Router>
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	2018 FLASHCARDS: 
                         <Router>
                             <Link to="/recursos_amalia_ortiz/2018 FLASHCARDS.7z" target="_blank" download>2018 FLASHCARDS</Link>
                         </Router>
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	THE CHILD EN: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	THE CHILD SP: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/o41k8d063utgsah/THE%20CHILD%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/o41k8d063utgsah/THE%20CHILD%20SP.MTS?dl=0</a> 
                     </Grid>
@@ -113,23 +113,23 @@ const Resources1 = (props) => {
                     •	DREAM EN: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/cavqyocktwlz0sf/DREAM%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/cavqyocktwlz0sf/DREAM%20EN.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	DREAM SP: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/d3lp4udzfaroitk/DREAM%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/d3lp4udzfaroitk/DREAM%20SP.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	MESSAGE EN: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/ak7aetwrvi04xqr/MESSAGE%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/ak7aetwrvi04xqr/MESSAGE%20EN.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	MESSAGE SP: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0rjm9zmkimz0seq/MESSAGE%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/0rjm9zmkimz0seq/MESSAGE%20SP.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	VIRTUAL EN: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0uyo9rdde7wnaih/VIRTUAL%20EN.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/0uyo9rdde7wnaih/VIRTUAL%20EN.MTS?dl=0</a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	VIRTUAL SP: 
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/7tuh7bgxxr8d5gl/VIRTUAL%20SP.MTS?dl=0" md={6} xs={6} >https://www.dl.dropboxusercontent.com/s/7tuh7bgxxr8d5gl/VIRTUAL%20SP.MTS?dl=0</a> 
                     </Grid>

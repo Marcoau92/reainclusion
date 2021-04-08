@@ -37,7 +37,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
                     <Wspace2/>
                     <Grid >
-                    <p  class="pservices text-justify">
+                    <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     En el siguiente video la profesora Yasna Yilorm te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes en contextos de vulnerabilidad social. Este es un extracto de la entrevista. Puedes descargar
                     <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download> aquí</Link>
@@ -61,19 +61,19 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Yasna Yilorm Barrientos</Typography>
                     <Grid >
                     <Wspace2/>
-                    <p  class="pservices text-justify">
+                    <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Yasna Yilorm Barrientos es Profesora de Inglés (1995), Master en Educación, TESOL concentration, de Shenandoah University, USA, y Doctora en Ciencias Pedagógicas de la Universidad de Matanzas, Cuba.  Ha enseñado a estudiantes de diferentes edades y contextos culturales tanto en Chile como en Estados Unidos. Actualmente se desempeña como profesora de didáctica de la lengua inglesa y coordinadora y supervisora de las prácticas profesionales de profesores en formación de la carrera Pedagogía en Comunicación en Lengua Inglesa de la Universidad Austral de Chile.    
                     </p>
                     </Grid>
                     
-                    <p md={4} lg={4} class="pservices text-justify">
+                    <p md={4} lg={4} class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     La Dra. Yilorm es miembro del grupo RICELT y sus líneas de investigación se enfocan en el desarrollo de estrategias innovadoras, divertidas y multisensoriales que susciten un ambiente positivo en el aula de inglés como lengua extranjera, promuevan un aprendizaje exitoso y potencien el desarrollo de la personalidad de los estudiantes. Su investigación se basa principalmente en escuelas públicas con niños y niñas en contextos sociales vulnerables y con profesores de inglés que lidian con incidentes críticos en sus contextos educativos. Ha escrito diversos artículos sobre la enseñanza del inglés en Chile y es autora del libro ‘Let’s go for English in 100 Fun Ways’, publicado por el Ministerio de Educación Superior en Cuba (2015). 
                     </p>
                      
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >
                         <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
                         </Router>
@@ -81,21 +81,21 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
-                    <Grid container class="pservices text-justify" >
+                    <Grid container class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje del inglés con compromiso social.</Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	Página web profesora Yasna Yilorm.  
                     <a rel="pagina principal" href="https://www.lifeprint.com/asl101/lessons/lesson01.htm " md={6} xs={6} >https://www.lifeprint.com/asl101/lessons/lesson01.htm </a>
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	Multisensory EFL classrooms 
                     <a rel="pagina principal" href="https://www.facebook.com/Multisensory-EFL-Classroooms-1398480293605042/  " md={6} xs={6} >https://www.facebook.com/Multisensory-EFL-Classroooms-1398480293605042/  </a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	Videos de actividades sugeridas por la profesora Yasna Yilorm. 
                     <a rel="pagina principal" href="https://www.youtube.com/channel/UC8C7FKFyojKvrDg2Ym4YxTw/videos " md={6} xs={6} >https://www.youtube.com/channel/UC8C7FKFyojKvrDg2Ym4YxTw/videos </a> 
                     </Grid>
-                    <Grid container >
+                    <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     •	Bibliografía sugerida por la profesora Yasna Yilorm. 
                     <a rel="pagina principal" href="https://yasnayilorm.wixsite.com/multisensoryefl/bibliografia " md={6} xs={6} >https://yasnayilorm.wixsite.com/multisensoryefl/bibliografia </a> 
                     </Grid>
