@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
             </Grid> 
             <br></br>
             <Grid md={6} lg={6}>
-            <p class="pservices text-justify">
+            <p class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
             Aquí te presentaremos las más recientes entrevistas y noticias relevantes sobre actividades relacionadas con inclusión en el aula que te pueden servir para realizar tus clases
       
       
