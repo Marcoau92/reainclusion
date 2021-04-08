@@ -88,7 +88,7 @@ export default function AppBarr(){
       >
         <Link to='/home' className="link">
         <StyledMenuItem>
-          <ListItemText primary="Inicio" />
+          <ListItemText primary="Bienvenida" />
         </StyledMenuItem>
         </Link>
 
@@ -136,7 +136,7 @@ export default function AppBarr(){
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">
-            Aula de inglés Inclusiva
+            Aula de Inglés Inclusiva
           </Typography>
           <Typography className={classes.menuImage} variant="h6" color="inherit">
             UACh

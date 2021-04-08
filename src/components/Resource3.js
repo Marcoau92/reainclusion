@@ -100,6 +100,9 @@ const Resources1 = (props) => {
                         <Router>
                             <Link to="/recursos_amalia_ortiz/2018 FLASHCARDS.7z" target="_blank" download>2018 FLASHCARDS</Link>
                         </Router>
+                    </Grid> 
+                    <Grid container >
+                    Videos Spanglish Theatre:
                     </Grid>
                     <Grid container >
                     

@@ -6,7 +6,6 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace'
 import Wspace2 from './Wspace2'
 
 const useStyles = makeStyles((theme) => ({
@@ -37,9 +36,9 @@ const Resources1 = (props) => {
                 
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     En el siguiente video el profesor Felipe Martínez te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes Sordos en un aula regular. 
@@ -58,14 +57,11 @@ Este es un extracto de la entrevista. Puedes descargar
 
                 </Grid>
                 
-                <Wspace/>
-                <Grid container item md={6} lg={6}>
-
-                </Grid>
+                <Wspace2/>
                 <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
                     <Grid >
-                    <Wspace2/>
+                    <br></br>
                     <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                         Felipe Martínez Corona es licenciado en Educación y profesor de Comunicación en Lengua Ingles de la Universidad Austral de Chile (2011), tiene un Magister en Comunicación de la Universidad Austral de Chile (2019). Desde el año 2011 se desempeña como profesor adjunto en la Facultad de Filosofía y Humanidades de Universidad Austral de Chile, donde ha realizado clases para diversos cursos de pre y postgrado de la Universidad (Centro de Idiomas).
                     </p>
@@ -78,9 +74,9 @@ Este es un extracto de la entrevista. Puedes descargar
                     <a rel="pagina principal" href="https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/" md={6} xs={6} style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >https://www.linkedin.com/in/felipe-mart%C3%ADnez-corona/</a> 
                     </Grid>
                      
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
+                    <br></br>
                     <Grid container justifyContent='flex-start' style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                         <Router>
                             <Link to="/recursos_felipe_martines/Transcripción entrevista completa Profesor Felipe Martínez.pdf" target="_blank" download>•	Transcripción entrevista completa Profesor Felipe Martínez</Link>
@@ -96,9 +92,9 @@ Este es un extracto de la entrevista. Puedes descargar
                             <Link to="/recursos_felipe_martines/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies.pdf" target="_blank" download>•	Teachers' motivation in the EFL classroom through the implementation of <br></br>non-traditional methodologies</Link>
                         </Router>
                     </Grid>
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
+                    <br></br>
                     <Grid container class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     El profesor Felipe Martínez recomienda los siguientes recursos para apoyar el proceso de enseñanza-aprendizaje de estudiantes Sordos en el aula de inglés.
                     </Grid>
