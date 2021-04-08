@@ -29,6 +29,7 @@ import Resources3m from './pages/Mobile/Resource3';
 import Resources4m from './pages/Mobile/Resource4';
 import Resources5m from './pages/Mobile/Resource5';
 import Resources6m from './pages/Mobile/Resource6';
+import Newsm from './pages/Mobile/News';
 
 export default function App() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -71,6 +72,9 @@ export default function App() {
             </Route>
             <Route exact path="/resources/6">
               <Resources6m />
+            </Route>
+            <Route exact path="/news">
+              <Newsm />
             </Route>
           </Switch>
     

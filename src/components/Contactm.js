@@ -48,7 +48,7 @@ export default function ContactUs() {
 
       </Grid>
       <Grid md={6} lg={6}>
-      <p class="pservices text-justify">
+      <p class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
       ¡Muchas gracias por visitarnos!
       Si tienes alguna duda, sugerencia o quieres contactarte con alguno de nuestros colaboradores, déjanos un mensaje y te responderemos prontamente.
 
