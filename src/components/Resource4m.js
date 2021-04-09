@@ -36,9 +36,9 @@ const Resources1 = (props) => {
                 </Grid>
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     En el siguiente video la profesora Yasna Yilorm te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes en contextos de vulnerabilidad social. Este es un extracto de la entrevista. Puedes descargar
@@ -57,13 +57,10 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid container item md={6} lg={6}>
-
-                </Grid>
                 <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Yasna Yilorm Barrientos</Typography>
                     <Grid >
-                    <Wspace2/>
+                    <br></br>
                     <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Yasna Yilorm Barrientos es Profesora de Inglés (1995), Master en Educación, TESOL concentration, de Shenandoah University, USA, y Doctora en Ciencias Pedagógicas de la Universidad de Matanzas, Cuba.  Ha enseñado a estudiantes de diferentes edades y contextos culturales tanto en Chile como en Estados Unidos. Actualmente se desempeña como profesora de didáctica de la lengua inglesa y coordinadora y supervisora de las prácticas profesionales de profesores en formación de la carrera Pedagogía en Comunicación en Lengua Inglesa de la Universidad Austral de Chile.    
                     </p>
@@ -73,17 +70,17 @@ const Resources1 = (props) => {
                     La Dra. Yilorm es miembro del grupo RICELT y sus líneas de investigación se enfocan en el desarrollo de estrategias innovadoras, divertidas y multisensoriales que susciten un ambiente positivo en el aula de inglés como lengua extranjera, promuevan un aprendizaje exitoso y potencien el desarrollo de la personalidad de los estudiantes. Su investigación se basa principalmente en escuelas públicas con niños y niñas en contextos sociales vulnerables y con profesores de inglés que lidian con incidentes críticos en sus contextos educativos. Ha escrito diversos artículos sobre la enseñanza del inglés en Chile y es autora del libro ‘Let’s go for English in 100 Fun Ways’, publicado por el Ministerio de Educación Superior en Cuba (2015). 
                     </p>
                      
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
+                    <br></br>
                     <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}} >
                         <Router>
                             <Link to="/recursos_yasna_yilorm/Transcripción Entrevista Completa Profesora Yasna Yilorm.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Yasna Yilorm</Link>
                         </Router>
                     </Grid>
-                    <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
                     <Wspace2/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
+                    <br></br>
                     <Grid container class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     Los siguientes recursos podrían serle de utilidad para apoyar el proceso de enseñanza-aprendizaje del inglés con compromiso social.</Grid>
                     <Grid container style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>

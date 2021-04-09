@@ -104,6 +104,10 @@ const Resources1 = (props) => {
                             <Link to="/recursos_amalia_ortiz/2018 FLASHCARDS.7z" target="_blank" download>2018 FLASHCARDS</Link>
                         </Router>
                     </Grid>
+                    <br></br>
+                    <Grid container >
+                    Videos Spanglish Theatre:
+                    </Grid>
                     <Grid container >
                     
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0" md={6} xs={6} >•	THE CHILD EN </a> 
