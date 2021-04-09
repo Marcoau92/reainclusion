@@ -37,7 +37,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace2/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Inclusión de estudiantes de la comunidad LGBTQ+</Typography>
-                    <br></br>>
+                    <br></br>
                     <Grid >
                     <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                     En el siguiente video la profesora Ana Venegas te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes de la comunidad LGBTQ+. Este es un extracto de la entrevista. Puedes descargar  

@@ -46,7 +46,12 @@ const Resources = (props) => {
                 </Grid>
 
                 <Wspace/>
-                
+                <Grid md={6} lg={6}>
+                <p  class="pservices text-justify">
+                La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.
+                </p>
+                </Grid>
+                <br></br>
                 <Grid className={classes.root} container justify='center' alignItems='center' md={6} lg={6}>
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>

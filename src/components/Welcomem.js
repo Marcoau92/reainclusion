@@ -12,7 +12,7 @@ import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
 import google_forms from './img/google_forms.png';
-import banner_welcome from './img/banner_welcome.jpg';
+import afiche_welcome from './img/afiche_welcome.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
               <Grid>
                 <br></br>
                 <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
-                <img src={banner_welcome} width='100%' alt="banner"/>
+                <img src={afiche_welcome} width='100%' alt="banner"/>
                 </Grid>
                 
                 <Wspace2/>
