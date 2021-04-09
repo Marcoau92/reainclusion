@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace';
+import Wspace2 from './Wspace2';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
                 <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
                 </Grid>
-                <Wspace/>
+                <br></br>
                 <Grid md={6} lg={6} justify="flex-start">
                 <p  class="pservices text-justify">
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
@@ -44,7 +44,7 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
 
                     </p>
                 </Grid>
-                <Wspace/>
+                <Wspace2/>
                 <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
                     <Router>
                         <Link to="/repository/Assessing Visually Impaired Students in Inclusive Classrooms (Morales & Soto, 2014).pdf" target="_blank" download>•	 Assessing Visually Impaired Students in Inclusive Classrooms (Morales & Soto, 2014)</Link>

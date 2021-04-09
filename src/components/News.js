@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
             <br></br>
             <Grid md={6} lg={6}>
             <p class="pservices text-justify">
-            Aquí te presentaremos las más recientes entrevistas y noticias relevantes sobre actividades relacionadas con inclusión en el aula que te pueden servir para realizar tus clases
+            Aquí te presentaremos las más recientes entrevistas y noticias relevantes sobre actividades relacionadas con inclusión en el aula que te pueden servir para realizar tus clases.
       
       
             </p>

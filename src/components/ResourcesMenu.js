@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import recursos from './recursos'
-import Wspace from './Wspace';
+import Wspace2 from './Wspace2';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -45,7 +45,7 @@ const Resources = (props) => {
 
                 </Grid>
 
-                <Wspace/>
+                <br></br>
                 <Grid md={6} lg={6}>
                 <p  class="pservices text-justify">
                 La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.

@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
                 <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
                 </Grid>
-                <Wspace2/>
+                <br></br>
                 <Grid md={6} lg={6} justify="flex-start">
                 <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
