@@ -106,30 +106,30 @@ const Resources1 = (props) => {
                     </Grid>
                     <Grid container >
                     
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/c6x0ik4eub1f0kl/THE%20CHILD%20EN.MTS?dl=0" md={6} xs={6} >•	THE CHILD EN </a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1rEv53NURI4r8I2s63-_qxvsYVXhvYqLA" md={6} xs={6} >•	THE CHILD EN </a> 
                     </Grid>
                     <Grid container >
                      
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/o41k8d063utgsah/THE%20CHILD%20SP.MTS?dl=0" md={6} xs={6} >•	THE CHILD SP</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1BXnl7b_pzPaqapNhZTpTvNU02NABnRrz" md={6} xs={6} >•	THE CHILD SP</a> 
                     </Grid>
                     <Grid container >
                      
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/cavqyocktwlz0sf/DREAM%20EN.MTS?dl=0" md={6} xs={6} >•	DREAM EN</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=17wtviU0MgsF09XLDedzvGjO7psLCYhlb" md={6} xs={6} >•	DREAM EN</a> 
                     </Grid>
                     <Grid container >
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/d3lp4udzfaroitk/DREAM%20SP.MTS?dl=0" md={6} xs={6} >•	DREAM SP</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1KdsjCdgy3w91cRkpvZtu7VLfC4m_xKG_" md={6} xs={6} >•	DREAM SP</a> 
                     </Grid>
                     <Grid container >
                     <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/ak7aetwrvi04xqr/MESSAGE%20EN.MTS?dl=0" md={6} xs={6} >•	MESSAGE EN</a> 
                     </Grid>
                     <Grid container >
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0rjm9zmkimz0seq/MESSAGE%20SP.MTS?dl=0" md={6} xs={6} >•	MESSAGE SP</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1N_H9rFcoUbNBkoPS7GIFhwX-tasofTQs" md={6} xs={6} >•	MESSAGE SP</a> 
                     </Grid>
                     <Grid container >
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/0uyo9rdde7wnaih/VIRTUAL%20EN.MTS?dl=0" md={6} xs={6} >•	VIRTUAL EN</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1KBd3qrDvhzumUNcJBx2gE4-pz11naN-5" md={6} xs={6} >•	VIRTUAL EN</a> 
                     </Grid>
                     <Grid container >
-                    <a rel="pagina principal" href="https://www.dl.dropboxusercontent.com/s/7tuh7bgxxr8d5gl/VIRTUAL%20SP.MTS?dl=0" md={6} xs={6} >•	VIRTUAL SP</a> 
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1a_xcgvw3DBpxRHSnfiVXbHpC7LJxhT22" md={6} xs={6} >•	VIRTUAL SP</a> 
                     </Grid>
 
                 </Grid>

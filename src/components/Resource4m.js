@@ -34,7 +34,7 @@ const Resources1 = (props) => {
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
-                <Grid md={6} lg={6}>
+                <Grid >
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace2/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
@@ -57,7 +57,7 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid  md={6} lg={6}>
+                <Grid >
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Yasna Yilorm Barrientos</Typography>
                     <Grid >
                     <br></br>

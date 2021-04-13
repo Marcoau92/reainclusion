@@ -63,7 +63,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} md={6} lg={6}>
                 <br></br>
               </Grid>
-              <Grid md={6} lg={6}>
+              <Grid >
               <p  class="pservices text-justify" style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
              Puedes mantenerte en contacto con nosotros a través de las siguientes plataformas: 
                     </p>
@@ -79,11 +79,11 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
 
               </Grid>
               <Wspace2/>
-              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} md={6} lg={6}>
+              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} >
                 <br></br>
               </Grid>
                 <Grid >
-                <Grid justifyContent='center' md={6} lg={6} style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
+                <Grid justifyContent='center' style={{marginLeft: '0.8rem',marginRight: '0.8rem'}}>
                 <p  class="pservices text-justify">
                 Si te gustaría aportar a que esta comunidad de aprendizaje siga creciendo, escríbenos <Link to='/Contact' >aquí</Link> y nos pondremos en contacto contigo para que puedas colaborar con tu experiencia o recursos
                     </p>
@@ -93,10 +93,10 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
 
               </Grid>
               <Wspace2/>
-              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} md={6} lg={6}>
+              <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} >
                 <br></br>
               </Grid>
-              <Grid md={6} lg={6} justifyContent='center'>
+              <Grid  justifyContent='center'>
                 <Grid  md={12}>
                 <img src={importante} alt="encabezado" width='80px' xs={12} sm={12} md={12}/>
                 </Grid>

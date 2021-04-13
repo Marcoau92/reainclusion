@@ -30,11 +30,11 @@ const Resources1 = (props) => {
         return(
             
             <div >
-                <Grid container justifyContent='flex-start'  md={6} lg={6}>
+                <Grid container justifyContent='flex-start' md={6} lg={6} >
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
                 
-                <Grid md={6} lg={6}>
+                <Grid >
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace2/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes Sordos</Typography>
@@ -58,7 +58,7 @@ Este es un extracto de la entrevista. Puedes descargar
                 </Grid>
                 
                 <Wspace2/>
-                <Grid  md={6} lg={6}>
+                <Grid  >
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesor Felipe Martínez Corona</Typography>
                     <Grid >
                     <br></br>

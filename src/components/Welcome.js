@@ -45,9 +45,9 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div className="position_component_team" >
-              <br></br>
-              <br></br>
-              <br></br>
+              <Wspace2/>
+              <Wspace2/>
+              <Wspace2/>
               <Wspace2/>
               <Wspace2/>
               <Wspace2/>
