@@ -2,12 +2,10 @@
     position: absolute;
     top:5.8%;
     left:18.5%;
-    background-attachment: fixed;
 
 }
 
 .position_banner{
-    background-attachment: fixed;
     position: absolute;
     top:5.8%;
     left:17.5%;
@@ -15,26 +13,29 @@
 }
 
 .position_component{
-    background-attachment: fixed;
     position: absolute;
     top:31%;
     left: 38%;
 
 }
-
-.position_component_team{
-    background-attachment: fixed;
+.position_test{
+    
     position: absolute;
-    top:30%;
-    left: 34%;
+    top:5.8% + 145px;
+    left:17.5%;
+
+}
+.position_footer{
+    
+    position: absolute;
+    left:0%;
 
 }
 
-.position_component_project{
-    background-attachment: fixed;
+.position_component_team{
     position: absolute;
-    top:31%;
-    left: 18%;
+    top:30%;
+    left: 34%;
 
 }
 

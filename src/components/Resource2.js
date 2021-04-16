@@ -116,8 +116,10 @@ const Resources1 = (props) => {
                     <a rel="pagina principal" href="https://www.youtube.com/watch?v=WfBuMoSJsTo " md={6} xs={6} >https://www.youtube.com/watch?v=WfBuMoSJsTo </a>
                     </Grid>
                 </Grid>
+                <Grid md={6} lg={6}>
+                    <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/2" data-width="" data-numposts="5"></div>
+                </Grid>
                 
-
             </div>
 
         );

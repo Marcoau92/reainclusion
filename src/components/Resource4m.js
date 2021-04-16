@@ -101,7 +101,7 @@ const Resources1 = (props) => {
                     </Grid>
 
                 </Grid>
-                
+                <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/4" data-width="" data-numposts="5"></div>
 
             </div>
 

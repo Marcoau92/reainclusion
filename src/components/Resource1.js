@@ -140,6 +140,10 @@ Este es un extracto de la entrevista. Puedes descargar
                     </Grid>
 
                 </Grid>
+                <Grid md={6} lg={6}>
+                    <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/" data-width="100%" data-numposts="5"></div>
+                </Grid>
+                
                 
 
             </div>

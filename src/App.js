@@ -7,6 +7,7 @@ import Resources from './pages/Resources/index';
 import Repository from './pages/Repository/index';
 import Contact from './pages/Contact/index';
 import News from './pages/News/index';
+import Test from './pages/Test/index';
 import Welcomem from './pages/Mobile/Welcome/index';
 import Projectm from './pages/Mobile/Project/index';
 import Teamm from './pages/Mobile/Team/index';
@@ -125,6 +126,9 @@ export default function App() {
             </Route>
             <Route exact path="/news">
               <News />
+            </Route>
+            <Route exact path="/test">
+              <Test />
             </Route>
           </Switch>
     

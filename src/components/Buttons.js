@@ -30,10 +30,6 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: theme.spacing(1),
       paddingBottom: theme.spacing(2),
     },
-    title: {
-      flexGrow: 1,
-      alignSelf: 'flex-end',
-    },
     separator:{
       color:'white'
     }
