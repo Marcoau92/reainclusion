@@ -80,6 +80,10 @@ const Resources1 = (props) => {
                         <Router>
                             <Link to="/recursos_ana_venegas/Transcripción Entrevista Completa Profesora Ana Venegas.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Ana Venegas</Link>
                         </Router>
+                        
+                    </Grid>
+                    <Grid container>
+                    <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1WvmSL06mbQplRoJ5GonxE6nKRnrrcGtU" md={6} xs={6} >•	Recursos para promover inclusión en el aula Prof. Ana Venegas </a>
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Recursos Sugeridos</Typography>
@@ -115,9 +119,53 @@ const Resources1 = (props) => {
                     •	Documental ‘Niños rosados y niñas azules’:  
                     <a rel="pagina principal" href="https://www.youtube.com/watch?v=WfBuMoSJsTo " md={6} xs={6} >https://www.youtube.com/watch?v=WfBuMoSJsTo </a>
                     </Grid>
+                    <br></br>
+                    <p  class="pservices text-justify">
+                    La profesora Ana Venegas recomienda los siguientes sitios web para promover inclusión en el aula. Para más información sobre cómo usarlos, revise el video que la profesora Venegas preparó y que se encuentra disponible en ‘Archivos descargables’.
+                    </p>
+                    <Grid container >
+                    •	Gallaudet University :  
+                    <a rel="pagina principal" href="https://www.gallaudet.edu/ " md={6} xs={6} >https://www.gallaudet.edu/ </a>
+                    </Grid>
+                    <Grid container >
+                    •	Lengua de señas americana :  
+                    <a rel="pagina principal" href="https://www.gallaudet.edu/asl-connect/asl-for-free/  " md={6} xs={6} >https://www.gallaudet.edu/asl-connect/asl-for-free/  </a>
+                    </Grid>
+                    <Grid container >
+                    •	Material didáctico :  
+                    <a rel="pagina principal" href="https://busyteacher.org/  " md={6} xs={6} >https://busyteacher.org/  </a>
+                    </Grid>
+                    <Grid container >
+                    •	Material didáctico :  
+                    <a rel="pagina principal" href="https://en.islcollective.com/  " md={6} xs={6} >https://en.islcollective.com/  </a>
+                    </Grid>
+                    <Grid container >
+                    •	UNESCO:  
+                    <a rel="pagina principal" href="https://en.unesco.org/  " md={6} xs={6} >https://en.unesco.org/ </a>
+                    </Grid>
+                    <Grid container >
+                    •	Inclusive Filmmaking :  
+                    <a rel="pagina principal" href="https://www.busstopfilms.com.au/  " md={6} xs={6} >https://www.busstopfilms.com.au/   </a>
+                    </Grid>
+                    <Grid container >
+                    •	Sport Information Resource Center :  
+                    <a rel="pagina principal" href="https://sirc.ca/" md={6} xs={6} >https://sirc.ca/ </a>
+                    </Grid>
+                    <Grid container >
+                    •	Canva:  
+                    <a rel="pagina principal" href="https://www.canva.com/  " md={6} xs={6} >https://www.canva.com/  </a>
+                    </Grid>
+                    <Grid container >
+                    •	Audio books :  
+                    <a rel="pagina principal" href="https://vawnet.org/sc/who-are-lgbtq-communities " md={6} xs={6} >https://vawnet.org/sc/who-are-lgbtq-communities </a>
+                    </Grid>
+                    <Grid container >
+                    •	Audio books :  
+                    <a rel="pagina principal" href="https://play.google.com/store/apps/details?id=sanity.freeaudiobooks&hl=en&gl=US " md={6} xs={6} >https://play.google.com/store/apps/details?id=sanity.freeaudiobooks&hl=en&gl=US </a>
+                    </Grid>
                 </Grid>
                 <Grid md={6} lg={6}>
-                    <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/2" data-width="" data-numposts="5"></div>
+                    <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/2" data-width="100%" data-numposts="5"></div>
                 </Grid>
                 
             </div>

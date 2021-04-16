@@ -105,7 +105,7 @@ const Resources1 = (props) => {
 
                 </Grid>
                 <Grid md={6} lg={6}>
-                <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/4" data-width="" data-numposts="5"></div>
+                <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/4" data-width="100%" data-numposts="5"></div>
                 </Grid>
                 
             </div>

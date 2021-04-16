@@ -136,7 +136,7 @@ const Resources1 = (props) => {
                     <a rel="pagina principal" href="https://drive.google.com/uc?export=download&id=1a_xcgvw3DBpxRHSnfiVXbHpC7LJxhT22" md={6} xs={6} >•	VIRTUAL SP</a> 
                     </Grid>
                 </Grid>
-                <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/3" data-width="" data-numposts="5"></div>
+                <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/3" data-width="100%" data-numposts="5"></div>
 
             </div>
 
