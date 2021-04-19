@@ -13,9 +13,9 @@ import correo from '../img/correo_logo.png';
 import importante from '../img/importante.png';
 import google_forms from '../img/google_forms.png';
 import afiche_welcome from '../img/afiche_welcome.jpg';
-import vidca from './img/vidca.jpg';
-import fid from './img/fid.jpg';
-import universidad_logo from './img/universidad_logo.png';
+import vidca from '../img/vidca.jpg';
+import fid from '../img/fid.jpg';
+import universidad_logo from '../img/universidad_logo.png';
 
 
 const useStyles = makeStyles((theme) => ({
