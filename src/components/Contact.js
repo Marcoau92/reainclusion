@@ -31,7 +31,7 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_yr537xn', 'template_t619zpq', e.target, 'user_WrOsiT2QPUOvDxOJjmuVx')
+    emailjs.sendForm('service_zxfwrxf', 'template_t619zpq', e.target, 'user_WrOsiT2QPUOvDxOJjmuVx')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
