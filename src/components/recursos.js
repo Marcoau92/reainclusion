@@ -36,8 +36,9 @@ const recursos = [
 },
     {
         picture: dis_vis,
-        theme: 'PRONTO Inclusión de estudiantes con discapacidad visual',
+        theme: 'Inclusión de estudiantes con discapacidad visual',
         name: 'Priscila Ancheo Navarrete',
+        url: '/resources/5'
 
     },
     {

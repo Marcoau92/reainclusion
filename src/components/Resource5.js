@@ -52,7 +52,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=IrcP0B4ITAU' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=VVmH6cHjJ6g' />
                     </Grid>
 
                 </Grid>

@@ -126,6 +126,15 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                     </p>
                   </Grid>
                   </a>
+                  <Wspace2/>
+                <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} >
+                <br></br>
+                </Grid> 
+                <Grid>
+                <img src={vidca} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                <img src={fid} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                <img src={universidad_logo} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                  </Grid>
               
             </div>
 

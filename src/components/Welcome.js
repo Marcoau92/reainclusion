@@ -12,6 +12,9 @@ import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
 import google_forms from './img/google_forms.png';
+import vidca from './img/vidca.jpg';
+import fid from './img/fid.jpg';
+import universidad_logo from './img/universidad_logo.png';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -132,11 +135,15 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                     </p>
                   </Grid>
                 </a>
-               
-              
-
-              
-              
+                <Wspace2/>
+                <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} md={6} lg={6}>
+                <br></br>
+                </Grid> 
+                <Grid xs={6} sm={6} md={6} lg={6}>
+                <img src={vidca} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                <img src={fid} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                <img src={universidad_logo} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                  </Grid>    
             </div>
 
         );
