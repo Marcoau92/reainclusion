@@ -1,6 +1,6 @@
 import React from 'react'
 import Buscador from '../../../components/Buscador';
-import News from '../../../components/Newsm';
+import News from '../../../components/mobile/Newsm';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';

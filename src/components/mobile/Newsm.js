@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import news1 from './img/news1.png';
+import news1 from '../img/news1.png';
 
 
 const useStyles = makeStyles((theme) => ({

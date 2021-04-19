@@ -1,6 +1,6 @@
 import React from 'react'
 import Buscador from '../../../components/Buscador';
-import Resource1 from '../../../components/Resource6m';
+import Resource1 from '../../../components//mobile/Resource6m';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';

@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from './Wspace2'
+import Wspace2 from '../Wspace2'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -52,7 +52,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=gbjXzE9AwMU&feature=youtu.be' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=MAA1RXF6Rv4' />
                     </Grid>
 
                 </Grid>

@@ -6,8 +6,8 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace'
-import Wspace2 from './Wspace2'
+import Wspace from '../Wspace'
+import Wspace2 from '../Wspace2'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -51,7 +51,7 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     </Grid>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=MIsnVwrDB6Y' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=4HjGWHgdAqA' />
                     </Grid>
 
                 </Grid>

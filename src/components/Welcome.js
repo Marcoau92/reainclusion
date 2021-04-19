@@ -63,7 +63,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               </Grid> 
               <Wspace2/>
               <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
-                  <ReactPlayer url='https://www.youtube.com/watch?v=YT_xTZjZQmE&feature=youtu.be' />
+                  <ReactPlayer url='https://www.youtube.com/watch?v=-C7tGMzxefU' />
                       
               </Grid>
               <Wspace2/>

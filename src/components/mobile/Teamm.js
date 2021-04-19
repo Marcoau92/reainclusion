@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {Grid, Paper, Typography, Box} from '@material-ui/core';
-import team from './members'
+import team from '../members'
 
 const useStyles = makeStyles((theme) => ({
   root: {

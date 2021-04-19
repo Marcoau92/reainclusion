@@ -6,8 +6,8 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace'
-import Wspace2 from './Wspace2'
+import Wspace from '../Wspace'
+import Wspace2 from '../Wspace2'
 
 const useStyles = makeStyles((theme) => ({
     root: {

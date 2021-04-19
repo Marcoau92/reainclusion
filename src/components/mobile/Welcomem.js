@@ -5,14 +5,14 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from './Wspace2'
+import Wspace2 from '../Wspace2'
 import { Link } from "react-router-dom";
-import youtube from './img/youtube_logo.png';
-import instagram from './img/instagram_logo.png';
-import correo from './img/correo_logo.png';
-import importante from './img/importante.png';
-import google_forms from './img/google_forms.png';
-import afiche_welcome from './img/afiche_welcome.jpg';
+import youtube from '../img/youtube_logo.png';
+import instagram from '../img/instagram_logo.png';
+import correo from '../img/correo_logo.png';
+import importante from '../img/importante.png';
+import google_forms from '../img/google_forms.png';
+import afiche_welcome from '../img/afiche_welcome.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -56,7 +56,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               </Grid> 
               <Wspace2/>
               <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
-                  <ReactPlayer url='https://www.youtube.com/watch?v=YT_xTZjZQmE&feature=youtu.be' />
+                  <ReactPlayer url='https://www.youtube.com/watch?v=-C7tGMzxefU' />
                       
               </Grid>
               <Wspace2/>

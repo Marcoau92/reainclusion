@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from './Wspace2';
+import Wspace2 from '../Wspace2';
 
 
 const useStyles = makeStyles((theme) => ({
