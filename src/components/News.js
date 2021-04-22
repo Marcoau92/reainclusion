@@ -40,8 +40,7 @@ const useStyles = makeStyles((theme) => ({
   const News = (props) => {
     const classes = useStyles();
         return(
-            <div id="contacto" justify="center" style={{width:'884px'}} >
-            <br></br>
+            <div className='test_position_component' id="contacto" justify="center" style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}} >
             <Grid >
             <Typography className={classes.title} align='center' variant='h3' >Noticias</Typography>
       

@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   const Project = (props) => {
     const classes = useStyles();
         return(
-            <div  style={{width:'884px'}} >
+            <div className='test_position_component' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
               <Grid item container>
                 <br></br>
                 <Grid item container style={{ justifyContent: "center"} } >

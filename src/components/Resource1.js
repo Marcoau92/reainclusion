@@ -30,7 +30,7 @@ const Resources1 = (props) => {
 
         return(
             
-            <div style={{width:'884px'}}>
+            <div className='test_position_component' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
                 <div id="fb-root"></div>
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="aWAwL4C0"></script>
                 <Grid container justifyContent='flex-start'  >

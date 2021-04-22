@@ -43,11 +43,10 @@ export default function ContactUs() {
 
   const classes = useStyles();
   return (
-    <div className="position_component_team" id="contacto" justify="center" style={{width:'884px'}}>
-      <br></br>
+    <div className='test_position_component' id="contacto" justify="center" style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
       <Grid >
       <Typography className={classes.title} align='center' variant='h3' >Contacto</Typography>
-
+      <br></br>
       </Grid>
       <Grid >
       <p class="pservices text-justify">

@@ -12,8 +12,8 @@ import instagram from './img/instagram_logo.png';
 import correo from './img/correo_logo.png';
 import importante from './img/importante.png';
 import google_forms from './img/google_forms.png';
-import vidca from './img/vidca.jpg';
-import fid from './img/fid.jpg';
+import vidca from './img/vidca.png';
+import fid from './img/fid.png';
 import universidad_logo from './img/universidad_logo.png';
 import logo_rea from './img/logo_rea.png';
 
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   const Welcome = (props) => {
     const classes = useStyles();
         return(
-            <div style={{width:'884px'}} >
+            <div className='test_position_welcome' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}} >
               <Grid>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
                 <Grid item container style={{ justifyContent: "flex-end"} }>
@@ -143,10 +143,11 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                 <Grid className={classes.banners} style={{background:'#00b3c5', borderRadius:'10px'}} >
                 <br></br>
                 </Grid> 
+                <br></br>
                 <Grid item container style={{ justifyContent: "center"} }>
-                <img src={vidca} alt="encabezado" width='250px' xs={12} sm={12} md={12}/>
-                <img src={fid} alt="encabezado" width='250px' xs={12} sm={12} md={12}/>
-                <img src={universidad_logo} alt="encabezado" width='250px' height='200px' xs={12} sm={12} md={12}/>
+                <img src={vidca} alt="encabezado" width='150px' xs={12} sm={12} md={12}/>
+                <img src={fid} alt="encabezado" width='150px' xs={12} sm={12} md={12}/>
+                <img src={universidad_logo} alt="encabezado" width='150px' height='100 px' xs={12} sm={12} md={12}/>
                   </Grid> 
                   <Wspace2/>   
             </div>

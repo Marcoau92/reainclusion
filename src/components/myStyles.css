@@ -10,7 +10,18 @@
     left: 15px;
 
 }
+.test_position_component{
+    position: relative;
+    top: -180px;
+    left: 15px;
 
+}
+.test_position_welcome{
+    position: relative;
+    top: -280px;
+    left: 15px;
+
+}
 
 .link {
     color: #FFF;
