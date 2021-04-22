@@ -26,8 +26,11 @@ class App extends Component {
 
           </Grid>
           <Grid item container md={6} lg={6}>
-          <Testbar3 xs={12} sm={12} md={12} /> 
-          <Welcome xs={12} sm={12} md={12}/> 
+          <Testbar3 /> 
+          <Welcome /> 
+          </Grid>
+          <Grid item container md={3} lg={3}>
+
           </Grid>
 
           <Footer/>      

@@ -51,9 +51,7 @@ const useStyles = makeStyles((theme) => ({
             <div className='test_position_welcome' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}} >
               <Grid>
                 <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
-                <Grid item container style={{ justifyContent: "flex-end"} }>
-                <img src={logo_rea} alt="encabezado" width='150px' />
-                </Grid>
+                
                 
                 <Wspace2/>
                 <p  class="pservices text-justify">
@@ -148,8 +146,12 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                 <img src={vidca} alt="encabezado" width='150px' xs={12} sm={12} md={12}/>
                 <img src={fid} alt="encabezado" width='150px' xs={12} sm={12} md={12}/>
                 <img src={universidad_logo} alt="encabezado" width='150px' height='100 px' xs={12} sm={12} md={12}/>
-                  </Grid> 
-                  <Wspace2/>   
+                  </Grid>
+                  <br></br>
+                  <br></br>
+                  <Grid item container style={{ justifyContent: "center"} }>
+                <img src={logo_rea} alt="encabezado" width='150px' />
+                </Grid>    
             </div>
 
         );
