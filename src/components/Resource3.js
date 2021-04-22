@@ -30,11 +30,11 @@ const Resources1 = (props) => {
 
         return(
             
-            <div className='test_position_component' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
-                <Grid container justifyContent='flex-start'  >
+            <div className="position_component_team">
+                <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
-                <Grid >
+                <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Técnicas teatrales para estudiantes de inglés</Typography>
@@ -57,7 +57,7 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid  >
+                <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Amalia Ortiz de Zárate Fernández</Typography>
                     <Grid >
                     <br></br>
@@ -66,7 +66,7 @@ const Resources1 = (props) => {
                     </p>
                     </Grid>
                     
-                    <p  class="pservices text-justify">
+                    <p md={4} lg={4} class="pservices text-justify">
                     Ha realizado estudios superiores de perfeccionamiento y entrenamiento en Teatro y Literatura (1999 - 2003) e Interpretación Actoral y Dramaturgia (2000 - 2003). Ha dirigido diversos proyectos relacionados con el uso de técnicas dramáticas en la enseñanza del inglés como lengua extranjera, entre los que destacan el Proyecto “Spanglish Theatre en tu Colegio”, el cual se ha podido realizar en cuatro ocasiones a través del Concurso Anual de Proyectos Dirección de Extensión UACh. 
                     </p>
                      
@@ -133,10 +133,10 @@ const Resources1 = (props) => {
                     </Grid>
 
                 </Grid>
-                <Grid >
+                <Grid md={6} lg={6}>
                 <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/3" data-width="100%" data-numposts="5"></div>
                 </Grid>
-                <Wspace2/>  
+                
             </div>
 
         );

@@ -30,11 +30,11 @@ const Resources1 = (props) => {
 
         return(
             
-            <div className='test_position_component' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
-                <Grid container justifyContent='flex-start'  >
+            <div className="position_component_team">
+                <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
-                <Grid >
+                <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Clases de inglés para estudiantes con discapacidad visual</Typography>
@@ -58,10 +58,10 @@ Este es un extracto de la entrevista. Puedes descargar
                 </Grid>
                 
                 <Wspace/>
-                <Grid container item >
+                <Grid container item md={6} lg={6}>
 
                 </Grid>
-                <Grid  >
+                <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Priscila Ancheo</Typography>
                     <Grid >
                     <Wspace2/>
@@ -78,7 +78,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container >
+                    <Grid container style={{ justifyContent: "center"}}>
                         <Router>
                             <Link to="/recursos_priscila_ancheo/Transcripción Entrevista Completa Profesora Priscila Ancheo.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Priscila Ancheo</Link>
                         </Router>
@@ -141,7 +141,6 @@ Este es un extracto de la entrevista. Puedes descargar
                     
 
                 </Grid>
-                <Wspace2/>  
                 
 
             </div>

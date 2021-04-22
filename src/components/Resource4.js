@@ -30,11 +30,11 @@ const Resources1 = (props) => {
 
         return(
             
-            <div className='test_position_component' style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
-                <Grid container justifyContent='flex-start'  >
+            <div className="position_component_team">
+                <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
-                <Grid >
+                <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Enseñanza del inglés con compromiso social</Typography>
@@ -57,10 +57,10 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid container item >
+                <Grid container item md={6} lg={6}>
 
                 </Grid>
-                <Grid  >
+                <Grid  md={6} lg={6}>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Yasna Yilorm Barrientos</Typography>
                     <Grid >
                     <br></br>
@@ -69,7 +69,7 @@ const Resources1 = (props) => {
                     </p>
                     </Grid>
                     
-                    <p  class="pservices text-justify">
+                    <p md={4} lg={4} class="pservices text-justify">
                     La Dra. Yilorm es miembro del grupo RICELT y sus líneas de investigación se enfocan en el desarrollo de estrategias innovadoras, divertidas y multisensoriales que susciten un ambiente positivo en el aula de inglés como lengua extranjera, promuevan un aprendizaje exitoso y potencien el desarrollo de la personalidad de los estudiantes. Su investigación se basa principalmente en escuelas públicas con niños y niñas en contextos sociales vulnerables y con profesores de inglés que lidian con incidentes críticos en sus contextos educativos. Ha escrito diversos artículos sobre la enseñanza del inglés en Chile y es autora del libro ‘Let’s go for English in 100 Fun Ways’, publicado por el Ministerio de Educación Superior en Cuba (2015). 
                     </p>
                      
@@ -104,10 +104,10 @@ const Resources1 = (props) => {
                     </Grid>
 
                 </Grid>
-                <Grid >
+                <Grid md={6} lg={6}>
                 <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/4" data-width="100%" data-numposts="5"></div>
                 </Grid>
-                <Wspace2/>  
+                
             </div>
 
         );

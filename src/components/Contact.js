@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import emailjs from 'emailjs-com';
-import Wspace2 from './Wspace2'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -43,12 +42,13 @@ export default function ContactUs() {
 
   const classes = useStyles();
   return (
-    <div className='test_position_component' id="contacto" justify="center" style={{width:'884px',marginLeft: '10.8rem',marginRight: '10.8rem'}}>
-      <Grid >
-      <Typography className={classes.title} align='center' variant='h3' >Contacto</Typography>
+    <div className="position_component_team" id="contacto" justify="center" >
       <br></br>
+      <Grid md={6} lg={6}>
+      <Typography className={classes.title} align='center' variant='h3' >Contacto</Typography>
+
       </Grid>
-      <Grid >
+      <Grid md={6} lg={6}>
       <p class="pservices text-justify">
       ¡Muchas gracias por visitarnos!
       Si tienes alguna duda, sugerencia o quieres contactarte con alguno de nuestros colaboradores, déjanos un mensaje y te responderemos prontamente.
@@ -58,51 +58,51 @@ export default function ContactUs() {
 
       </Grid>
 
-      <Grid >
+      <Grid md={6} lg={6}>
       <form onSubmit={sendEmail}>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           Nombre
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           <label>
               <input type="center" name="name" />
             </label>
 
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
             Apellido:
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           <label>
               <input type="text" name="lastname" />
           </label>
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
             e-mail:
 
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           <label>
             <input type="text" name="email" />
           </label> 
 
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
             mensaje:
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           <label>
-            <input type="text" name="message" style={{width: "500px",height: "300px"}}/>
+            <input type="text" name="message" />
           </label>
         </Grid>
-        <Grid justify='flex-start' md={12}>
+        <Grid justify='center' md={12}>
           <input type="submit" className="btn btn-info" value="Enviar"/>
         </Grid>    
         
         
       </form> 
       </Grid>    
-      <Wspace2/>  
+      
        
     </div>
   );

@@ -1,25 +1,44 @@
-.test_position{
-    position: relative;
-    top: -145px;
-    left: 15px;
+.posicion{
+    position: absolute;
+    top:5.8%;
+    left:18.5%;
 
 }
-.test_position2{
-    position: relative;
-    top: -468px;
-    left: 15px;
+
+.position_banner{
+    position: absolute;
+    top:5.8%;
+    left:17.5%;
 
 }
-.test_position_component{
-    position: relative;
-    top: -180px;
+
+.position_component{
+    position: absolute;
+    top:31%;
+    left: 38%;
 
 }
-.test_position_welcome{
-    position: relative;
-    top: -280px;
+.position_test{
+    
+    position: absolute;
+    top:5.8% + 145px;
+    left:17.5%;
 
 }
+.position_footer{
+    
+    position: absolute;
+    left:0%;
+
+}
+
+.position_component_team{
+    position: absolute;
+    top:30%;
+    left: 34%;
+
+}
+
 
 .link {
     color: #FFF;

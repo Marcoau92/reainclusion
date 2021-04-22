@@ -1,13 +1,14 @@
 import React from 'react'
-import Testbar3 from '../../components/Testbar3';
-import Welcome from '../../components/Welcome';
 import Buscador from '../../components/Buscador';
+import Welcome from '../../components/Welcome';
+import Buttons from '../../components/Buttonsw';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';
 import { Component } from 'react';
 import '../../components/myStyles.css'
+import Wspace from '../../components/Wspace';
 import Footer from '../../components/Footer';
 
 
@@ -18,24 +19,50 @@ class App extends Component {
   
     render(){
         return (
-          <Grid item container>
-            <Grid item container xs={12} sm={12} md={12} style={{background:grey[400]}}>
-                  <Buscador xs={12} sm={12} md={12}/> 
+            <Grid className="App" >
+                <Grid item style={{background:grey[400]}}>
+                  <Buscador xs={12} sm={12} md={12}/>
                 </Grid>
-          <Grid item container md={3} lg={3}>
+                <Buttons/>
 
-          </Grid>
-          <Grid item container md={6} lg={6}>
-          <Testbar3 /> 
-          <Welcome /> 
-          </Grid>
-          <Grid item container md={3} lg={3}>
-
-          </Grid>
-
-          <Footer/>      
-        </Grid>
-
+                    <Grid xs={2} sm={2} md={2} lg={2}>
+    
+                    </Grid>
+                  
+                  <Wspace/>
+                  <Wspace/>
+                  <Welcome xs={10} sm={10} md={10} lg={10}/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  <Wspace/>
+                  
+                  <Footer/>
+                </Grid> 
               
                 
 
