@@ -92,7 +92,7 @@ export default function ContactUs() {
         </Grid>
         <Grid justify='flex-start' md={12}>
           <label>
-            <input type="text" name="message" style={{width: "884px",height: "300px"}}/>
+            <input type="text" name="message" style={{width: "500px",height: "300px"}}/>
           </label>
         </Grid>
         <Grid justify='flex-start' md={12}>
