@@ -9,48 +9,30 @@ import { Component } from 'react';
 import '../../components/myStyles.css'
 import Wspace from '../../components/Wspace';
 import Footer from '../../components/Footer';
-import Buttons from '../../components/Buttons';
+import Testbar from '../../components/Testbar';
 
 class App extends Component {
     render(){
         return (
         
       
-            <Grid className="App"  >
-                <Grid item style={{background:grey[400]}}>
+          <Grid item container>
+            <Grid item container xs={12} sm={12} md={12} style={{background:grey[400]}}>
                   <Buscador xs={12} sm={12} md={12}/> 
                 </Grid>
-                <Buttons/>
-                    
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Grid xs={4} sm={4} md={4} lg={4}>
-    
-                    </Grid>
-                  <Grid xs={8} sm={8} md={8} lg={8}>
-                  <Team />
-    
-                    </Grid>
-  
-                  
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-                  <Wspace/>
-              <Footer/>
-            </Grid>
+          <Grid item container md={3} lg={3}>
+
+          </Grid>
+          <Grid item container md={6} lg={6}>
+          <Testbar /> 
+          <Team/> 
+          </Grid>
+          <Grid item container md={3} lg={3}>
+
+          </Grid>
+
+          <Footer/>      
+        </Grid>
                 
         );
 

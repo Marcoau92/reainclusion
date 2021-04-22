@@ -30,13 +30,13 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div className="position_component_team">
+            <div style={{width:'884px'}}>
                 <br></br>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Grid  style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h3'>Repositorio</Typography>
                 </Grid>
                 <br></br>
-                <Grid md={6} lg={6} justify="flex-start">
+                <Grid  justify="flex-start">
                 <p  class="pservices text-justify">
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
 Gran parte de estos documentos corresponden a tesis de pregrado de profesores egresados de la carrera Pedagogía en Comunicación en Lengua Inglesa de la UACh.
@@ -45,7 +45,7 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                     </p>
                 </Grid>
                 <Wspace2/>
-                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                <Grid container style={{ justifyContent: "flex-start"}}  >
                     <Router>
                         <Link to="/repository/Assessing Visually Impaired Students in Inclusive Classrooms (Morales & Soto, 2014).pdf" target="_blank" download>•	 Assessing Visually Impaired Students in Inclusive Classrooms (Morales & Soto, 2014)</Link>
                     </Router>
@@ -89,6 +89,7 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                         <Link to="/repository/Visually impaired children-An approach to the English learning process ... (Barrientos & Morales, 2011).pdf" target="_blank" download>•	 Visually impaired children-An approach to the English learning process ... (Barrientos & Morales, 2011)</Link>
                     </Router>
                 </Grid>
+                <Wspace2/>  
 
             </div>
 

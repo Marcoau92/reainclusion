@@ -28,17 +28,14 @@ const useStyles = makeStyles((theme) => ({
 const Team = (props) => {
   const classes = useStyles();
   return (
-    <div className="position_component_team">
-      <br></br>
-        <Grid md={6} lg={6}>
+    <div style={{width:'884px'}}>
+        <Grid >
           <Typography className={classes.title} align='center' variant='h3'>Equipo</Typography>
         </Grid>
         
         <Wspace/>
-        <Grid item container md={6} lg={6}>
-
-        </Grid>
-        <Grid className={classes.root} container justify='center' alignItems='center' md={6} lg={6}>
+        
+        <Grid className={classes.root} container justify='center' alignItems='center' >
           {team.map(member => (
             <Grid item justify="center"  sm={6} md={6} lg={6}>
             <Paper className={classes.paper} elevation={0}>

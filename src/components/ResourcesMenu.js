@@ -38,21 +38,20 @@ const useStyles = makeStyles((theme) => ({
 const Resources = (props) => {  
     const classes = useStyles();
         return(
-            <div className="position_component_team">
-                <br></br>
-                <Grid md={6} lg={6}>
+            <div style={{width:'884px'}}>
+                <Grid >
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
                 </Grid>
 
                 <br></br>
-                <Grid md={6} lg={6}>
+                <Grid >
                 <p  class="pservices text-justify">
                 La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.
                 </p>
                 </Grid>
                 <br></br>
-                <Grid className={classes.root} container justify='center' alignItems='center' md={6} lg={6}>
+                <Grid className={classes.root} container justify='center' alignItems='center' >
                 {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
@@ -66,6 +65,7 @@ const Resources = (props) => {
                 </Grid>
                 ))}
                 </Grid>
+                <Wspace2/>  
 
 
                 

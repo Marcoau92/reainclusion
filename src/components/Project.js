@@ -32,14 +32,14 @@ const useStyles = makeStyles((theme) => ({
   const Project = (props) => {
     const classes = useStyles();
         return(
-            <Grid item container className="position_component_team">
-              <Grid xs={8} sm={8} md={8} lg={8}>
+            <div  style={{width:'884px'}} >
+              <Grid item container>
                 <br></br>
-                <Grid justify="flex-start" xs={12} sm={12} md={6} lg={6}>
+                <Grid item container style={{ justifyContent: "center"} } >
                   <Typography className={classes.title} align='center' variant='h3'>Proyecto</Typography>
                 </Grid>
                 <Wspace2/>             
-                <Grid justify="center" md={12} lg={6}>
+                <Grid justify="center" >
                   <Typography className={classes.memberName} align='center' position="center" variant='h1'>¿Cómo nació esta página web?</Typography>
                   <br></br>
                   <p class="pservices text-justify">
@@ -94,8 +94,9 @@ const useStyles = makeStyles((theme) => ({
 
                 
               </Grid>
+              <Wspace2/>  
 
-        </Grid>
+        </div>
         );        
 
 }

@@ -30,11 +30,11 @@ const Resources1 = (props) => {
 
         return(
             
-            <div className="position_component_team">
-                <Grid container justifyContent='flex-start'  md={6} lg={6}>
+            <div style={{width:'884px'}}>
+                <Grid container justifyContent='flex-start' >
                 <Link to='/Resources'>Atrás</Link>
                 </Grid>
-                <Grid md={6} lg={6}>
+                <Grid >
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Inclusión de estudiantes de la comunidad LGBTQ+</Typography>
@@ -57,10 +57,10 @@ const Resources1 = (props) => {
                 </Grid>
                 
                 <Wspace/>
-                <Grid container item md={6} lg={6}>
+                <Grid container item >
 
                 </Grid>
-                <Grid  md={6} lg={6}>
+                <Grid  >
                     <Typography className={classes.subtitle} align='center' variant='h1'>Profesora Ana Venegas</Typography>
                     <Grid >
                     <br></br>
@@ -69,7 +69,7 @@ const Resources1 = (props) => {
                     </p>
                     </Grid>
                     
-                    <p md={4} lg={4} class="pservices text-justify">
+                    <p  class="pservices text-justify">
                     Se ha desempeñado como tutora NEE en la Universidad Austral en dos ocasiones, donde trabajó adaptando metodologías basadas en los diferentes estilos de aprendizaje, orientadas a la adquisición del inglés como lengua extranjera en la Unidad de Apoyo al Aprendizaje para estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2012 – 2016). Estuvo encargada de guiar, revisar y editar la tesis de estudiantes con necesidades especiales en la Unidad de Apoyo al Aprendizaje de Estudiantes de Pregrado de la Escuela de Pedagogía en Comunicación en Lengua Inglesa (2016 – 2017).
                     </p>
                      
@@ -164,9 +164,10 @@ const Resources1 = (props) => {
                     <a rel="pagina principal" href="https://play.google.com/store/apps/details?id=sanity.freeaudiobooks&hl=en&gl=US " md={6} xs={6} >https://play.google.com/store/apps/details?id=sanity.freeaudiobooks&hl=en&gl=US </a>
                     </Grid>
                 </Grid>
-                <Grid md={6} lg={6}>
+                <Grid >
                     <div class="fb-comments" data-href="http://inclusiveclassroom.uach.cl/resources/2" data-width="100%" data-numposts="5"></div>
                 </Grid>
+                <Wspace2/>  
                 
             </div>
 
