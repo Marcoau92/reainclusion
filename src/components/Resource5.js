@@ -78,7 +78,7 @@ Este es un extracto de la entrevista. Puedes descargar
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Archivos descargables</Typography>
                     <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"}}>
+                    <Grid container >
                         <Router>
                             <Link to="/recursos_priscila_ancheo/Transcripción Entrevista Completa Profesora Priscila Ancheo.pdf" target="_blank" download>•	Transcripción Entrevista Completa Profesora Priscila Ancheo</Link>
                         </Router>

@@ -43,9 +43,9 @@ const recursos = [
     },
     {
         picture: est_tea,
-        theme: 'PRONTO Inclusión de estudiantes con TEA',
+        theme: 'Inclusión de estudiantes con TEA',
         name: 'Paola Castro Fuentes & Camila Ojeda Pastene',
-        
+        url: '/resources/6'
     },
     
 

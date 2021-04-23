@@ -15,6 +15,7 @@ import google_forms from './img/google_forms.png';
 import vidca from './img/vidca.jpg';
 import fid from './img/fid.jpg';
 import universidad_logo from './img/universidad_logo.png';
+import logo_rea from './img/logo_rea.png';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -143,7 +144,10 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                 <img src={vidca} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
                 <img src={fid} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
                 <img src={universidad_logo} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
-                  </Grid>    
+                  </Grid> 
+                  <Grid xs={6} sm={6} md={6} lg={6}>
+                <img src={logo_rea} alt="encabezado" width='200px' xs={12} sm={12} md={12}/>
+                  </Grid>   
             </div>
 
         );

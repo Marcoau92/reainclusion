@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router} from "react-router-dom";
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 
 
 
@@ -60,6 +63,21 @@ class Buscador extends Component{
           if (palabra2 === "compromiso social"){
             window.location.replace('/resources/4');
           }
+          if (palabra2 === "discapacidad visual"){
+            window.location.replace('/resources/5');
+          }
+          if (palabra2 === "priscila ancheo"){
+            window.location.replace('/resources/5');
+          }
+          if (palabra2 === "estudiantes con tea"){
+            window.location.replace('/resources/6');
+          }
+          if (palabra2 === "paola castro"){
+            window.location.replace('/resources/6');
+          }
+          if (palabra2 === "camila ojeda"){
+            window.location.replace('/resources/6');
+          }
         }
     }
 
@@ -67,7 +85,14 @@ class Buscador extends Component{
       return(
           <Router>
             <Grid container className="row-reverse" justify='flex-end'> 
-              <a rel="pagina principal" href="http://uach.cl" md={6} xs={6} >www.uach.cl</a>  
+            <Breadcrumbs className="separador" separator='|'>
+                      <Button style={{color:'white', height:'25px'}} className="menuButton" href="http://uach.cl">
+                      UACh
+                      </Button>
+                      <Button style={{color:'white', height:'25px'}} className="menuButton" href="http://humanidades.uach.cl/">
+                      Facultad de Filosofía y Humanidades
+                      </Button>
+                    </Breadcrumbs> 
               <div className="form-group col-md-2" sd={2} xs={2}> 
                 <input type="text" id="myInput" onKeyUp={this.myFunction} placeholder="Buscar..."/>
               </div>

@@ -60,43 +60,43 @@ export default function ContactUs() {
 
       <Grid md={6} lg={6}>
       <form onSubmit={sendEmail}>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
           Nombre
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
           <label>
               <input type="center" name="name" />
             </label>
 
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
             Apellido:
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
           <label>
               <input type="text" name="lastname" />
           </label>
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
             e-mail:
 
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
           <label>
             <input type="text" name="email" />
           </label> 
 
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
             mensaje:
         </Grid>
-        <Grid justify='center' md={12}>
+        <Grid item container md={12}>
           <label>
-            <input type="text" name="message" />
+            <input type="text" name="message" style={{ width:"500px"} } />
           </label>
         </Grid>
-        <Grid justify='center' md={12}>
-          <input type="submit" className="btn btn-info" value="Enviar"/>
+        <Grid item container md={12}>
+          <input type="submit" className="btn btn-info" value="Enviar" />
         </Grid>    
         
         
