@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import news1 from './img/news1.png';
+import banner_welcome from './img/banner_welcome.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -56,14 +57,15 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             <br></br>
             <Grid md={6} lg={6}>
-            <Typography className={classes.memberName} align='center' position="center" variant='h1' >Presentación del proyecto en Radio UACh</Typography>
+            <Typography className={classes.memberName} align='center' position="center" variant='h1' >Lanzamiento web Aula de Inglés Inclusiva</Typography>
       
             </Grid> 
             <br></br>
-            <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fradiouachvaldivia%2Fvideos%2F174674644390435%2F&show_text=false&width=560" width="560" height="314" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-            
-            </Grid>
+            <a rel="license" href="https://www.facebook.com/241106735925942/videos/796791650953439">
+                  <Grid className={classes.text} xs={6} sm={6} md={6} lg={6}>
+                  <img src={banner_welcome} alt="encabezado" style={{width:"540px"}} xs={6} sm={6} md={6} lg={6}/>
+                  </Grid>
+            </a>
             <br></br>
             <br></br>
             <Grid md={6} lg={6}>
@@ -76,7 +78,19 @@ const useStyles = makeStyles((theme) => ({
                   <img src={news1} alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
                   </Grid>
             </a>
-                   
+            <br></br>
+            <br></br>
+            <Grid md={6} lg={6}>
+            <Typography className={classes.memberName} align='center' position="center" variant='h1' >Presentación del proyecto en Radio UACh</Typography>
+      
+            </Grid> 
+            <br></br>
+            <Grid md={6} lg={6} container style={{ justifyContent: "center"} }>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fradiouachvaldivia%2Fvideos%2F174674644390435%2F&show_text=false&width=560" width="560" height="314" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            
+            </Grid>
+            
+             
             
              
           </div>
