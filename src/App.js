@@ -7,6 +7,9 @@ import Resources from './pages/Resources/index';
 import Repository from './pages/Repository/index';
 import Contact from './pages/Contact/index';
 import News from './pages/News/index';
+import Menu from './pages/Menu/index';
+import Food from './pages/Food/index';
+import Links from './pages/Links/index';
 import Test from './pages/Test/index';
 import Welcomem from './pages/Mobile/Welcome/index';
 import Projectm from './pages/Mobile/Project/index';
@@ -77,6 +80,7 @@ export default function App() {
             <Route exact path="/news">
               <Newsm />
             </Route>
+            
           </Switch>
     
       </Router>
@@ -129,6 +133,15 @@ export default function App() {
             </Route>
             <Route exact path="/test">
               <Test />
+            </Route>
+            <Route exact path="/menu">
+              <Menu />
+            </Route>
+            <Route exact path="/food">
+              <Food />
+            </Route>
+            <Route exact path="/links">
+              <Links />
             </Route>
           </Switch>
     
