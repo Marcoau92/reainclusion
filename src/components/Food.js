@@ -33,15 +33,18 @@ const Resources1 = (props) => {
             <div className="position_component_team">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Menu'>Atrás</Link>
-                </Grid>
-                
+                </Grid>                
                 <Grid md={6} lg={6}>
                     <Typography className={classes.title} align='center' variant='h3'>Food for Thought </Typography>
                     <Wspace/>
+                    <p class="pservices text-justify">
+                    Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 
+                    </p>
+                    <Wspace2/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Inclusión sí, ¿pero cómo? – Tatiana Cisternas </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=3asWghCCN3M&ab_channel=UniversidadAlbertoHurtado ' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=3asWghCCN3M&ab_channel=UniversidadAlbertoHurtado '/>
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Implicit bias  </Typography>

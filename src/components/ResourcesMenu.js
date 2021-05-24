@@ -40,6 +40,9 @@ const Resources = (props) => {
         return(
             <div className="position_component_team">
                 <br></br>
+                <Grid container justifyContent='flex-start'  md={6} lg={6}>
+                <Link to='/Menu'>Atrás</Link>
+                </Grid> 
                 <Grid md={6} lg={6}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
