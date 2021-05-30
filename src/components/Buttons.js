@@ -82,11 +82,11 @@ export default function Buttons(){
                                   color="white"
                                   variant="text" 
                                   size="small">
-                                    <li><Link to='/' className="link">Bienvenida</Link></li>
-                                    <li><Link to='/project' className="link">Proyecto</Link></li>
-                                    <li><Link to='/menu' className="link">Recursos</Link></li>
-                                    <li><Link to='/Repository' className="link">Repositorio</Link></li>
-                                    <li><Link to='/News' className="link">Noticias</Link></li>
+                                    <li><Link to='/' className="link" style={{color:"#424949"}}>Bienvenida</Link></li>
+                                    <li><Link to='/project' className="link" style={{color:"#424949"}}>Proyecto</Link></li>
+                                    <li><Link to='/menu' className="link" style={{color:"#82b70c",fontWeight: 'bold'}}>Recursos</Link></li>
+                                    <li><Link to='/Repository' className="link" style={{color:"#424949"}}>Repositorio</Link></li>
+                                    <li><Link to='/News' className="link" style={{color:"#424949"}}>Noticias</Link></li>
 
                                   </ButtonGroup>
                                     

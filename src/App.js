@@ -10,6 +10,8 @@ import News from './pages/News/index';
 import Menu from './pages/Menu/index';
 import Food from './pages/Food/index';
 import Links from './pages/Links/index';
+import Apoyo from './pages/Apoyo/index';
+import Lecturas from './pages/Lecturas/index';
 import Test from './pages/Test/index';
 import Welcomem from './pages/Mobile/Welcome/index';
 import Projectm from './pages/Mobile/Project/index';
@@ -142,6 +144,12 @@ export default function App() {
             </Route>
             <Route exact path="/links">
               <Links />
+            </Route>
+            <Route exact path="/supports">
+              <Apoyo />
+            </Route>
+            <Route exact path="/lectures">
+              <Lecturas />
             </Route>
           </Switch>
     

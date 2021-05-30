@@ -1,6 +1,6 @@
 import React from 'react'
 import Buscador from '../../components/Buscador';
-import Food from '../../components/Food';
+import Supports from '../../components/Supports';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {grey} from '@material-ui/core/colors';
@@ -29,7 +29,7 @@ class App extends Component {
                   <Wspace/>
                   <Wspace/>
                   <Grid md={6} lg={6}>
-                  <Food/>
+                  <Supports/>
   
                   </Grid>
                   

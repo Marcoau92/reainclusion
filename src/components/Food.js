@@ -59,6 +59,12 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=yn9VxUPlC5g&ab_channel=LifeVestInside ' />
                     </Grid>
                     <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>The difference between Diversity, Inclusion and Equity  </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=spBB68Wv7KM&ab_channel=bhasinconsultinginc ' />
+                    </Grid>
+                    <Wspace/>
                 </Grid>
 
                      
