@@ -35,7 +35,7 @@ const Resources1 = (props) => {
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>                
                 <Grid md={6} lg={6}>
-                    <Typography className={classes.title} align='center' variant='h3'>Food for Thought </Typography>
+                    <Typography className={classes.title} align='center' variant='h4'>Food for Thought </Typography>
                     <Wspace/>
                     <p class="pservices text-justify">
                     Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 
@@ -63,6 +63,18 @@ const Resources1 = (props) => {
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
                             <ReactPlayer url='https://www.youtube.com/watch?v=spBB68Wv7KM&ab_channel=bhasinconsultinginc ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Inclusive Pedagogy – Professor Lani Florian </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=LeeDwzZwTj8&list=WL&index=4&ab_channel=TheUniversityofEdinburgh  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Los centros de educación especial en la Educación Inclusiva   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=V3M_xf0v0zc&ab_channel=IgnacioCalder%C3%B3nAlmendros  ' />
                     </Grid>
                     <Wspace/>
                 </Grid>

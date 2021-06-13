@@ -38,17 +38,21 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
                 <br></br>
                 <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
-                <Typography className={classes.title} align='center' variant='h3'>Lecturas Sugeridas </Typography>
+                <Typography className={classes.title} align='center' variant='h4'>Lecturas Sugeridas </Typography>
                 </Grid>
                 <br></br>
                 <Wspace2/>
+                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                    
+                <Wspace2/>
                 <p>
-                    Aquí te presentamos algunas lecturas recomendables de diferentes fuentes que pueden resultar de tu interés
+                    Aquí te presentamos algunas lecturas recomendables de diferentes fuentes que pueden resultar de tu interés 
                 </p>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000098427 ">
                   <img src={book1}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
                 </a>
+                </Grid>
                 
 
             </div>

@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
                 <br></br>
                 <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
-                <Typography className={classes.title} align='center' variant='h3'>Enlaces de interés </Typography>
+                <Typography className={classes.title} align='center' variant='h4'>Enlaces de interés </Typography>
                 </Grid>
                 <br></br>
                 <Wspace2/>
