@@ -19,6 +19,11 @@ import Teamm from './pages/Mobile/Team/index';
 import Resourcesm from './pages/Mobile/Resources/index';
 import Repositorym from './pages/Mobile/Repository/index';
 import Contactm from './pages/Mobile/Contact/index';
+import Foodm from './pages/Mobile/Food/index';
+import Menum from './pages/Mobile/Menu/index';
+import Apoyom from './pages/Mobile/Apoyo/index';
+import Linksm from './pages/Mobile/Links/index';
+import Lecturasm from './pages/Mobile/Lecturas/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -82,7 +87,21 @@ export default function App() {
             <Route exact path="/news">
               <Newsm />
             </Route>
-            
+            <Route exact path="/menu">
+              <Menum />
+            </Route>
+            <Route exact path="/Food">
+              <Foodm />
+            </Route>
+            <Route exact path="/links">
+              <Linksm />
+            </Route>
+            <Route exact path="/supports">
+              <Apoyom />
+            </Route>
+            <Route exact path="/lectures">
+              <Lecturasm />
+            </Route>
           </Switch>
     
       </Router>
