@@ -104,7 +104,7 @@ export default function AppBarr(){
         </StyledMenuItem>
         </Link>
 
-        <Link to='/resources' className="link">
+        <Link to='/menu' className="link">
         <StyledMenuItem>
           <ListItemText primary="Recursos" />
         </StyledMenuItem>
