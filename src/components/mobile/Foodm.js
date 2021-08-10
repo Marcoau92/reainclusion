@@ -77,6 +77,54 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=V3M_xf0v0zc&ab_channel=IgnacioCalder%C3%B3nAlmendros  ' />
                     </Grid>
                     <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Through the eyes of a child    </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=fj60_kNQQP8&ab_channel=CermiArag%C3%B3n  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Cómo tratar a una persona con discapacidad   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=A8aoyCdFmGQ&ab_channel=WOKITOKI ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Cómo referirse a una persona con discapacidad    </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=Sz5EFArn-iU&ab_channel=WOKITOKI  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Restorative approaches to school conflict management   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=gGUOavfSyy8&ab_channel=MarylandCareyLaw  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Educación inclusiva – Gerardo Echeita    </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=lzr1zHAxYGE&ab_channel=Plenainclusi%C3%B3n ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>What happens to schools in conflict zones?   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=LGlchPuFutE&ab_channel=NowThisWorld ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>Thinking differently about difference   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                    <a rel="pagina principal" href="https://www.bbc.co.uk/sounds/play/b0b52cn5" md={6} xs={6} >https://www.bbc.co.uk/sounds/play/b0b52cn5 </a> 
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>“Lloran los niños” – Crecer en la Araucanía, Chile   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=gzzk-scVXz4&ab_channel=Se%C3%B1al3LaVictoria  ' />
+                    </Grid>
+                    <Wspace/>
                 </Grid>
 
                      

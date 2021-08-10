@@ -67,6 +67,64 @@ const useStyles = makeStyles((theme) => ({
                     
 
                 </Grid>
+                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Typography className={classes.title} align='center' variant='h4'>Otros Recursos</Typography>
+                </Grid>
+                <br></br>
+                <Wspace2/>
+                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                    <Grid container >
+                           
+                        <a rel="pagina principal" href="https://www.eenet.org.uk/resources/docs/Index%20English.pdf " md={6} xs={6} >7.	Index for Inclusion (2002 - English)  </a> 
+                    </Grid>
+                    <Grid container >
+                          
+                        <a rel="pagina principal" href="https://downgalicia.org/wp-content/uploads/2018/01/Guia-para-la-Educacion-Inclusiva.pdf " md={6} xs={6} >8.	Guía para la educación inclusive (2011 - Adaptación Index for Inclusion) </a> 
+                    </Grid>
+                    <Grid container >
+                             
+                        <a rel="pagina principal" href="https://www.unicef.org/media/66486/file/Child-Friendly-Schools-Manual.pdf " md={6} xs={6} >9.	Child-friendly schools – Manual </a> 
+                    </Grid>
+                    <Grid container >
+                           
+                        <a rel="pagina principal" href="https://www.unicef.org/media/58081/file/UNICEF-WHO-UNESCO-handbook-school-based-violence.pdf " md={6} xs={6} >10.	School-based violence prevention   </a> 
+                    </Grid>
+                    <Grid container >
+                        <a rel="pagina principal" href="https://unesdoc.unesco.org/ark:/48223/pf0000243279  " md={6} xs={6} >11.	Training tools for curriculum development: Reaching out to all learners  </a> 
+                    </Grid>
+                    <Grid container >
+                            
+                        <a rel="pagina principal" href="https://unesdoc.unesco.org/ark:/48223/pf0000137522 " md={6} xs={6} >12.	Embracing diversity: toolkit for creating inclusive, learning-friendly environments </a> 
+                    </Grid>
+                    <Grid container >
+                           
+                        <a rel="pagina principal" href="https://www.teachingenglish.org.uk/sites/teacheng/files/J105_10_inclusive_practices_web_0.pdf " md={6} xs={6} >13.	Using inclusive practices  </a> 
+                    </Grid>
+                    <Grid container >
+                          
+                        <a rel="pagina principal" href="http://www.facso.uchile.cl/documentos/orientaciones-estrategicas-para-la-formacion-de-monitores-en-mediacion-de-conflictos_63095_5_5937.pdf " md={6} xs={6} >14.	Orientaciones estratégicas para la formación de monitores en mediación de conflictos escolares  </a> 
+                    </Grid>
+                    <Grid container >
+                             
+                        <a rel="pagina principal" href="http://www.educatolerancia.com/wp-content/uploads/2016/12/apoyo5.pdf " md={6} xs={6} >15.	Interculturalidad desde el aula: Sugerencias para trabajar a partir de la diversidad </a> 
+                    </Grid>
+                    <Grid container >
+                           
+                        <a rel="pagina principal" href="http://cultureofempathy.com/References/Experts/Others/Files/Marieke-Kingma-Empathy-Training-Manual.pdf  " md={6} xs={6} >16.	Increasing empathy – Manual    </a> 
+                    </Grid>
+                    <Grid container >
+                            
+                        <a rel="pagina principal" href="https://www2.aefcm.gob.mx/petc/archivos-caja/Fichero-Convivir.pdf " md={6} xs={6} >17.	Aprender a convivir – Actividades sugeridas </a> 
+                    </Grid>
+                    <Grid container >
+                        <a rel="pagina principal" href="https://www.scout.org/sites/default/files/tutorial_files/empathy%20games.pdf " md={6} xs={6} >18.	Empathy games  </a> 
+                    </Grid>
+                    <Grid container >
+                            
+                        <a rel="pagina principal" href="http://sitios.dif.gob.mx/buentrato/wp-content/archivos/talleres/Manual_participantes2.pdf " md={6} xs={6} >19.	Desarrollo de habilidades de buen trato en la familia</a> 
+                    </Grid>
+
+                </Grid>
 
             </div>
 
