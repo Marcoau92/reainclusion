@@ -125,6 +125,42 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=gzzk-scVXz4&ab_channel=Se%C3%B1al3LaVictoria  ' />
                     </Grid>
                     <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>From special to inclusive education – Interview with Professor Mel Ainscow   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=oKz09ngdNcA&ab_channel=InterkantonaleHochschulef%C3%BCrHeilp%C3%A4dagogik   ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>The race – Are we equal?    </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=ZT1zCK7aX4k&ab_channel=AliHassan ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>This is equity   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=tcPGacPFt6E&ab_channel=CaliforniansDedicatedtoEducationFoundation  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'> La diversidad es la característica que hace al humano SER HUMANO  </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=25EmyAA9uPU&ab_channel=InteligenciasyDesarrollo  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'> Equality, Diversity & Inclusion  </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=C-uyB5I6WnQ&ab_channel=GwenGlynn  ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>  Competencies for teaching in multicultural classrooms   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=MwM7kYUGUzA&ab_channel=UniversityofNewBrunswick   ' />
+                    </Grid>
+                    <Wspace/>
                 </Grid>
 
                      

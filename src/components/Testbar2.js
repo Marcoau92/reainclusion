@@ -40,16 +40,16 @@ export default function Buttons(){
 
         const classes = useStyles();
         return(
-            <div>
+            <div className='position_test1_logo'>
                             
-              
+                  
 
-                <Grid item container xs={12} sm={12} md={12} lg={12} 
+                <Grid item container xs={7} sm={7} md={7} lg={7} 
                     justify="center"              
                     direction="row"
                     width="170px">
                   
-                  <div  style={{ backgroundColor: 'rgba(207,207,207, 0.8)'}}>
+                  <div style={{ backgroundColor: 'rgba(207,207,207, 0.8)',position:'static'}}>
                     <img src={logo} alt="logo"/>
                         <div style={{display: 'flex'}} >
                             <div className='navBar'>
