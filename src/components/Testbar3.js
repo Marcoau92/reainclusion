@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
             <div style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}} xs={12} sm={12} md={12} lg={12}>
                 <img src={encabezado} height='105px'/>
             </div>
-            <div className='position_test1_bar'  style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}} xs={12} sm={12} md={12} lg={12}>
+            <div   style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}} xs={12} sm={12} md={12} lg={12}>
               
                 <AppBar position="static" style={{background:grey[400],height:'40px',width:'884px'}}>
                     <Toolbar className={classes.menuButton}>
