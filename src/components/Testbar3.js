@@ -9,8 +9,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Testbar2 from './Testbar2'
-import banner_welcome from './img/banner_welcome.jpg';
 import logo from './img/encabezado.png';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Grid from '@material-ui/core/Grid';
@@ -66,16 +64,16 @@ const useStyles = makeStyles((theme) => ({
             </div>
             <div   style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}} xs={12} sm={12} md={12} lg={12}>
               
-                <AppBar position="static" style={{background:grey[400],height:'40px',width:'884px'}}>
+                <AppBar position="sticky" style={{background:grey[400],height:'40px',width:'884px'}}>
                     <Toolbar className={classes.menuButton}>
                       <Breadcrumbs className={classes.separator} separator='|'>
                         <Button style={{color:'white', height:'25px'}} className={classes.menuButton} href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
                         Encuesta
                         </Button>
-                        <Link to='/Team' className="link">
+                        <Link to='/testteam' className="link">
                           <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                           Equipo</Button></Link>
-                        <Link to='/Contact' className="link" >
+                        <Link to='/testcontact' className="link" >
                           <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                           Contacto</Button></Link>
                       </Breadcrumbs>
@@ -84,7 +82,44 @@ const useStyles = makeStyles((theme) => ({
                     </Toolbar>
                   </AppBar>                    
             </div>
-            <Testbar2/>
+            <div className='position_test1_logo' >
+                            
+                  
+
+                <Grid item container xs={8} sm={8} md={8} lg={8} 
+                    justify="center"              
+                    direction="row"
+                    width="170px">
+                  
+                  <div style={{ backgroundColor: 'rgba(207,207,207, 0.8)',position:'static'}}>
+                    <img src={logo} alt="logo"/>
+                        <div style={{display: 'flex'}} >
+                            <div className='navBar'>
+                                <ul style={{listStyleType: 'none'}}>
+                                  <ButtonGroup className={classes.separator}
+                                  orientation="vertical"
+                                  color="white"
+                                  variant="text" 
+                                  size="small">
+                                    <li><Link to='/test' className="link">Bienvenida</Link></li>
+                                    <li><Link to='/testproject' className="link">Proyecto</Link></li>
+                                    <li><Link to='/testmenu' className="link">Recursos</Link></li>
+                                    <li><Link to='/testrepository' className="link">Repositorio</Link></li>
+                                    <li><Link to='/testnews' className="link">Noticias</Link></li>
+
+                                  </ButtonGroup>
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </Grid>
+                
+            </div>
+            
            
           </div>
                     

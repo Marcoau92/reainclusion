@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from '../Wspace'
-import Wspace2 from '../Wspace2'
+import Wspace from './Wspace'
+import Wspace2 from './Wspace2'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -30,13 +30,19 @@ const Resources1 = (props) => {
 
         return(
             
-            <div >
+            <div className="position_test1_bar">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>                
-                <Grid md={6} lg={6}>
+                <Grid>
                     <Typography className={classes.title} align='center' variant='h4'>Food for Thought </Typography>
                     <Wspace/>
+                    <Grid item container justifyContent="center"              
+            direction="row">
+                <Grid md={3} lg={3} item container justifyContent="center"              
+            direction="row"></Grid>
+        <Grid item container md={6} lg={6}justifyContent="center"              
+            direction="row">
                     <p class="pservices text-justify">
                     Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 
                     </p>
@@ -161,6 +167,8 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=MwM7kYUGUzA&ab_channel=UniversityofNewBrunswick   ' />
                     </Grid>
                     <Wspace/>
+                </Grid>
+                </Grid>
                 </Grid>
 
                      

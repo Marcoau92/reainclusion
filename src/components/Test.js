@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { makeStyles } from '@material-ui/core/styles';
-import Welcomem from './mobile/Welcomem'
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,

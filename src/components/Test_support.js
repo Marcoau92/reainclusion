@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from '../Wspace2';
+import Wspace2 from './Wspace2';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,17 +30,23 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div >
+            <div className="position_test1_bar">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>
                 <br></br>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Grid  style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h4'>Recursos sugeridos por el ministerio de educación</Typography>
                 </Grid>
                 <br></br>
                 <Wspace2/>
-                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                <Grid item container justifyContent="center"              
+            direction="row">
+                <Grid md={3} lg={3} item container justifyContent="center"              
+            direction="row"></Grid>
+        <Grid item container md={6} lg={6}justifyContent="center"              
+            direction="row">
+                <Grid container style={{ justifyContent: "flex-start"}} >
                     <Grid container >
                            
                         <a rel="pagina principal" href="https://migrantes.mineduc.cl/wp-content/uploads/sites/88/2018/06/Orientaciones-para-la-construcci%C3%B3n-de-comunidades-educativas-inclusivas-2017.pdf" md={6} xs={6} >1.	Orientaciones para la construcción de comunidades educativas inclusivas </a> 
@@ -58,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
                         <a rel="pagina principal" href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/14488/Manual-Lenguaje-Inclusivo-No-Sexista.pdf?sequence=1&isAllowed=y  " md={6} xs={6} >4.	Orientaciones para un uso de lenguaje no sexista e inclusivo  </a> 
                     </Grid>
                     <Grid container >
-                        <a rel="pagina principal" href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/2099/mono-918.pdf?sequence=1&isAllowed=y " md={6} xs={6} >5.	Discriminación en el contexto escolar: Orientaciones para promover <br></br>una escuela inclusiva </a> 
+                        <a rel="pagina principal" href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/2099/mono-918.pdf?sequence=1&isAllowed=y " md={6} xs={6} >5.	Discriminación en el contexto escolar: Orientaciones para promover una escuela inclusiva </a> 
                     </Grid>
                     <Grid container >
                             
@@ -67,12 +73,13 @@ const useStyles = makeStyles((theme) => ({
                     
 
                 </Grid>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Grid  style={{ justifyContent: "center"}}>
+                <br></br>
                 <Typography className={classes.title} align='center' variant='h4'>Otros Recursos</Typography>
                 </Grid>
                 <br></br>
                 <Wspace2/>
-                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                <Grid container style={{ justifyContent: "flex-start"}}  >
                     <Grid container >
                            
                         <a rel="pagina principal" href="https://www.eenet.org.uk/resources/docs/Index%20English.pdf " md={6} xs={6} >7.	Index for Inclusion (2002 - English)  </a> 
@@ -124,6 +131,8 @@ const useStyles = makeStyles((theme) => ({
                         <a rel="pagina principal" href="http://sitios.dif.gob.mx/buentrato/wp-content/archivos/talleres/Manual_participantes2.pdf " md={6} xs={6} >19.	Desarrollo de habilidades de buen trato en la familia</a> 
                     </Grid>
 
+                </Grid>
+                </Grid>
                 </Grid>
 
             </div>

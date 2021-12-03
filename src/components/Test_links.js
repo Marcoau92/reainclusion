@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from '../Wspace2';
+import Wspace2 from './Wspace2';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,17 +30,23 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div >
+            <div className="position_test1_bar">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>
-                <br></br>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+
+                <Grid style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h4'>Enlaces de interés </Typography>
                 </Grid>
                 <br></br>
+                <Grid item container justifyContent="center"              
+            direction="row">
+                <Grid md={3} lg={3} item container justifyContent="center"              
+            direction="row"></Grid>
+        <Grid item container md={6} lg={6}justifyContent="center"              
+            direction="row">
                 <Wspace2/>
-                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                <Grid container style={{ justifyContent: "flex-start"}}  >
                     <Grid container >
                         •	Inclusión – Ministerio de Educación, Chile   
                         <a rel="pagina principal" href="https://escolar.mineduc.cl/inclusion/" md={6} xs={6} >https://escolar.mineduc.cl/inclusion/</a> 
@@ -82,6 +88,8 @@ const useStyles = makeStyles((theme) => ({
                         <a rel="pagina principal" href="https://www.teachingenglish.org.uk/professional-development/teachers/inclusive-practices " md={6} xs={6} >https://www.teachingenglish.org.uk/professional-development/teachers/inclusive-practices </a> 
                     </Grid>
 
+                </Grid>
+                </Grid>
                 </Grid>
 
             </div>

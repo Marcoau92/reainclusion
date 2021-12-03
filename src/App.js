@@ -12,7 +12,24 @@ import Food from './pages/Food/index';
 import Links from './pages/Links/index';
 import Apoyo from './pages/Apoyo/index';
 import Lecturas from './pages/Lecturas/index';
-import Test from './pages/Test/index';
+import Test from './pages/Test_welcome/index';
+import Test_apoyo from './pages/Test_apoyo/index';
+import Test_contacto from './pages/Test_contacto/index';
+import Test_food from './pages/Test_food/index';
+import Test_lecturas from './pages/Test_lecturas/index';
+import Test_links from './pages/Test_links/index';
+import Test_menu from './pages/Test_menu/index';
+import Test_news from './pages/Test_news/index';
+import Test_project from './pages/Test_project/index';
+import Test_recurso1 from './pages/Test_recurso1/index';
+import Test_recurso2 from './pages/Test_recurso2/index';
+import Test_recurso3 from './pages/Test_recurso3/index';
+import Test_recurso4 from './pages/Test_recurso4/index';
+import Test_recurso5 from './pages/Test_recurso5/index';
+import Test_recurso6 from './pages/Test_recurso6/index';
+import Test_recursos from './pages/Test_recursos/index';
+import Test_repository from './pages/Test_repository/index';
+import Test_team from './pages/Test_team/index';
 import Welcomem from './pages/Mobile/Welcome/index';
 import Projectm from './pages/Mobile/Project/index';
 import Teamm from './pages/Mobile/Team/index';
@@ -169,6 +186,60 @@ export default function App() {
             </Route>
             <Route exact path="/lectures">
               <Lecturas />
+            </Route>
+            <Route exact path={["/test"]}>
+              <Test />
+            </Route>
+            <Route exact path="/testproject">
+              <Test_project />
+            </Route>
+            <Route exact path="/testteam">
+              <Test_team />
+            </Route>
+            <Route exact path="/testresources">
+              <Test_recursos />
+            </Route>
+            <Route exact path="/testrepository">
+              <Test_repository />
+            </Route>
+            <Route exact path="/testcontact">
+              <Test_contacto />
+            </Route>
+            <Route exact path="/testresources/1">
+              <Test_recurso1 />
+            </Route>
+            <Route exact path="/testresources/2">
+              <Test_recurso2 />
+            </Route>
+            <Route exact path="/testresources/3">
+              <Test_recurso3 />
+            </Route>
+            <Route exact path="/testresources/4">
+              <Test_recurso4 />
+            </Route>
+            <Route exact path="/testresources/5">
+              <Test_recurso5 />
+            </Route>
+            <Route exact path="/testresources/6">
+              <Test_recurso6 />
+            </Route>
+            <Route exact path="/testnews">
+              <Test_news />
+            </Route>
+            <Route exact path="/testmenu">
+              <Test_menu />
+            </Route>
+            <Route exact path="/testfood">
+              <Test_food />
+            </Route>
+            <Route exact path="/testlinks">
+              <Test_links />
+            </Route>
+            <Route exact path="/testsupports">
+              <Test_apoyo />
+            </Route>
+            <Route exact path="/testlectures">
+              <Test_lecturas />
             </Route>
           </Switch>
     

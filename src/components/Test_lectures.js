@@ -1,33 +1,34 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace2 from '../Wspace2';
-import book1 from '../img/book1.png';
-import book2 from '../img/book2.png';
-import book3 from '../img/book3.png';
-import book4 from '../img/book4.png';
-import book5 from '../img/book5.png';
-import book6 from '../img/book6.png';
-import book7 from '../img/book7.png';
-import book8 from '../img/book8.png';
-import book9 from '../img/book9.png';
-import book10 from '../img/book10.png';
-import book11 from '../img/book11.png';
-import book12 from '../img/book12.png';
-import book13 from '../img/book13.png';
-import book14 from '../img/book14.png';
-import book15 from '../img/book15.png';
-import book16 from '../img/book16.png';
-import book17 from '../img/book17.png';
-import book18 from '../img/book18.png';
-import book19 from '../img/book19.png';
-import book20 from '../img/book20.png';
-import book21 from '../img/book21.png';
-import Wspace from '../Wspace';
+import Wspace2 from './Wspace2';
+import book1 from './img/book1.png';
+import book2 from './img/book2.png';
+import book3 from './img/book3.png';
+import book4 from './img/book4.png';
+import book5 from './img/book5.png';
+import book6 from './img/book6.png';
+import book7 from './img/book7.png';
+import book8 from './img/book8.png';
+import book9 from './img/book9.png';
+import book10 from './img/book10.png';
+import book11 from './img/book11.png';
+import book12 from './img/book12.png';
+import book13 from './img/book13.png';
+import book14 from './img/book14.png';
+import book15 from './img/book15.png';
+import book16 from './img/book16.png';
+import book17 from './img/book17.png';
+import book18 from './img/book18.png';
+import book19 from './img/book19.png';
+import book20 from './img/book20.png';
+import book21 from './img/book21.png';
+
+import Wspace from './Wspace';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,17 +53,23 @@ const useStyles = makeStyles((theme) => ({
   const Repository = (props) => {
     const classes = useStyles();
         return(
-            <div >
+            <div className="position_test1_bar">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>
                 <br></br>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Grid style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h4'>Lecturas Sugeridas </Typography>
                 </Grid>
                 <br></br>
                 <Wspace2/>
-                <Grid container style={{ justifyContent: "flex-start"}} md={6} lg={6} >
+                <Grid item container justifyContent="center"              
+            direction="row">
+                <Grid md={3} lg={3} item container justifyContent="center"              
+            direction="row"></Grid>
+        <Grid item container md={6} lg={6}justifyContent="center"              
+            direction="row">
+                <Grid container style={{ justifyContent: "center"}} >
                     
                 <Wspace2/>
                 <p>
@@ -70,91 +77,91 @@ const useStyles = makeStyles((theme) => ({
                 </p>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000098427 ">
-                  <img src={book1}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book1}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%' />
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://webarchive.nationalarchives.gov.uk/20101007182820/http:/sen.ttrb.ac.uk/attachments/21739b8e-5245-4709-b433-c14b08365634.pdf  ">
-                  <img src={book2}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book2}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://sdgs.un.org/sites/default/files/publications/21252030%20Agenda%20for%20Sustainable%20Development%20web.pdf ">
-                  <img src={book3}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book3}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://www.unicef.cl/archivos_documento/200/Libro%20seminario%20internacional%20discapacidad.pdf ">
-                  <img src={book4}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book4}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/16993/INFORMEFINALMESATECNICAEDESPECIAL.pdf?sequence=1&isAllowed=y ">
-                  <img src={book5}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book5}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/14363/Interculturalidad_escuela.pdf?sequence=1&isAllowed=y ">
-                  <img src={book6}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book6}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000374246 ">
-                  <img src={book7}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book7}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000248254  ">
-                  <img src={book8}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book8}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000217073 ">
-                  <img src={book9}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book9}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000192480 ">
-                  <img src={book10}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book10}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000177649 ">
-                  <img src={book11}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book11}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000140224">
-                  <img src={book12}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book12}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="http://repositorio.unab.cl/xmlui/bitstream/handle/ria/5785/a119379_Venegas_K_Do_pre_service_teachers_of_2016_Tesis..pdf?sequence=1&isAllowed=y ">
-                  <img src={book13}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book13}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://www.nfer.ac.uk/publications/FUTL05/FUTL05.pdf ">
-                  <img src={book14}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book14}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://files.eric.ed.gov/fulltext/EJ1278103.pdf  ">
-                  <img src={book15}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book15}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://core.ac.uk/download/pdf/141686023.pdf ">
-                  <img src={book16}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book16}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="http://www.eduqa.net/eduqa2017/images/ponencias/eje4/4_02_LAPLAGNE_CRISTINA_-_TAC_para_la_inclusion_mediante_el_idioma_ingles_en_la_UNSJ.pdf ">
-                  <img src={book17}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book17}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://www.researchgate.net/publication/331262519_El_ingles_como_un_camino_posible_para_la_inclusion">
-                  <img src={book18}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book18}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://www.britishcouncil.org/sites/default/files/g264_schools_core_skills_tl_brochure3_final_web.pdf ">
-                  <img src={book19}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book19}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="http://bibliodiversa.todomejora.org/wp-content/uploads/2017/02/047_BRITISH_COUNCIL_INDIE_inclusion_and_diversity.pdf ">
-                  <img src={book20}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book20}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 <Wspace/>
                 <a rel="license" href="https://inklusiver-englischunterricht.de/2019/08/inclusive-english-teaching-practices-and-english-as-a-lingua/ ">
-                  <img src={book21}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                  <img src={book21}  alt="encabezado" xs={6} sm={6} md={6} lg={6} width='90%'/>
                 </a>
                 </Grid>
                 <Wspace/>
-                <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
+                <Grid  style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h4'>Referencias de interés </Typography>
                 
                 <Wspace2/>
@@ -263,8 +270,8 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
                 <br></br>
                 </Grid>
-                
-                
+                </Grid>
+                </Grid>
 
             </div>
 

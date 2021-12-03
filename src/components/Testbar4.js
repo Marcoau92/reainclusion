@@ -1,16 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
-import {grey} from '@material-ui/core/colors';
-import encabezado from './img/encabezado_sin_logo33.png';
 import logo from './img/encabezado.png';
-import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import banner_welcome from './img/banner_welcome.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
