@@ -6,8 +6,9 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Wspace from './Wspace'
-import Wspace2 from './Wspace2'
+import Wspace from './Wspace';
+import Wspace2 from './Wspace2';
+import bbc from './img/bbc.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -65,11 +66,6 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=spBB68Wv7KM&ab_channel=bhasinconsultinginc ' />
                     </Grid>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>Inclusive Pedagogy – Professor Lani Florian </Typography>
-                    <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=LeeDwzZwTj8&list=WL&index=4&ab_channel=TheUniversityofEdinburgh  ' />
-                    </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Los centros de educación especial en la Educación Inclusiva   </Typography>
                     <Wspace2/>
@@ -116,7 +112,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Thinking differently about difference   </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
-                    <a rel="pagina principal" href="https://www.bbc.co.uk/sounds/play/b0b52cn5" md={6} xs={6} >https://www.bbc.co.uk/sounds/play/b0b52cn5 </a> 
+                    <a rel="pagina principal" href="https://www.bbc.co.uk/sounds/play/b0b52cn5" md={6} xs={6} ><img src={bbc} width='500px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/> </a> 
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>“Lloran los niños” – Crecer en la Araucanía, Chile   </Typography>
@@ -131,12 +127,7 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=oKz09ngdNcA&ab_channel=InterkantonaleHochschulef%C3%BCrHeilp%C3%A4dagogik   ' />
                     </Grid>
                     <Wspace/>
-                    <Typography className={classes.subtitle} align='center' variant='h1'>The race – Are we equal?    </Typography>
-                    <Wspace2/>
-                    <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=ZT1zCK7aX4k&ab_channel=AliHassan ' />
-                    </Grid>
-                    <Wspace/>
+                    
                     <Typography className={classes.subtitle} align='center' variant='h1'>This is equity   </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
