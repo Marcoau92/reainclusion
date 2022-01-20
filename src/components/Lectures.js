@@ -167,108 +167,108 @@ const useStyles = makeStyles((theme) => ({
                 Las siguientes referencias corresponden a documentos que no se encuentran con acceso libre y gratuito por el momento. Puede acceder a ellos a través de bibliotecas o comprando los ejemplares.  
                 </p>
                 <Wspace2/>
-                <Grid container className={classes.references} >
+                <Grid container  >
                 Ainscow, M. (2020). <b>Promoting inclusion and equity in education: Lessons from international experiences. Nordic Journal of Studies in Educational Policy</b>, 6(1), 7-16, DOI: 10.1080/20020317.2020.1729587     
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Ainscow, M., & Sandill, A. (2010). Developing inclusive education systems: The role of organisational cultures and leadership. International Journal of Inclusive Education, 14(4), 401-416. doi:10.1080/13603110802504903    
+                <Grid container >
+                Ainscow, M., & Sandill, A. (2010). <b>Developing inclusive education systems: The role of organisational cultures and leadership.</b> International Journal of Inclusive Education, 14(4), 401-416. doi:10.1080/13603110802504903    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Ainscow, M., Booth, T., & Dyson A. (2006). Improving schools, developing inclusion. London: Routledge.    
+                <Grid container >
+                Ainscow, M., Booth, T., & Dyson A. (2006). <b>Improving schools, developing inclusion.</b> London: Routledge.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Ainscow, M., Dyson, A., Goldrick, S., & West, W. (2012). Making schools effective for all: Rethinking the task. School Leadership & Management, 32(3), 197-213. doi: 10.1080/13632434.2012.669648    
+                <Grid container >
+                Ainscow, M., Dyson, A., Goldrick, S., & West, W. (2012). <b>Making schools effective for all: Rethinking the task. School Leadership & Management</b>, 32(3), 197-213. doi: 10.1080/13632434.2012.669648    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Amadio, M. (2009). La educación inclusiva en América Latina y el Caribe: Un análisis exploratorio de los Informes Nacionales presentados a la Conferencia Internacional de Educación de 2008. Santiago: UNESCO-OIE.    
+                <Grid container >
+                Amadio, M. (2009). <b>La educación inclusiva en América Latina y el Caribe: Un análisis exploratorio de los Informes Nacionales presentados a la Conferencia Internacional de Educación de 2008.</b> Santiago: UNESCO-OIE.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Amar, M. (2007). Equidad, calidad y derecho a la educación en Chile: Hacia un nuevo rol del Estado. Santiago: Biblioteca del Congreso Nacional de Chile.    
+                <Grid container >
+                Amar, M. (2007). <b>Equidad, calidad y derecho a la educación en Chile: Hacia un nuevo rol del Estado.</b> Santiago: Biblioteca del Congreso Nacional de Chile.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Caireta, M. (2013). Peace and coexistence education in school settings: A teacher training perspective. Evens Foundation   
+                <Grid container >
+                Caireta, M. (2013). <b>Peace and coexistence education in school settings: A teacher training perspective.</b> Evens Foundation   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Carson, T., & Johnston, I. (2000). The difficulty with difference in teacher education: Toward a pedagogy of compassion. Alberta Journal of Educational Research, 46(1), 75-83.   
+                <Grid container >
+                Carson, T., & Johnston, I. (2000).<b> The difficulty with difference in teacher education: Toward a pedagogy of compassion.</b> Alberta Journal of Educational Research, 46(1), 75-83.   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Díaz, T., & Druker, S. (2007). La democratizacion del espacio escolar: Una construcción en y para la diversidad. Estudios Pedagógicos, 33(1), 63-77.  
+                <Grid container >
+                Díaz, T., & Druker, S. (2007). <b>La democratizacion del espacio escolar: Una construcción en y para la diversidad.</b> Estudios Pedagógicos, 33(1), 63-77.  
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Evans, J., & Lunt, I. (2002). Inclusive education: Are there limits? European Journal of Special Needs Education, 17(1), 1-14. doi:10.1080/08856250110098980    
+                <Grid container >
+                Evans, J., & Lunt, I. (2002). <b>Inclusive education: Are there limits? European Journal of Special Needs Education</b>, 17(1), 1-14. doi:10.1080/08856250110098980    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Fendler, L., & Muzaffar, I. (2008). The history of the bell curve: Sorting and the idea of normal. Educational Theory, 58(1), 63-82. doi:10.1111/j.1741- 5446.2007.0276.x    
+                <Grid container >
+                Fendler, L., & Muzaffar, I. (2008). <b>The history of the bell curve: Sorting and the idea of normal.</b> Educational Theory, 58(1), 63-82. doi:10.1111/j.1741- 5446.2007.0276.x    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Florian, L. (2014). Reimaging secial education: Why new approaches are needed. In L. Florian (Ed.), The SAGE handbook of special education (2nd ed.) (pp. 9-23). London: Sage Publications.    
+                <Grid container >
+                Florian, L. (2014). <b>Reimaging secial education: Why new approaches are needed.</b> In L. Florian (Ed.), The SAGE handbook of special education (2nd ed.) (pp. 9-23). London: Sage Publications.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Florian, L., & Linklater, H. (2010). Preparing teachers for inclusive education: Using inclusive pedagogy to enhance teaching and learning for all. Cambridge Journal of Education, 40(4), 369-386. doi: 10.1080/0305764X.2010.526588    
+                <Grid container >
+                Florian, L., & Linklater, H. (2010). <b>Preparing teachers for inclusive education: Using inclusive pedagogy to enhance teaching and learning for all. Cambridge Journal of Education</b>, 40(4), 369-386. doi: 10.1080/0305764X.2010.526588    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Florian, L., & Spratt, J. (2013). Enacting inclusion: A framework for interrogating inclusive practice. European Journal of Special Needs Education, 28(2), 119-135. doi:10.1080/08856257.2013.778111   
+                <Grid container >
+                Florian, L., & Spratt, J. (2013). <b>Enacting inclusion: A framework for interrogating inclusive practice.</b> European Journal of Special Needs Education, 28(2), 119-135. doi:10.1080/08856257.2013.778111   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                García-Huidobro, J. E. (2007). Desigualdad educativa y segmentación del sistema escolar: Consideraciones a partir del caso Chileno [Educational inequality and school system segmentation: Reflections upon the Chilean case]. Revista Pensamiento Educativo, 40(1), 65-85.  
+                <Grid container >
+                García-Huidobro, J. E. (2007). <b>Desigualdad educativa y segmentación del sistema escolar: Consideraciones a partir del caso Chileno [Educational inequality and school system segmentation: Reflections upon the Chilean case].</b> Revista Pensamiento Educativo, 40(1), 65-85.  
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Godoy M. P., Meza, M. L., & Salazar, A. (2004). Antecedentes históricos, presente y futuro de la educación especial en Chile [Historical records, present and future of special education in Chile]. Ministerio de Educación, División de Educación General.    
+                <Grid container>
+                Godoy M. P., Meza, M. L., & Salazar, A. (2004). <b>Antecedentes históricos, presente y futuro de la educación especial en Chile [Historical records, present and future of special education in Chile].</b> Ministerio de Educación, División de Educación General.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Infante, M. (2010). Desafíos a la formación docente: Inclusión educativa [Challenges to teacher education: Educational inclusion]. Estudios Pedagógicos 36(1), 287-297.   
+                <Grid container >
+                Infante, M. (2010). <b>Desafíos a la formación docente: Inclusión educativa [Challenges to teacher education: Educational inclusion].</b> Estudios Pedagógicos 36(1), 287-297.   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Levin, B. (2003). Approaches to equity in policy for lifelong learning. OECD.   
+                <Grid container >
+                Levin, B. (2003). <b>Approaches to equity in policy for lifelong learning.</b> OECD.   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                López, V., Julio, C., Pérez, M. V., Morales, M., & Rojas, C. (2014). Barreras culturales para la inclusión: Políticas y prácticas de integración en Chile. Revista de Educación, 363, 256-281. doi: 10-4438/1988-592X-RE-2012-363-180    
+                <Grid container >
+                López, V., Julio, C., Pérez, M. V., Morales, M., & Rojas, C. (2014). <b>Barreras culturales para la inclusión: Políticas y prácticas de integración en Chile.</b> Revista de Educación, 363, 256-281. doi: 10-4438/1988-592X-RE-2012-363-180    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Organisation for Economic Co-operation and Development. (2015). Chile: Policy priorities for stronger and more equitable growth (Better politics series). OECD.    
+                <Grid container >
+                Organisation for Economic Co-operation and Development. (2015). <b>Chile: Policy priorities for stronger and more equitable growth (Better politics series).</b> OECD.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Ortega Ruiz, P., & Minguez Vallejos, R. (1999) The role of compassion in moral education. Journal of Moral Education, 28(1), 5-17. doi: 10.1080/030572499103278   
+                <Grid container >
+                Ortega Ruiz, P., & Minguez Vallejos, R. (1999) <b>The role of compassion in moral education.</b> Journal of Moral Education, 28(1), 5-17. doi: 10.1080/030572499103278   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Pantic, N., & Florian, L. (2015). Developing teachers as agents of inclusion and social justice. Education Inquiry, 6(3), 333-351. doi: 10.3402/edui.v6.27311    
+                <Grid container >
+                Pantic, N., & Florian, L. (2015). <b>Developing teachers as agents of inclusion and social justice.</b> Education Inquiry, 6(3), 333-351. doi: 10.3402/edui.v6.27311    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Plan. (2008). Learn without fear: The global campaign to end violence in schools. Woking: Plan.    
+                <Grid container >
+                Plan. (2008). <b>Learn without fear: The global campaign to end violence in schools.</b> Woking: Plan.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Slee, R. (2001). Inclusion in practice: Does practice make perfect?, Educational Review, 53(2), 113-123.    
+                <Grid container >
+                Slee, R. (2001). <b>Inclusion in practice: Does practice make perfect?</b>, Educational Review, 53(2), 113-123.    
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Smith, D. D., & Tyler, N. C. (2011). Effective inclusive education: Equipping education professionals with necessary skills and knowledge. Prospects: Quarterly Review of Comparative Education, 41(3), 323-339. doi:10.1007/s11125-011-9207-5   
+                <Grid container >
+                Smith, D. D., & Tyler, N. C. (2011). <b>Effective inclusive education: Equipping education professionals with necessary skills and knowledge. Prospects: Quarterly Review of Comparative Education</b>, 41(3), 323-339. doi:10.1007/s11125-011-9207-5   
                 </Grid>
                 <br></br>
-                <Grid container className={classes.references}>
-                Swann, M., Peacock, A., Hart, S., & Drummond, M. J. (2012). Creating learning without limits: Maidenhead, Berkshire, England : McGraw-Hill/Open University Press. 
+                <Grid container >
+                Swann, M., Peacock, A., Hart, S., & Drummond, M. J. (2012). <b>Creating learning without limits: Maidenhead</b>, Berkshire, England : McGraw-Hill/Open University Press. 
                 </Grid>
                 <br></br>
                 </Grid>
