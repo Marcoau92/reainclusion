@@ -163,8 +163,12 @@ const useStyles = makeStyles((theme) => ({
                 <Typography className={classes.title} align='center' variant='h4'>Referencias de interés </Typography>
                 
                 <Wspace2/>
+                <p>
+                Las siguientes referencias corresponden a documentos que no se encuentran con acceso libre y gratuito por el momento. Puede acceder a ellos a través de bibliotecas o comprando los ejemplares.  
+                </p>
+                <Wspace2/>
                 <Grid container className={classes.references} >
-                Ainscow, M. (2020). Promoting inclusion and equity in education: Lessons from international experiences. Nordic Journal of Studies in Educational Policy, 6(1), 7-16, DOI: 10.1080/20020317.2020.1729587     
+                Ainscow, M. (2020). <b>Promoting inclusion and equity in education: Lessons from international experiences. Nordic Journal of Studies in Educational Policy</b>, 6(1), 7-16, DOI: 10.1080/20020317.2020.1729587     
                 </Grid>
                 <br></br>
                 <Grid container className={classes.references}>
