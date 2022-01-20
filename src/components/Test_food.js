@@ -120,7 +120,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Thinking differently about difference   </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
-                    <a rel="pagina principal" href="https://www.bbc.co.uk/sounds/play/b0b52cn5" md={6} xs={6} >https://www.bbc.co.uk/sounds/play/b0b52cn5 </a> 
+                    <a rel="pagina principal" href="https://www.bbc.co.uk/sounds/play/b0b52cn5" md={6} xs={6} ><img src={bbc} width='500px' alt="encabezado" xs={6} sm={6} md={6} lg={6}/> </a> 
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>“Lloran los niños” – Crecer en la Araucanía, Chile   </Typography>
