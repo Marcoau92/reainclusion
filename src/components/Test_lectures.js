@@ -69,7 +69,6 @@ const useStyles = makeStyles((theme) => ({
             direction="row">
                 <Grid container style={{ justifyContent: "center"}} >
                     
-                <Wspace2/>
                 <p>
                     Aquí te presentamos algunas lecturas recomendables de diferentes fuentes que pueden resultar de tu interés 
                 </p>
