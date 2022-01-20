@@ -165,6 +165,18 @@ const Resources1 = (props) => {
                             <ReactPlayer url='https://www.youtube.com/watch?v=MwM7kYUGUzA&ab_channel=UniversityofNewBrunswick   ' />
                     </Grid>
                     <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>  Ian - Corto animado   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=OHma93eZiBY&ab_channel=Disney    ' />
+                    </Grid>
+                    <Wspace/>
+                    <Typography className={classes.subtitle} align='center' variant='h1'>  Los colores de las flores   </Typography>
+                    <Wspace2/>
+                    <Grid container style={{ justifyContent: "center"} }>
+                            <ReactPlayer url='https://www.youtube.com/watch?v=OgCRdTxCEic&ab_channel=ONCE    ' />
+                    </Grid>
+                    <Wspace/>
                 </Grid>
                 </Grid>
                 </Grid>
