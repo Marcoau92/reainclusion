@@ -72,8 +72,6 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               <Wspace2/>
               <Grid item container justifyContent="center"              
             direction="row">
-                <Grid md={3} lg={3} item container justifyContent="center"              
-            direction="row"></Grid>
                 <Grid md={6} lg={6} item container justifyContent="center"              
             direction="row">
               <Grid  container style={{ justifyContent: "center"} }>

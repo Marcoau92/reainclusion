@@ -32,7 +32,7 @@ const Resources1 = (props) => {
             
             <div className="position_test1_bar">
                 <Grid container justifyContent='flex-start'  md={6} lg={6}>
-                <Link to='/Resources'>Atrás</Link>
+                <Link to='/testresources'>Atrás</Link>
                 </Grid>
                 <Grid >
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
@@ -41,8 +41,6 @@ const Resources1 = (props) => {
                     <br></br>
                     <Grid item container justifyContent="center"              
             direction="row">
-                <Grid md={3} lg={3} item container justifyContent="center"              
-            direction="row"></Grid>
         <Grid item container md={6} lg={6}justifyContent="center"              
             direction="row">
                     <Grid >

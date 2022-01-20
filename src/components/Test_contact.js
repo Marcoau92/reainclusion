@@ -55,8 +55,6 @@ export default function ContactUs() {
       
       <Grid item container justifyContent="center"              
             direction="row">
-                <Grid md={3} lg={3} item container justifyContent="center"              
-            direction="row"></Grid>
                 <Grid md={6} lg={6} item container justifyContent="center"              
             direction="row">
                 <p  class="pservices text-justify" align='center' md={6} lg={6}>
@@ -71,8 +69,6 @@ export default function ContactUs() {
       </Grid>
       <Grid item container justifyContent="center"              
             direction="row">
-      <Grid md={3} lg={3} item container justifyContent="center"              
-            direction="row"></Grid>
 
       <Grid md={6} lg={6} item container justifyContent="center"              
             direction="row">

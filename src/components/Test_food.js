@@ -39,8 +39,6 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Grid item container justifyContent="center"              
             direction="row">
-                <Grid md={3} lg={3} item container justifyContent="center"              
-            direction="row"></Grid>
         <Grid item container md={6} lg={6}justifyContent="center"              
             direction="row">
                     <p class="pservices text-justify">
