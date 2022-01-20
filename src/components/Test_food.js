@@ -8,6 +8,7 @@ import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Wspace from './Wspace'
 import Wspace2 from './Wspace2'
+import bbc from './img/bbc.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {

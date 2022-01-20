@@ -65,7 +65,7 @@ const Resources1 = (props) => {
                     <Grid container style={{ justifyContent: "center"} }>
                             <ReactPlayer url='https://www.youtube.com/watch?v=spBB68Wv7KM&ab_channel=bhasinconsultinginc ' />
                     </Grid>
-                    <Wspace/>
+                    <Wspace/>  
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Los centros de educación especial en la Educación Inclusiva   </Typography>
                     <Wspace2/>
