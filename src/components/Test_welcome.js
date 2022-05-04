@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
         return(
             <div >
               <br></br>
-              <Grid  md={6} lg={6} item container justifyContent="center" direction="row">
+              <Grid item container justifyContent="center" direction="row">
                 <Typography className={classes.title} justifyContent='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
                 </Grid>
