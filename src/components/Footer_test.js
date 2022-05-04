@@ -10,7 +10,7 @@ class Footer extends Component{
 	render(){
 		return(
             <div >
-                <Grid className='position_test1_footer' justify="center">
+                <Grid  justify="center">
                 <footer className="App-footer" style={{background:grey[400]}}>
                     <img src={logo} md={12} lg={12}/>
                     <p>

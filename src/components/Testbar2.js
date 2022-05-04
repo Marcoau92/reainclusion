@@ -43,31 +43,23 @@ export default function Buttons(){
                     direction="row"
                     width="170px">
                   
-                  <div style={{ backgroundColor: 'rgba(207,207,207, 0.8)',position:'static'}}>
-                    <img src={logo} alt="logo"/>
-                        <div style={{display: 'flex'}} >
-                            <div className='navBar'>
-                                <ul style={{listStyleType: 'none'}}>
-                                  <ButtonGroup className={classes.separator}
-                                  orientation="vertical"
-                                  color="white"
-                                  variant="text" 
-                                  size="small">
-                                    <li><Link to='/' className="link">Bienvenida</Link></li>
-                                    <li><Link to='/project' className="link">Proyecto</Link></li>
-                                    <li><Link to='/Resources' className="link">Recursos</Link></li>
-                                    <li><Link to='/Repository' className="link">Repositorio</Link></li>
-                                    <li><Link to='/News' className="link">Noticias</Link></li>
+                  <AppBar position="sticky" style={{background:grey[400],height:'40px',width:'884px'}}>
+                    <Toolbar className={classes.menuButton}>
+                      <Breadcrumbs className={classes.separator} separator='|'>
+                        <Button style={{color:'white', height:'25px'}} className={classes.menuButton} href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
+                        Encuesta
+                        </Button>
+                        <Link to='/testteam' className="link">
+                          <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
+                          Equipo</Button></Link>
+                        <Link to='/testcontact' className="link" >
+                          <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
+                          Contacto</Button></Link>
+                      </Breadcrumbs>
 
-                                  </ButtonGroup>
-                                    
-                                    
-                                    
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                      
+                    </Toolbar>
+                  </AppBar>
                     </Grid>
                 
             </div>

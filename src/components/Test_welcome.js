@@ -48,17 +48,17 @@ const useStyles = makeStyles((theme) => ({
   const Welcome = (props) => {
     const classes = useStyles();
         return(
-            <div className="position_test1_bar" >
+            <div >
               <br></br>
-              <Grid >
-                <Typography className={classes.title} align='center' variant='h3'>Bienvenida</Typography>
+              <Grid  md={6} lg={6} item container justifyContent="center" direction="row">
+                <Typography className={classes.title} justifyContent='center' variant='h3'>Bienvenida</Typography>
                 <Wspace2/>
                 </Grid>
                 
               <Grid item container justifyContent="center"              
             direction="row">
                 
-                <Grid md={6} lg={6} item container justifyContent="center"              
+                <Grid md={5} lg={5} item container justifyContent="center"              
             direction="row">
                 <p  class="pservices text-justify" align='center' md={6} lg={6}>
                 Te damos la bienvenida a este espacio de colaboración y aprendizaje sobre prácticas inclusivas en el aula de inglés como lengua extranjera. Recorre nuestra página, déjanos tus preguntas o sugerencias, aprendamos juntos y acompañémonos en este proceso constante de transformación que es la inclusión en educación.
@@ -72,7 +72,7 @@ Te invitamos a ver este video para que conozcas a nuestro equipo y las motivacio
               <Wspace2/>
               <Grid item container justifyContent="center"              
             direction="row">
-                <Grid md={6} lg={6} item container justifyContent="center"              
+                <Grid md={5} lg={5} item container justifyContent="center"              
             direction="row">
               <Grid  container style={{ justifyContent: "center"} }>
                   <ReactPlayer url='https://www.youtube.com/watch?v=-C7tGMzxefU' />
@@ -159,6 +159,7 @@ Por favor, responda las siguientes preguntas en relación a su satisfacción con
                   </Grid> 
                   </Grid>
                   </Grid>  
+                  <br></br>
             </div>
 
         );
