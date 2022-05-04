@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
               <Grid item container justifyContent="center"              
             direction="row">
                 
-                <Grid md={5} lg={5} item container justifyContent="center"              
+                <Grid item container justifyContent="center"              
             direction="row">
                 <p  class="pservices text-justify" align='center' md={6} lg={6}>
                 Te damos la bienvenida a este espacio de colaboración y aprendizaje sobre prácticas inclusivas en el aula de inglés como lengua extranjera. Recorre nuestra página, déjanos tus preguntas o sugerencias, aprendamos juntos y acompañémonos en este proceso constante de transformación que es la inclusión en educación.
