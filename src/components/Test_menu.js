@@ -38,6 +38,7 @@ const Resources = (props) => {
     const classes = useStyles();
         return(
             <div >
+                <Grid item container md={4} lg={4} ></Grid>
                 <br></br>
                 <Grid item container md={8} lg={8} > 
                 <Grid md={12} lg={12}>
