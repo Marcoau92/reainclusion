@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import Grid from '@material-ui/core/Grid';
+import {Grid, Paper, Typography, Box} from '@material-ui/core';
 import sections from './test_sections'
+import Wspace from './Wspace'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -51,7 +52,7 @@ const Resources = (props) => {
 
         
         <Grid className={classes.root} container justify='center' alignItems='center' >
-          {section.map(member => (
+          {sections.map(member => (
             <Grid item justify="center"  sm={6} md={6} lg={6}>
             <Paper className={classes.paper} elevation={0}>
               <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
