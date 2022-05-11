@@ -40,7 +40,7 @@ const Resources = (props) => {
             <div >
                 <br></br>
                 <Grid item container md={4} lg={4}></Grid>
-                <Grid md={8} lg={8}>
+                <Grid item container md={8} lg={8}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
                 </Grid>
