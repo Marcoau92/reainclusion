@@ -14,8 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title:{
       color:'#00b3c5',
-      fontWeight: 'bold',
-      textAlign: 'center',
+      fontWeight: 'bold'
   
     },
     subtitle:{
@@ -39,7 +38,7 @@ const Resources = (props) => {
     const classes = useStyles();
         return(
             <div >
-                <Grid md={12} lg={12}>
+                <Grid>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
                 </Grid>
