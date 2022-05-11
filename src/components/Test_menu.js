@@ -38,44 +38,40 @@ const Resources = (props) => {
     const classes = useStyles();
         return(
             <div >
-                <br></br>
-                 
-                <Grid md={12} lg={12}>
-                <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
-
-                </Grid>
-
-                <br></br>
-                <Grid item container justifyContent="center"              
+      <br></br>
+        <Grid md={12} lg={12}>
+          <Typography className={classes.title} align='center' variant='h3'>Equipo</Typography>
+        </Grid>
+        
+        <Wspace/>
+        <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={5} lg={5}justifyContent="center"              
-            direction="row"> 
-            <Grid container justifyContent='flex-start' >
-                <Link to='/Menu'>Atrás</Link>
-                </Grid>
-                <br></br>
-                <Grid className={classes.root} container justify='center' alignItems='center' >
-                {sections.map(member => (
-                    <Grid item justify="center"  sm={6} md={6} lg={6}>
-                        <Link to={member.url} >
-                            <Card className={classes.paper} elevation={0}>
-                                <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
-                                <Typography className={classes.subtitle}>{member.theme}</Typography>
-                                <Typography className={classes.memberName}>{member.name}</Typography>
-                            </Card>
-                        </Link>
-                    
-                </Grid>
-                ))}
-                </Grid>
-                </Grid>
-                </Grid>
+        <Grid item container md={6} lg={6}justifyContent="center"              
+            direction="row">
 
-
-                <br></br>
-
-            </div>
-           
+        
+        <Grid className={classes.root} container justify='center' alignItems='center' >
+          {section.map(member => (
+            <Grid item justify="center"  sm={6} md={6} lg={6}>
+            <Paper className={classes.paper} elevation={0}>
+              <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
+              <Typography className={classes.memberName}>{member.name}</Typography>
+              {member.studies.map(study => (
+                <div>
+                  <Typography>
+                    <Box >{study.title}</Box>
+                    <Box>{study.location}</Box>
+                  </Typography>
+                </div>
+              ))}
+            </Paper>
+          </Grid>
+          ))}
+        </Grid>
+      </Grid>
+      </Grid>
+      <br></br>
+    </div>
             
 
         );
