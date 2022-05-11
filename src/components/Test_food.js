@@ -42,6 +42,9 @@ const Resources1 = (props) => {
             direction="row">
         <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
+                    <Grid container justifyContent='flex-start'  md={6} lg={6}>
+                <Link to='/Menu'>Atrás</Link>
+                </Grid> 
                     <p class="pservices text-justify">
                     Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 
                     </p>
