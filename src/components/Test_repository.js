@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
                 <br></br>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">  
                 <Grid  justify="flex-start">
                 <p  class="pservices text-justify">
