@@ -42,7 +42,7 @@ export default function Buttons(){
         const classes = useStyles();
         return(
             <div justify="center" style={{backgroundImage:`url(${encabezado})`,
-          backgroundRepeat:'no-repeat',backgroundPosition: 'center top',heigh:'170px',width:'1086px',background:grey[400]}}>
+          backgroundRepeat:'no-repeat',backgroundPosition: 'center top',heigh:'170px',width:'1086px',}}>
 
                             
                   
