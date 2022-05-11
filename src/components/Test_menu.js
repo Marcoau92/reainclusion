@@ -60,7 +60,7 @@ const Resources = (props) => {
                 </Grid>
                 <br></br>
                 <Grid className={classes.root} container justify='center' alignItems='center' >
-                {recursos.map(member => (
+                {sections.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
                             <Card className={classes.paper} elevation={0}>
