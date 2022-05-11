@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div>
-                <Grid container justifyContent='flex-start'  md={6} lg={6}>
+                <Grid container justifyContent='flex-start'  md={5} lg={5}>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid>
                 <br></br>
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
                 <Wspace2/>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
                 <Grid container style={{ justifyContent: "flex-start"}} >
                     <Grid container >

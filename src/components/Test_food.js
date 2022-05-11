@@ -40,7 +40,7 @@ const Resources1 = (props) => {
                     <Wspace/>
                     <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
                     <p class="pservices text-justify">
                     Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 

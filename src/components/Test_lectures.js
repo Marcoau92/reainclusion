@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
                 <Wspace2/>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
                 <Grid container style={{ justifyContent: "center"}} >
                     

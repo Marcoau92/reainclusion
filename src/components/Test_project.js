@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
                 <Wspace2/>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">             
                 <Grid justify="center" >
                   <Typography className={classes.memberName} align='center' position="center" variant='h1'>¿Cómo nació esta página web?</Typography>
