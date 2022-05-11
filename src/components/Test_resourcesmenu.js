@@ -48,7 +48,7 @@ const Resources = (props) => {
                 <br></br>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={5} lg={5}justifyContent="center"              
+        <Grid item container md={12} lg={12}justifyContent="center"              
             direction="row"> 
             <Grid container justifyContent='flex-start' >
                 <Link to='/Menu'>Atrás</Link>
