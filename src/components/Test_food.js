@@ -42,7 +42,7 @@ const Resources1 = (props) => {
             direction="row">
         <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
-                    <Grid container justifyContent='flex-start'  md={6} lg={6}>
+                    <Grid container justifyContent='flex-start'>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid> 
                     <p class="pservices text-justify">
