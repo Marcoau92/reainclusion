@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
             <Testbar/>
             </Grid>
             <Grid container item style={{ justifyContent: "center"}}>
-            <AppBar position='relative'  style={{background:grey[400],height:'40px',width:'1086px', zIndex:'-1'}}>
+            <AppBar position='relative'  style={{background:grey[400],height:'40px',width:'1086px', zIndex:'0'}}>
                     <Toolbar className={classes.menuButton}>
                       <Breadcrumbs className={classes.separator} separator='|'>
                         <Button style={{color:'white', height:'25px'}} className={classes.menuButton} href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
@@ -83,8 +83,8 @@ const useStyles = makeStyles((theme) => ({
                     
                   </AppBar>
                   <div position='relative' style={{backgroundImage:`url(${banner})`,
-          backgroundRepeat:'no-repeat',backgroundPosition: 'center top',height:'305px',width:'1086px', zIndex:'-2'}} >
-                  <div style={{display: 'flex',backgroundColor: 'rgba(207,207,207, 0.8)',position:'relative',width:'158px',top:'-40px',left:'10px', zIndex:'1'}} >
+          backgroundRepeat:'no-repeat',backgroundPosition: 'center top',height:'305px',width:'1086px', zIndex:'1'}} >
+                  <div style={{display: 'flex',backgroundColor: 'rgba(207,207,207, 0.8)',position:'relative',width:'158px',top:'-40px',left:'10px'}} >
                                         <div className='navBar'>
                                             <ul style={{listStyleType: 'none'}}>
                                               <ButtonGroup className={classes.separator}
