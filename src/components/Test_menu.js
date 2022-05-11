@@ -39,9 +39,7 @@ const Resources = (props) => {
         return(
             <div >
                 <br></br>
-                <Grid container item md={4} lg={4}>
-
-</Grid>
+                 
                 <Grid md={12} lg={12}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
@@ -52,8 +50,8 @@ const Resources = (props) => {
             direction="row">
         <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row"> 
-           
-                <Grid >
+            <Grid container justifyContent='flex-start' >
+                <Link to='/Menu'>Atrás</Link>
                 </Grid>
                 <br></br>
                 <Grid className={classes.root} container justify='center' alignItems='center' >
