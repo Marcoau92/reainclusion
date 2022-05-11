@@ -61,6 +61,7 @@ const Team = (props) => {
         </Grid>
       </Grid>
       </Grid>
+      <br></br>
     </div>
   )
 }
