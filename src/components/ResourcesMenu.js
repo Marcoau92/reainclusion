@@ -40,16 +40,17 @@ const Resources = (props) => {
         return(
             <div className="position_component_team">
                 <br></br>
-                <Grid container justifyContent='flex-start'  md={6} lg={6}>
-                <Link to='/Menu'>Atrás</Link>
-                </Grid> 
-                <Grid md={6} lg={6}>
+                
+                <Grid>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
                 </Grid>
 
                 <br></br>
-                <Grid md={6} lg={6}>
+                <Grid md={5} lg={5}>
+                <Grid container justifyContent='flex-start' >
+                <Link to='/Menu'>Atrás</Link>
+                </Grid> 
                 <p  class="pservices text-justify">
                 La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.
                 </p>
