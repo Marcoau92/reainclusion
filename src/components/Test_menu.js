@@ -38,7 +38,9 @@ const Resources = (props) => {
     const classes = useStyles();
         return(
             <div >
-                <Grid>
+                <br></br>
+                 
+                <Grid md={12} lg={12}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
                 </Grid>
@@ -46,16 +48,25 @@ const Resources = (props) => {
                 <br></br>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
-            direction="row">
+        <Grid item container md={5} lg={5}justifyContent="center"              
+            direction="row"> 
+            <Grid container justifyContent='flex-start' >
+                <Link to='/Menu'>Atrás</Link>
+                </Grid>
+                <Grid >
+                <p  class="pservices text-justify">
+                La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.
+                </p>
+                </Grid>
                 <br></br>
                 <Grid className={classes.root} container justify='center' alignItems='center' >
-                {sections.map(member => (
+                {recursos.map(member => (
                     <Grid item justify="center"  sm={6} md={6} lg={6}>
                         <Link to={member.url} >
                             <Card className={classes.paper} elevation={0}>
                                 <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
                                 <Typography className={classes.subtitle}>{member.theme}</Typography>
+                                <Typography className={classes.memberName}>{member.name}</Typography>
                             </Card>
                         </Link>
                     
@@ -64,11 +75,9 @@ const Resources = (props) => {
                 </Grid>
                 </Grid>
                 </Grid>
+
+
                 <br></br>
-
-
-
-                
 
             </div>
            
