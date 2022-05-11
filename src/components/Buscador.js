@@ -84,11 +84,6 @@ class Buscador extends Component{
     render(){
       return(
           <Router>
-            <Grid container className="row-reverse" justify='flex-start'> 
-            <Button style={{color:'white', height:'25px'}} className="menuButton" href="">
-            Para visualizar mejor esta pagina use chrome
-            </Button>
-            </Grid>
             <Grid container className="row-reverse" justify='flex-end'> 
             <Breadcrumbs className="separador" separator='|'>
                       <Button style={{color:'white', height:'25px'}} className="menuButton" href="http://uach.cl">
