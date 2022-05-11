@@ -77,7 +77,7 @@ Si quieres colaborar con tu propia investigación o propuesta, no dudes en conta
                         <Link to="/repository/Social risk students-Creating a favourable classroom environment through drama (Acosta & Cuitiño, 2013).pdf" target="_blank" download>•	 Social risk students-Creating a favourable classroom environment through drama (Acosta & Cuitiño, 2013)</Link>
                     </Router>
                     <Router>
-                        <Link to="/repository/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011).pdf" target="_blank" download>•	 Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011)</Link>
+                        <Link to="/repository/Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies (Luengo & Martínez, 2011).pdf" target="_blank" download>•	 Teachers' motivation in the EFL classroom through the implementation of non-traditional methodologies<br></br> (Luengo & Martínez, 2011)</Link>
                     </Router>
                     <Router>
                         <Link to="/repository/Teaching English in the hospital classroom (Moena & Turra, 2013) .pdf" target="_blank" download>•	 Teaching English in the hospital classroom (Moena & Turra, 2013) </Link>
