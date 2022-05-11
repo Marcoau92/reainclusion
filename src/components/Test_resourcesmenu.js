@@ -52,7 +52,7 @@ const Resources = (props) => {
             direction="row"> 
             <Grid container justifyContent='flex-start' >
                 <Link to='/Menu'>Atrás</Link>
-                </Grid>s
+                </Grid>
                 <Grid >
                 <p  class="pservices text-justify">
                 La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.

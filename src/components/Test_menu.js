@@ -14,7 +14,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title:{
       color:'#00b3c5',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      textAlign: 'center',
   
     },
     subtitle:{
