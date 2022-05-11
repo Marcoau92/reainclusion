@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 const Resources = (props) => {  
     const classes = useStyles();
         return(
-            <div className='position_test1_bar'>
+            <div >
                 <br></br>
                 <Grid container justifyContent='flex-start' >
                 <Link to='/Menu'>Atrás</Link>

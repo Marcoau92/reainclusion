@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 const Resources = (props) => {  
     const classes = useStyles();
         return(
-            <div className="position_test1_bar">
+            <div >
                 <Grid style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 

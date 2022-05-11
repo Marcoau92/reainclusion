@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
             <Grid className={classes.root} item container xs={12} sm={12} md={12} lg={12} 
             justify="center"              
             direction="row"> 
-                <div className='position_test1_bar'>
+                <div >
             <Grid >
             <Typography className={classes.title} align='center' variant='h3' >Noticias</Typography>
       

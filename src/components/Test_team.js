@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 const Team = (props) => {
   const classes = useStyles();
   return (
-    <div className="position_test1_bar">
+    <div >
       <br></br>
         <Grid md={12} lg={12}>
           <Typography className={classes.title} align='center' variant='h3'>Equipo</Typography>

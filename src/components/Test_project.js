@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   const Project = (props) => {
     const classes = useStyles();
         return(
-            <Grid item container className="position_test1_bar">
+            <Grid item container>
                 <Grid justify="flex-start" xs={12} sm={12} md={12} lg={12}>
                   <Typography className={classes.title} align='center' variant='h3'>Proyecto</Typography>
                 </Grid>
