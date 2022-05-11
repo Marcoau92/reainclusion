@@ -38,13 +38,14 @@ const Resources1 = (props) => {
                 <Grid>
                     <Typography className={classes.title} align='center' variant='h4'>Food for Thought </Typography>
                     <Wspace/>
-                    <Grid item container justifyContent="center"              
-            direction="row">
-        <Grid item container md={5} lg={5}justifyContent="center"              
+                    <Grid item container md={5} lg={5} justifyContent="center"              
             direction="row">
                     <Grid container justifyContent='flex-start'>
                 <Link to='/Menu'>Atrás</Link>
                 </Grid> 
+        <Grid item container md={5} lg={5}justifyContent="center"              
+            direction="row">
+                    
                     <p class="pservices text-justify">
                     Aquí te presentaremos videos con los cuales enriquecer tus pensamientos sobre la diversidad y tener un nuevo punto de vista sobre la inclusión                                                                                 
                     </p>
