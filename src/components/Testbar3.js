@@ -82,9 +82,9 @@ const useStyles = makeStyles((theme) => ({
                     </Toolbar>
                     
                   </AppBar>
-                  <div position='relative' style={{backgroundImage:`url(${banner})`,
+                  <div position='static' style={{backgroundImage:`url(${banner})`,
           backgroundRepeat:'no-repeat',backgroundPosition: 'center top',height:'305px',width:'1086px'}} >
-                  <div style={{display: 'flex',backgroundColor: 'rgba(207,207,207, 0.8)',position:'static',width:'158px',top:'-40px',left:'10px'}} >
+                  <div style={{display: 'flex',backgroundColor: 'rgba(207,207,207, 0.8)',position:'relative',width:'158px',top:'-40px',left:'10px'}} >
                                         <div className='navBar'>
                                             <ul style={{listStyleType: 'none'}}>
                                               <ButtonGroup className={classes.separator}
