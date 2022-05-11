@@ -2,11 +2,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from 'react-router-dom';
+import { Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import {Grid, Paper, Typography, Box} from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
 import sections from './test_sections'
-import Wspace from './Wspace'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -38,40 +38,45 @@ const Resources = (props) => {
     const classes = useStyles();
         return(
             <div >
-      <br></br>
-        <Grid md={12} lg={12}>
-          <Typography className={classes.title} align='center' variant='h3'>Equipo</Typography>
-        </Grid>
-        
-        <Wspace/>
-        <Grid item container justifyContent="center"              
-            direction="row">
-        <Grid item container md={6} lg={6}justifyContent="center"              
-            direction="row">
+                <br></br>
+                 
+                <Grid md={12} lg={12}>
+                <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
-        
-        <Grid className={classes.root} container justify='center' alignItems='center' >
-          {sections.map(member => (
-            <Grid item justify="center"  sm={6} md={6} lg={6}>
-            <Paper className={classes.paper} elevation={0}>
-              <img alt={member.name} src={member.picture} justify="center" width='100px' height='100px'/>
-              <Typography className={classes.memberName}>{member.name}</Typography>
-              {member.studies.map(study => (
-                <div>
-                  <Typography>
-                    <Box >{study.title}</Box>
-                    <Box>{study.location}</Box>
-                  </Typography>
-                </div>
-              ))}
-            </Paper>
-          </Grid>
-          ))}
-        </Grid>
-      </Grid>
-      </Grid>
-      <br></br>
-    </div>
+                </Grid>
+
+                <br></br>
+                <Grid item container justifyContent="center"              
+            direction="row">
+        <Grid item container md={5} lg={5}justifyContent="center"              
+            direction="row"> 
+                <Grid >
+                <p  class="pservices text-justify">
+                </p>
+                </Grid>
+                <br></br>
+                <Grid className={classes.root} container justify='center' alignItems='center' >
+                {sections.map(member => (
+                    <Grid item justify="center"  sm={6} md={6} lg={6}>
+                        <Link to={member.url} >
+                            <Card className={classes.paper} elevation={0}>
+                                <img alt={member.name} src={member.picture} justify="center" width='120px' height='120px'/>
+                                <Typography className={classes.subtitle}>{member.theme}</Typography>
+                                <Typography className={classes.memberName}>{member.name}</Typography>
+                            </Card>
+                        </Link>
+                    
+                </Grid>
+                ))}
+                </Grid>
+                </Grid>
+                </Grid>
+
+
+                <br></br>
+
+            </div>
+           
             
 
         );
