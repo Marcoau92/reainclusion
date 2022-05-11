@@ -31,9 +31,7 @@ const Resources1 = (props) => {
         return(
             
             <div>
-                <Grid container justifyContent='flex-start'  md={5} lg={5}>
-                <Link to='/testresources'>Atrás</Link>
-                </Grid>
+                
                 <Grid >
                     <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
                     <Wspace/>
@@ -43,6 +41,9 @@ const Resources1 = (props) => {
             direction="row">
         <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
+                <Grid container justifyContent='flex-start' >
+                <Link to='/testresources'>Atrás</Link>
+                </Grid>
                     <Grid >
                     <p  class="pservices text-justify">
                     En el siguiente video la profesora Priscila Ancheo te cuenta sobre sus estrategias para hacer clases de inglés con estudiantes con discapacidad visual en un aula regular. 

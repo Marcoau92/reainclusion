@@ -54,9 +54,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
         return(
             <div >
-                <Grid container justifyContent='flex-start'  md={6} lg={6}>
-                <Link to='/Menu'>Atrás</Link>
-                </Grid>
+                
                 <br></br>
                 <Grid style={{ justifyContent: "center"}}>
                 <Typography className={classes.title} align='center' variant='h4'>Lecturas Sugeridas </Typography>
@@ -67,6 +65,9 @@ const useStyles = makeStyles((theme) => ({
             direction="row">
         <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row">
+              <Grid container justifyContent='flex-start' >
+                <Link to='/Menu'>Atrás</Link>
+                </Grid>
                 <Grid container style={{ justifyContent: "center"}} >
                     
                 <p>
