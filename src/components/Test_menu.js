@@ -39,7 +39,7 @@ const Resources = (props) => {
         return(
             <div >
                 <br></br>
-                <Grid item container justifyContent="center" > 
+                <Grid item container justifyContent="center" md={6} lg={6}> 
                 <Grid md={12} lg={12}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
