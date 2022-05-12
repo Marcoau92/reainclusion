@@ -39,7 +39,6 @@ const Resources = (props) => {
         return(
             <div >
                 <br></br>
-                <Grid item container justifyContent="center" md={6} lg={6}> 
                 <Grid md={12} lg={12}>
                 <Typography className={classes.title} align='center' variant='h3'>Recursos</Typography>
 
@@ -48,7 +47,7 @@ const Resources = (props) => {
                 <br></br>
                 <Grid item container justifyContent="center"              
             direction="row">
-        <Grid item containerjustifyContent="center"              
+        <Grid item container md={5} lg={5}justifyContent="center"              
             direction="row"> 
                 <Grid >
                 <p  class="pservices text-justify">
@@ -69,7 +68,6 @@ const Resources = (props) => {
                     
                 </Grid>
                 ))}
-                </Grid>
                 </Grid>
                 </Grid>
                 </Grid>
