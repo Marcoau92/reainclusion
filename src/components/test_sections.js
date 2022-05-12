@@ -9,30 +9,30 @@ const recursos = [
     {
         picture: menu2,
         theme: 'Experiencias con enfoque inclusivo ',
-        url: '/testresources'
+        url: '/resources'
 
     },
     {
         picture: menu1,
         theme: 'Food for Thought ',
-        url: '/testfood'
+        url: '/food'
 
     },
     {
         picture: menu5,
         theme: 'Enlaces de interés ',
-        url: '/testlinks'
+        url: '/links'
     },
     {
         picture: menu4,
         theme: 'Lecturas sugeridas ',
-        url: '/testlectures'
+        url: '/lectures'
 
     },
     {
         picture: menu3,
         theme: 'Recursos de apoyo ',
-        url: '/testsupports'
+        url: '/supports'
 
 
     }, 
