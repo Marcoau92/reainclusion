@@ -11,41 +11,41 @@ const recursos = [
         picture: est_sor,
         theme: 'Inclusión de estudiantes Sordos',
         name: 'Felipe Martínez Corona',
-        url: '/testresources/1'
+        url: '/resources/1'
 
     },
     {
         picture: com_lgbt,
         theme: 'Inclusión de estudiantes de la comunidad LGBTQ+',
         name: 'Ana Venegas Millapan',
-        url: '/testresources/2'
+        url: '/resources/2'
 
     },
     {
         picture: tec_tea,
         theme: 'Técnicas teatrales en el aula de inglés',
         name: 'Amalia Ortíz de Zárate',
-        url: '/testresources/3'
+        url: '/resources/3'
     },
     {
         picture: com_soc,
         theme: 'Enseñanza del inglés con compromiso social',
         name: 'Yasna Yilorm Barrientos',
-        url: '/testresources/4'
+        url: '/resources/4'
 
 },
     {
         picture: dis_vis,
         theme: 'Inclusión de estudiantes con discapacidad visual',
         name: 'Priscila Ancheo Navarrete',
-        url: '/testresources/5'
+        url: '/resources/5'
 
     },
     {
         picture: est_tea,
         theme: 'Inclusión de estudiantes con TEA',
         name: 'Paola Castro Fuentes & Camila Ojeda Pastene',
-        url: '/testresources/6'
+        url: '/resources/6'
     },
 ]
 export default recursos
