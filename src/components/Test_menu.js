@@ -53,7 +53,7 @@ const Resources = (props) => {
             direction="row"> 
                 <Grid >
                 <p  class="pservices text-justify">
-                    Aquí se encuentran distintos recursos que te ayudarán
+                La individualidad de nuestros estudiantes no puede reducirse a una categoría. Por lo tanto, los siguientes recursos representan un apoyo para que en conjunto con su comunidad puedan potenciar la inclusión y celebrar la diversidad en su aula.
                 </p>
                 </Grid>
                 <br></br>
