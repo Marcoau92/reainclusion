@@ -53,6 +53,7 @@ const Resources = (props) => {
             direction="row"> 
                 <Grid >
                 <p  class="pservices text-justify">
+                    Aquí se encuentran distintos recursos que te ayudarán
                 </p>
                 </Grid>
                 <br></br>

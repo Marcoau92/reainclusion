@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
                                               size="small">
                                                 <li><Link to='/test' className="link">Bienvenida</Link></li>
                                                 <li><Link to='/testproject' className="link">Proyecto</Link></li>
-                                                <li><Link to='/testmenu' className="link">Recursos</Link></li>
+                                                <li><Link to='/testmenu' className="link" style={{color:"#82b70c",fontWeight: 'bold'}}>Recursos</Link></li>
                                                 <li><Link to='/testrepository' className="link">Repositorio</Link></li>
                                                 <li><Link to='/testnews' className="link">Noticias</Link></li>
             
