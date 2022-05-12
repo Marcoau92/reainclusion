@@ -70,10 +70,10 @@ const useStyles = makeStyles((theme) => ({
                         <Button style={{color:'white', height:'25px'}} className={classes.menuButton} href="https://docs.google.com/forms/d/e/1FAIpQLScZA8KRTe6efVXffr6lDR0ls5JE8aW7E67DLPlaYojNGFo43Q/viewform?usp=sf_link">
                         Encuesta
                         </Button>
-                        <Link to='/testteam' className="link">
+                        <Link to='/team' className="link">
                           <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                           Equipo</Button></Link>
-                        <Link to='/testcontact' className="link" >
+                        <Link to='/contact' className="link" >
                           <Button style={{color:'white', height:'25px'}} className={classes.menuButton}>
                           Contacto</Button></Link>
                       </Breadcrumbs>
@@ -92,11 +92,11 @@ const useStyles = makeStyles((theme) => ({
                                               color="white"
                                               variant="text" 
                                               size="small">
-                                                <li><Link to='/test' className="link">Bienvenida</Link></li>
-                                                <li><Link to='/testproject' className="link">Proyecto</Link></li>
-                                                <li><Link to='/testmenu' className="link" style={{color:"#82b70c",fontWeight: 'bold'}}>Recursos</Link></li>
-                                                <li><Link to='/testrepository' className="link">Repositorio</Link></li>
-                                                <li><Link to='/testnews' className="link">Noticias</Link></li>
+                                                <li><Link to='/' className="link">Bienvenida</Link></li>
+                                                <li><Link to='/project' className="link">Proyecto</Link></li>
+                                                <li><Link to='/menu' className="link" style={{color:"#82b70c",fontWeight: 'bold'}}>Recursos</Link></li>
+                                                <li><Link to='/repository' className="link">Repositorio</Link></li>
+                                                <li><Link to='/news' className="link">Noticias</Link></li>
             
                                               </ButtonGroup>
                                                 

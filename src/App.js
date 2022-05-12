@@ -131,114 +131,57 @@ export default function App() {
       <Router>
           <Switch>
             <Route exact path={["/","/home"]}>
-              <Welcome />
+              <Test />
             </Route>
             <Route exact path="/project">
-              <Project />
-            </Route>
-            <Route exact path="/team">
-              <Team />
-            </Route>
-            <Route exact path="/resources">
-              <Resources />
-            </Route>
-            <Route exact path="/repository">
-              <Repository />
-            </Route>
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-            <Route exact path="/resources/1">
-              <Resources1 />
-            </Route>
-            <Route exact path="/resources/2">
-              <Resources2 />
-            </Route>
-            <Route exact path="/resources/3">
-              <Resources3 />
-            </Route>
-            <Route exact path="/resources/4">
-              <Resources4 />
-            </Route>
-            <Route exact path="/resources/5">
-              <Resources5 />
-            </Route>
-            <Route exact path="/resources/6">
-              <Resources6 />
-            </Route>
-            <Route exact path="/news">
-              <News />
-            </Route>
-            <Route exact path="/test">
-              <Test />
-            </Route>
-            <Route exact path="/menu">
-              <Menu />
-            </Route>
-            <Route exact path="/food">
-              <Food />
-            </Route>
-            <Route exact path="/links">
-              <Links />
-            </Route>
-            <Route exact path="/supports">
-              <Apoyo />
-            </Route>
-            <Route exact path="/lectures">
-              <Lecturas />
-            </Route>
-            <Route exact path={["/test"]}>
-              <Test />
-            </Route>
-            <Route exact path="/testproject">
               <Test_project />
             </Route>
-            <Route exact path="/testteam">
+            <Route exact path="/team">
               <Test_team />
             </Route>
-            <Route exact path="/testresources">
+            <Route exact path="/resources">
               <Test_recursos />
             </Route>
-            <Route exact path="/testrepository">
+            <Route exact path="/repository">
               <Test_repository />
             </Route>
-            <Route exact path="/testcontact">
+            <Route exact path="/contact">
               <Test_contacto />
             </Route>
-            <Route exact path="/testresources/1">
+            <Route exact path="/resources/1">
               <Test_recurso1 />
             </Route>
-            <Route exact path="/testresources/2">
+            <Route exact path="/resources/2">
               <Test_recurso2 />
             </Route>
-            <Route exact path="/testresources/3">
+            <Route exact path="/resources/3">
               <Test_recurso3 />
             </Route>
-            <Route exact path="/testresources/4">
+            <Route exact path="/resources/4">
               <Test_recurso4 />
             </Route>
-            <Route exact path="/testresources/5">
+            <Route exact path="/resources/5">
               <Test_recurso5 />
             </Route>
-            <Route exact path="/testresources/6">
+            <Route exact path="/resources/6">
               <Test_recurso6 />
             </Route>
-            <Route exact path="/testnews">
+            <Route exact path="/news">
               <Test_news />
             </Route>
-            <Route exact path="/testmenu">
+            <Route exact path="/menu">
               <Test_menu />
             </Route>
-            <Route exact path="/testfood">
+            <Route exact path="/food">
               <Test_food />
             </Route>
-            <Route exact path="/testlinks">
+            <Route exact path="/links">
               <Test_links />
             </Route>
-            <Route exact path="/testsupports">
+            <Route exact path="/supports">
               <Test_apoyo />
             </Route>
-            <Route exact path="/testlectures">
+            <Route exact path="/lectures">
               <Test_lecturas />
             </Route>
           </Switch>

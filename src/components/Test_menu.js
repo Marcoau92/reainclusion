@@ -51,7 +51,7 @@ const Resources = (props) => {
             direction="row"> 
                 <Grid >
                 <p  class="pservices text-justify">
-                Aquí encontraras material en diferentes formatos con temáticas de inclusión en el aula
+                Aquí encontrarás material en diferentes formatos con temáticas de inclusión en el aula
                 </p>
                 </Grid>
                 <br></br>
