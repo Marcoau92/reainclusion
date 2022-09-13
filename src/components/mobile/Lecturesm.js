@@ -29,6 +29,7 @@ import book20 from '../img/book20.png';
 import book21 from '../img/book21.png';
 import book22 from '../img/book22.png';
 import book23 from '../img/book23.png';
+import book24 from '../img/book24.png';
 import Wspace from '../Wspace';
 
 
@@ -162,6 +163,10 @@ const useStyles = makeStyles((theme) => ({
                 <Wspace/>
                 <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000374817 ">
                   <img src={book23}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
+                </a>
+                <Wspace/>
+                <a rel="license" href="https://unesdoc.unesco.org/ark:/48223/pf0000367436 ">
+                  <img src={book24}  alt="encabezado" xs={6} sm={6} md={6} lg={6}/>
                 </a>
                 <Wspace/>
                 <Grid md={6} lg={6} style={{ justifyContent: "center"}}>
