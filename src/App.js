@@ -58,6 +58,7 @@ import Resources4m from './pages/Mobile/Resource4';
 import Resources5m from './pages/Mobile/Resource5';
 import Resources6m from './pages/Mobile/Resource6';
 import Newsm from './pages/Mobile/News';
+import firebase from './firebase/Firebase';
 
 export default function App() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
