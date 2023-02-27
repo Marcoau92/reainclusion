@@ -1,17 +1,5 @@
 import React from 'react';
 import './App.css';
-import Welcome from './pages/Welcome/index';
-import Project from './pages/Project/index';
-import Team from './pages/Team/index';
-import Resources from './pages/Resources/index';
-import Repository from './pages/Repository/index';
-import Contact from './pages/Contact/index';
-import News from './pages/News/index';
-import Menu from './pages/Menu/index';
-import Food from './pages/Food/index';
-import Links from './pages/Links/index';
-import Apoyo from './pages/Apoyo/index';
-import Lecturas from './pages/Lecturas/index';
 import Test from './pages/Test_welcome/index';
 import Test_apoyo from './pages/Test_apoyo/index';
 import Test_contacto from './pages/Test_contacto/index';
@@ -45,12 +33,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './components/myStyles.css'
-import Resources1 from './pages/Resource1';
-import Resources2 from './pages/Resource2';
-import Resources3 from './pages/Resource3';
-import Resources4 from './pages/Resource4';
-import Resources5 from './pages/Resource5';
-import Resources6 from './pages/Resource6';
 import Resources1m from './pages/Mobile/Resource1';
 import Resources2m from './pages/Mobile/Resource2';
 import Resources3m from './pages/Mobile/Resource3';
@@ -58,7 +40,6 @@ import Resources4m from './pages/Mobile/Resource4';
 import Resources5m from './pages/Mobile/Resource5';
 import Resources6m from './pages/Mobile/Resource6';
 import Newsm from './pages/Mobile/News';
-import firebase from './firebase/Firebase';
 
 export default function App() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);

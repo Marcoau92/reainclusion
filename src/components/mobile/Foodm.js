@@ -68,7 +68,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>Inclusive Pedagogy – Professor Lani Florian </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=LeeDwzZwTj8&list=WL&index=4&ab_channel=TheUniversityofEdinburgh  ' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=LeeDwzZwTj8&ab_channel=TheUniversityofEdinburgh' />
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>Los centros de educación especial en la Educación Inclusiva   </Typography>
@@ -134,7 +134,7 @@ const Resources1 = (props) => {
                     <Typography className={classes.subtitle} align='center' variant='h1'>The race – Are we equal?    </Typography>
                     <Wspace2/>
                     <Grid container style={{ justifyContent: "center"} }>
-                            <ReactPlayer url='https://www.youtube.com/watch?v=ZT1zCK7aX4k&ab_channel=AliHassan ' />
+                            <ReactPlayer url='https://www.youtube.com/watch?v=4K5fbQ1-zps&ab_channel=PeterD' />
                     </Grid>
                     <Wspace/>
                     <Typography className={classes.subtitle} align='center' variant='h1'>This is equity   </Typography>

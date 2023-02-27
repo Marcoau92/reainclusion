@@ -86,6 +86,10 @@ const useStyles = makeStyles((theme) => ({
                         •	Using inclusive practices – British Council, Teaching English    
                         <a rel="pagina principal" href="https://www.teachingenglish.org.uk/professional-development/teachers/inclusive-practices " md={6} xs={6} >https://www.teachingenglish.org.uk/professional-development/teachers/inclusive-practices </a> 
                     </Grid>
+                    <Grid container >
+                        •	Derechos de niñas, niños y adolescentes LGBTIQA+    
+                        <a rel="pagina principal" href="https://www.mineduc.cl/inclusion-de-las-personas-lgbtiqa-en-el-sistema-educativo" md={6} xs={6} >https://www.teachingenglish.org.uk/professional-development/teachers/inclusive-practices </a> 
+                    </Grid>
 
                 </Grid>
                 </Grid>

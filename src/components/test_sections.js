@@ -3,6 +3,8 @@ import menu2 from './img/menu2.png';
 import menu3 from './img/menu3.png';
 import menu4 from './img/menu4.png';
 import menu5 from './img/menu5.png';
+import menu6 from './img/menu6.png';
+import menu7 from './img/menu7.png';
 
 
 const recursos = [
@@ -35,7 +37,19 @@ const recursos = [
         url: '/supports'
 
 
-    }, 
+    },
+    {
+        picture: menu6,
+        theme: 'Investigaciones y tesis estudiantes UACh'
+
+
+    },
+    {
+        picture: menu7,
+        theme: 'Material audiovisual estudiantes UACh'
+
+
+    },  
 
 
 ]

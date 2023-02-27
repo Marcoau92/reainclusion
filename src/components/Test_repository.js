@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
                 <p  class="pservices text-justify">
                 A continuación podrás encontrar archivos descargables con investigaciones y propuestas para potenciar la inclusión de tus estudiantes. 
 Gran parte de estos documentos corresponden a tesis de pregrado de profesores egresados de la carrera Pedagogía en Comunicación en Lengua Inglesa de la UACh.
+También encontrarás material audiovisual de sensibilización creado por estudiantes de la facultad de Filosofía y Humanidades de la UACh. 
 Si quieres colaborar con tu propia investigación o propuesta, no dudes en contactarnos. También puedes hacernos llegar estudios o artículos de otros autores, siempre que sean de uso libre y gratuito.
 
                     </p>
