@@ -136,7 +136,7 @@ export default function AppBarr(){
       </StyledMenu>
       
           <Typography variant="h6" color="inherit">
-            Aula de Inglés Inclusiva
+            Aula Inclusiva
           </Typography>
           <Typography className={classes.menuImage} variant="h6" color="inherit">
             UACh
